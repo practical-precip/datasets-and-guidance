@@ -1,0 +1,334 @@
+source: notes/workshop-datasets.txt
+scope: >-
+  Authoritative typed workshop list supplied 2026-09-11. Original grouping and spelling
+  preserved. Scientific types and version qualifications are in the records.
+entries:
+  - name: CMIP6
+    workshop_group: Downscaled
+    products:
+      - cmip6
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CONUS 1
+    workshop_group: Downscaled
+    products:
+      - conus1
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CONUS 2
+    workshop_group: Downscaled
+    products:
+      - conus2
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CONUS 404
+    workshop_group: Downscaled
+    products:
+      - conus404
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CONUS 404-PGW
+    workshop_group: Downscaled
+    products:
+      - conus404-pgw
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: IM3/HyperFACETS
+    workshop_group: Downscaled
+    products:
+      - tgw
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: WUS-D3
+    workshop_group: Downscaled
+    products:
+      - wus-d3
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: LOCA2
+    workshop_group: Downscaled
+    products:
+      - loca2
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: LOCA
+    workshop_group: Downscaled
+    products:
+      - loca-cmip5
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: LOCA2-CA
+    workshop_group: Downscaled
+    products:
+      - loca2-ca
+    status: unresolved
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: STAR-ESDM
+    workshop_group: Downscaled
+    products:
+      - star-esdm
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: NIU
+    workshop_group: Downscaled
+    products:
+      - niu
+    status: unresolved
+    notes: NIU institution confirmed; WRF-BCC product candidate remains provisional.
+  - name: UWPD
+    workshop_group: Downscaled
+    products:
+      - uw-pd-cmip5
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: GARD-LENS
+    workshop_group: Downscaled
+    products:
+      - gard-lens
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: EDDEv2
+    workshop_group: Downscaled
+    products:
+      - edde-v2
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: ADDA
+    workshop_group: Downscaled
+    products:
+      - adda-v2
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: SPEAR
+    workshop_group: Downscaled
+    products:
+      - spear
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CESM-LENS
+    workshop_group: Downscaled
+    products:
+      - cesm-lens
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: SMILES
+    workshop_group: Downscaled
+    products:
+      - smiles
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: NASA-NEX-GDDP
+    workshop_group: Downscaled
+    products:
+      - nex-gddp-cmip5
+      - nex-gddp-cmip6
+    status: matched
+    notes: >-
+      Multiple existing versions match this family name; select the generation/reference
+      variant.
+  - name: NASA-NEX-DCP30
+    workshop_group: Downscaled
+    products:
+      - nex-dcp30
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: MESACLIP
+    workshop_group: Downscaled
+    products:
+      - mesaclip
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CarbonPlan DeepSD
+    workshop_group: Downscaled
+    products:
+      - carbonplan-deepsd
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: BCSD-CMIP5
+    workshop_group: Downscaled
+    products:
+      - bcsd-cmip5
+    status: unresolved
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: WRF-PNNL6
+    workshop_group: Downscaled
+    products:
+      - wrf-pnnl6
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: WRF-UW-Mass
+    workshop_group: Downscaled
+    products:
+      - wrf-uw-mass
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: SWA 9505v3 RegCM
+    workshop_group: Downscaled
+    products:
+      - ornl-regcm
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: SWA 9505v3 DBBCA
+    workshop_group: Downscaled
+    products:
+      - ornl-dbcca
+    status: matched
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: HighResMIP
+    workshop_group: Downscaled
+    products:
+      - highresmip
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CORDEX
+    workshop_group: Downscaled
+    products:
+      - cordex
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: MACAv2
+    workshop_group: Downscaled
+    products:
+      - maca-metdata
+      - maca-livneh
+    status: matched
+    notes: >-
+      Multiple existing versions match this family name; select the generation/reference
+      variant.
+  - name: MACA
+    workshop_group: Downscaled
+    products:
+      - maca-metdata
+      - maca-livneh
+    status: matched
+    notes: >-
+      Multiple existing versions match this family name; select the generation/reference
+      variant.
+  - name: ICAR? (not publicly available yet)
+    workshop_group: Downscaled
+    products:
+      - icar
+    status: matched
+    notes: >-
+      Existing matrix family. The contributor availability note is preserved as a name
+      annotation, not verified current access status.
+  - name: ERA5
+    workshop_group: Reanalyses
+    products:
+      - era5
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: ERA5-Land
+    workshop_group: Reanalyses
+    products:
+      - era5-land
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: MERRA2
+    workshop_group: Reanalyses
+    products:
+      - merra2
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: JRA-3Q
+    workshop_group: Reanalyses
+    products:
+      - jra3q
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: NARR
+    workshop_group: Reanalyses
+    products:
+      - narr
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: HRRR
+    workshop_group: Reanalyses
+    products:
+      - hrrr
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: CFSRv2
+    workshop_group: Reanalyses
+    products:
+      - cfsr-cfsv2
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: MSWEP
+    workshop_group: Reanalyses
+    products:
+      - mswep
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: AORC
+    workshop_group: Gridded Obs
+    products:
+      - aorc
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: PRISM
+    workshop_group: Gridded Obs
+    products:
+      - prism
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: Livneh
+    workshop_group: Gridded Obs
+    products:
+      - livneh
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: Daymet
+    workshop_group: Gridded Obs
+    products:
+      - daymet
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: NLDAS
+    workshop_group: Gridded Obs
+    products:
+      - nldas
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: NClimGrid
+    workshop_group: Gridded Obs
+    products:
+      - nclimgrid
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: Stage4
+    workshop_group: Gridded Obs
+    products:
+      - stage-iv
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: GPCP
+    workshop_group: Gridded Obs
+    products:
+      - gpcp
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: GHCN
+    workshop_group: Gridded Obs
+    products:
+      - ghcn
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: GridMet
+    workshop_group: Gridded Obs
+    products:
+      - gridmet
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: MRMS
+    workshop_group: Gridded Obs
+    products:
+      - mrms
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.
+  - name: ClimateNA
+    workshop_group: Gridded Obs
+    products:
+      - climatena
+    status: new
+    notes: Record type and version scope take precedence over broad workshop group labels.

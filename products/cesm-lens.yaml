@@ -1,0 +1,88 @@
+id: cesm-lens
+name: CESM-LENS
+aliases: []
+kind: model-ensemble
+provider: NCAR / CESM community
+version: Family record; select a specific release or experiment before using data.
+summary: >-
+  Raw CESM large ensembles, distinct from downscaled GARD-LENS. CESM1 LENS and CESM2 LENS2
+  require separate generation selection.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project
+  documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: model ensemble
+  description: >-
+    Raw CESM large ensembles, distinct from downscaled GARD-LENS. CESM1 LENS and CESM2 LENS2
+    require separate generation selection.
+  reference_dataset: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  training_period: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+coverage:
+  domain: Global
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  grid_spacing:
+    value: null
+    unit: generation dependent
+  timestep: Variable and collection dependent
+  historical: Generation dependent
+  future: Experiment or release dependent; see source documentation.
+  scenarios:
+    - Select experiment; not established for this family label
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+  calendar: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+ensemble:
+  driving_models: Model or experiment dependent.
+  model_count: null
+  members: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  member_counts: []
+access:
+  landing_page: https://www.cesm.ucar.edu/community-projects/lens
+  data: https://www.cesm.ucar.edu/community-projects/lens
+  format: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  cost: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+references: []
+metadata_sources:
+  - url: https://www.cesm.ucar.edu/community-projects/lens
+    locator: >-
+      Provider/project description: identity and core properties summarized above. Unstated
+      fields remain unknown.
+verified_on: '2026-09-11'
+guidance: product-guidance/cesm-lens.md
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://www.cesm.ucar.edu/community-projects/lens
+    description: Resolve the release and availability before selecting data.
+  - label: CESM2 Large Ensemble
+    url: https://www.cesm.ucar.edu/community-projects/lens2
+    description: Alternative generation; do not silently substitute for CESM1.

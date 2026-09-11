@@ -1,0 +1,84 @@
+id: mswep
+name: MSWEP
+aliases: []
+kind: observation
+provider: GloH2O
+version: Family record; select product stream and release.
+summary: >-
+  Merged precipitation analysis. Select version and Past, Past_nogauge or NRT variant. V3 is
+  not corrected for gauge undercatch.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project
+  documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: observation
+  description: >-
+    Merged precipitation analysis. Select version and Past, Past_nogauge or NRT variant. V3
+    is not corrected for gauge undercatch.
+  reference_dataset: See selected product documentation.
+  training_period: Not established for the selected product.
+coverage:
+  domain: Global
+  grid: Inspect the selected product or station/point coordinates.
+  grid_spacing:
+    value: 0.1
+    unit: degree
+  timestep: V3 hourly; V2 3-hourly
+  historical: 1979 onward; variant dependent
+  future: Not applicable to this historical observation/analysis record.
+  scenarios:
+    - 'Not applicable: historical observations or analysis'
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+  calendar: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  member_counts: []
+access:
+  landing_page: https://www.gloh2o.org/
+  data: https://www.gloh2o.org/
+  format: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  license: >-
+    CC BY-NC 4.0 as stated for the current provider distribution; verify terms for the
+    selected release.
+  license_url: https://www.gloh2o.org/
+  subsetting: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  cost: Request-based access; verify terms and any costs for the intended use.
+references: []
+metadata_sources:
+  - url: https://www.gloh2o.org/
+    locator: >-
+      Provider identity and core properties, including product/period distinctions. Data
+      files were not inspected.
+verified_on: '2026-09-11'
+guidance: product-guidance/mswep.md
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider documentation
+    url: https://www.gloh2o.org/
+    description: Select release, product stream and access method.
+  - label: V3 manuscript (preprint)
+    url: https://arxiv.org/abs/2602.01436
+    description: Provider-linked V3 description; not labeled as a peer-reviewed paper here.

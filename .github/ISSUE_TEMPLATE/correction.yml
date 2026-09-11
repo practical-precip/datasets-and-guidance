@@ -1,0 +1,23 @@
+name: Suggest a correction
+description: Suggest content without editing a file.
+title: "Correction: "
+body:
+  - type: input
+    id: subject
+    attributes:
+      label: Dataset or guidance topic
+      description: Paste the page link or familiar name.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change?
+      description: Plain language is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source
+      description: Add a paper, provider link, or explanation of your experience.

@@ -1,0 +1,76 @@
+id: new-dataset
+name: New dataset name
+aliases: []
+kind: unresolved
+provider: Add provider
+version: Workshop label awaiting identification.
+summary: Describe the dataset and its scope.
+source_scope: User-supplied workshop label. Identity or release details remain unresolved.
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: unresolved
+  description: >-
+    Workshop name awaiting its provider link and release. A California delivery should not
+    be silently treated as the complete North America LOCA2 archive.
+  reference_dataset: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  training_period: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+coverage:
+  domain: California is suggested by the workshop label; confirm actual domain
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  grid_spacing:
+    value: null
+    unit: not established
+  timestep: Not established
+  historical: Not established
+  future: Experiment or release dependent; see source documentation.
+  scenarios:
+    - Select experiment; not established for this family label
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+  calendar: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  member_counts: []
+access:
+  landing_page: https://example.org
+  data: https://example.org
+  format: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  cost: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+references: []
+metadata_sources:
+  - url: https://example.org
+    locator: Replace with a source and the relevant section.
+verified_on: '2026-09-11'
+guidance: product-guidance/new-dataset.md
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources: []

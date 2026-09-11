@@ -1,0 +1,1 @@
+Content extracted from [site commit 094ab41](https://github.com/practical-precip/pcef_workshop_site_mockup/tree/094ab411da70ceaeaf22b22628c88955277adc30) on 2026-09-11. Earlier authorship and development history remain available there. Dataset licenses apply to their source data, not automatically to this repository. A repository-wide reuse license has not yet been selected.

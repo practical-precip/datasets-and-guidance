@@ -1,0 +1,83 @@
+id: climatena
+name: ClimateNA
+aliases: []
+kind: collection
+provider: ClimateNA team
+version: Family record; select product stream and release.
+summary: >-
+  Climate estimation software/data family using interpolation and elevation adjustment. Its
+  output is not a daily precipitation event series.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project
+  documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: Climate interpolation and elevation adjustment with historical/future change fields
+  description: >-
+    Climate estimation software/data family using interpolation and elevation adjustment.
+    Its output is not a daily precipitation event series.
+  reference_dataset: >-
+    PRISM 1971-2000 monthly normals with local elevation adjustment and historical/future
+    changes.
+  training_period: Not established for the selected product.
+coverage:
+  domain: North America
+  grid: Inspect the selected product or station/point coordinates.
+  grid_spacing:
+    value: null
+    unit: point or user-grid interpolation; not a fixed resolved model grid
+  timestep: Monthly, seasonal and annual
+  historical: Historical/future estimates across 1901-2100; select product and period
+  future: Future climate estimates through 2100; select GCM, scenario and period.
+  scenarios:
+    - Historical or selected future scenario
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+  calendar: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  member_counts: []
+access:
+  landing_page: https://climatena.ca/
+  data: https://climatena.ca/
+  format: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  cost: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+references: []
+metadata_sources:
+  - url: https://climatena.ca/
+    locator: >-
+      Provider identity and core properties, including product/period distinctions. Data
+      files were not inspected.
+verified_on: '2026-09-11'
+guidance: product-guidance/climatena.md
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider documentation
+    url: https://climatena.ca/
+    description: Select release, product stream and access method.

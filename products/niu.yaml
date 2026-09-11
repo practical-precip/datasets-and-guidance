@@ -1,0 +1,85 @@
+id: niu
+name: NIU / WRF-BCC (candidate match)
+aliases:
+  - NIU
+kind: unresolved
+provider: Northern Illinois University (user-identified institution)
+version: Provisional match to the WRF-BCC configuration documented in the 2022 paper.
+summary: >-
+  Northern Illinois University is confirmed. WRF-BCC is a documented candidate product;
+  confirm that it is the intended workshop dataset.
+source_scope: >-
+  Institution identified by the user. Candidate properties below come from Gensini, Haberlie
+  and Ashley; identity remains provisional and is not attributed to Cliff Mass.
+generation:
+  - CMIP5
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: Candidate dynamical downscaling
+  description: WRF-ARW 4.1.2, driven by bias-corrected CESM, for the candidate study.
+  reference_dataset: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  training_period: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+coverage:
+  domain: CONUS in the candidate study
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  grid_spacing:
+    value: 3.75
+    unit: km in candidate WRF-BCC study
+  timestep: 15-minute output in candidate study
+  historical: 1990-2005 in candidate study
+  future: 2085-2100 in candidate study
+  scenarios:
+    - RCP8.5 in candidate study
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+  calendar: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+ensemble:
+  driving_models: Bias-corrected CESM in the candidate WRF-BCC study
+  model_count: null
+  members: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  member_counts: []
+access:
+  landing_page: https://nimbus.niu.edu/WRF_BCC/
+  data: https://nimbus.niu.edu/WRF_BCC/
+  format: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+  cost: >-
+    Not established for the selected release. Contributions with provider documentation are
+    welcome.
+references: []
+metadata_sources:
+  - url: https://link.springer.com/article/10.1007/s00382-022-06306-0
+    locator: >-
+      Candidate WRF-BCC methods: authors, model, grid, interval and study periods.
+      Institution alone does not establish the workshop product identity.
+verified_on: '2026-09-11'
+guidance: product-guidance/niu.md
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+    description: Resolve the release and availability before selecting data.
