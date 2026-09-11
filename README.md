@@ -4,7 +4,8 @@ A shared catalog of precipitation datasets, observations, reanalyses and model c
 
 This repository is private for invited collaborators. Sign in to GitHub with an
 account that has access. Its selected guidance and dataset facts are rendered on
-the public website; repository notes and unused assets are not automatically published.
+the public website. Files under `assets/` are also copied to the public site.
+Repository notes and contributor discussions remain in this private repository.
 
 ## Contribute without installing anything
 
