@@ -2,6 +2,10 @@
 
 A shared catalog of precipitation datasets, observations, reanalyses and model collections. Each record has editable YAML facts and a Markdown guidance page.
 
+This repository is private for invited collaborators. Sign in to GitHub with an
+account that has access. Its selected guidance and dataset facts are rendered on
+the public website; repository notes and unused assets are not automatically published.
+
 ## Contribute without installing anything
 
 1. Open the [content index](INDEX.md) and choose a topic or dataset.
@@ -10,8 +14,8 @@ A shared catalog of precipitation datasets, observations, reanalyses and model c
    it supports a claim. The text between the `---` lines describes the review
    status and should stay in place.
 4. Preview your edit, then choose **Commit changes** or **Propose changes**.
-   Choose a new branch if GitHub offers one. If you do not have write access,
-   GitHub will offer to create a fork, your own copy for the proposed change.
+   Choose a new branch. You need write access for this workflow. Private-repository
+   forks depend on organization settings; do not assume a fork is available.
 5. Open a pull request, which is a request for a maintainer to review the edit.
    Explain what you changed and why. You do not need to publish the website.
 
@@ -23,11 +27,11 @@ A maintainer can turn the suggestion into an edit.
 
 ## For technical contributors
 
-Fork this repository, clone your fork, and work on a branch. Node.js 22.13 or
+With write access, clone this repository and work on a branch. Node.js 22.13 or
 newer is only needed for local checks:
 
 ```sh
-git clone https://github.com/YOUR-USERNAME/datasets.git
+git clone https://github.com/practical-precip/datasets.git
 cd datasets
 git switch -c improve-guidance
 npm ci
@@ -51,3 +55,13 @@ applications. Content contributors do not need to understand submodules.
 Scientific recommendations are drafts unless a named expert review is recorded.
 Automated checks validate structure and links between files, not scientific skill.
 See [content origin](notes/origin.md) for provenance and licensing status.
+
+## Invite a contributor
+
+A maintainer can use repository **Settings / Collaborators and teams** to invite
+a GitHub account or grant access through an organization team. Grant **Write**
+for contributors who will create branches and pull requests here. Read access
+allows viewing; contributors without write access can suggest corrections through
+issues when their role permits. No invitations are sent by this setup.
+
+The repository remains private until an owner chooses to change visibility.

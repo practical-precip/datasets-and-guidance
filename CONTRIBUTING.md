@@ -9,8 +9,9 @@ region, period and dataset version to which a recommendation applies.
 
 The [README](README.md) walks through a single-file edit. Use a GitHub account,
 open a file, select the pencil, make your change and preview it. Choose a new
-branch when offered, then propose the change as a pull request. A fork is normal
-if you do not have write access.
+branch when offered, then propose the change as a pull request. This private repository requires an invitation and write access for branch edits.
+If you can read but cannot create a branch, request write access from a maintainer
+or submit an issue. Forking private repositories depends on organization policy.
 
 To change several files together, open this repository in
 [github.dev](https://github.dev/practical-precip/datasets). Its file explorer and
