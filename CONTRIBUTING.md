@@ -31,9 +31,30 @@ $$
 
 Upload an image through **Add file > Upload files** into `assets/datasets/` or `assets/guidance/`. Use the matching `/content-assets/datasets/` or `/content-assets/guidance/` URL in the prose. Include informative alternative text. Use images you have permission to share.
 
-To cite a paper, add or update its page in [references](references/) and use `[@paper-id]`. You can also write a normal HTTPS link to a paper. Record what the paper supports and its scope; a link alone does not establish suitability for an application.
+To cite a paper, add or update its entry in [references.bib](references.bib) and use `[@paper-id]`. You can also write a normal HTTPS link to a paper. Record what the paper supports and its scope; a link alone does not establish suitability for an application.
 
 Update **Review / Updated** when you revise guidance. Add your name to **Contributors**. Keep **Status** as `draft` until an expert has reviewed it. Record reviewers and a review date when using `expert-reviewed`.
+
+## Edit the bibliography
+
+All references live in [references.bib](references.bib). Use the same pencil and pull request workflow as for Markdown. Add an entry exported from a reference manager, or copy an existing entry and replace its fields. Keep existing citation keys stable because guidance uses them as `[@paper-id]`.
+
+```bibtex
+@article{example-paper,
+  author = {Doe, Jane and Smith, John},
+  title = {Evaluation of {CMIP6} precipitation},
+  journal = {Replace with the journal name},
+  year = {2024},
+  doi = {10.1234/replace-this},
+  url = {https://example.org/replace-this},
+  support = {Describe the finding this paper supports.},
+  scope = {Identify the region, release, period, and limits of that finding.},
+}
+```
+
+This is a syntax example, not a real reference. Use lowercase citation keys with letters, digits, and hyphens. Separate authors with `and`. Braces protect acronyms such as `{CMIP6}`. Standard BibTeX fields from an export can remain in the entry; the site uses `author`, `title`, `journal`, `year`, `doi`, and `url`, plus the required custom fields `support` and `scope`. Those two fields preserve expert interpretation and are normally ignored by bibliography styles. Keep them when replacing an entry with a newer export.
+
+The migrated references retain their existing abbreviated author labels as literal names, such as `author = {{Pierce et al.}}`. These are not complete author lists. Replace them with verified author lists when available. No author names were inferred during conversion.
 
 ## Add a dataset
 

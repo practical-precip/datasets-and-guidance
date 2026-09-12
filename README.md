@@ -12,7 +12,7 @@ This repository is private. Invited contributors can read and propose edits. Acc
 - [Understand the fields](FIELDS.md)
 - [Match workshop dataset names](Workshop%20names.md)
 - [See the NCAR matrix coverage](notes/NCAR%20matrix%20coverage.md)
-- [Browse the academic references](references/)
+- [Browse the academic references](references.bib)
 
 ## A small edit is welcome
 
@@ -30,7 +30,7 @@ For a metadata correction, change the value in the table. Keep the field names a
 | [Guidance table](guidance/Table.md) | Column definitions and application order |
 | [Dataset order](Dataset%20order.md) | Dataset order on the site |
 | [Regions](Regions.md) | Region names, state membership, and map label positions |
-| [references](references/) | Paper details and the claims they support |
+| [references.bib](references.bib) | Paper details and the claims they support |
 | [assets](assets/) | Images and PDFs used in guidance |
 
 There are no build scripts or software dependencies here. The [site repository](https://github.com/practical-precip/site) converts and validates these pages. A maintainer selects a reviewed content revision and publishes it. Merging a pull request here does not immediately change the public website.

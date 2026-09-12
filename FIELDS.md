@@ -15,7 +15,7 @@ Metadata uses ordinary Markdown tables and lists. Keep the field labels and head
 | Ensemble | Driving models, model count, and initial-condition members |
 | Access | Landing page, data link, file format, license, subsetting, and costs |
 | Metadata Sources | The source URL and where to find support for the recorded facts |
-| References | IDs of papers in the references folder |
+| References | Citation keys in references.bib |
 | Existing Uses | Documented applications, with a source |
 | Funding | Agency, award, scope, and supporting source |
 | Associated Resources | Related documentation, code, or publications |
