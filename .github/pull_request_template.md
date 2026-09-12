@@ -1,8 +1,9 @@
-Describe the change and the source supporting it.
+## What changed?
 
-- Affected dataset, application or region:
-- Source link and relevant section:
-- What remains uncertain:
-- Review status:
+## Sources and scope
 
-Online edits are welcome. Automated checks will run on this pull request.
+Link the paper or provider documentation. Identify the product release and region.
+
+## Review
+
+Is this a factual correction, published finding, or expert advice? What remains uncertain?

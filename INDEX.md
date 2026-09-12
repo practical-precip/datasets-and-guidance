@@ -1,74 +1,123 @@
-# Dataset index
+# Find a page
 
-Choose **Guidance** to edit prose or **Facts** to edit structured metadata.
-See the [workshop name crosswalk](names.yaml) for supplied names and groupings.
+## Datasets
 
-| Dataset | Also known as | Type | Edit |
-| --- | --- | --- | --- |
-| [LOCA2 North America](product-guidance/loca2.md) | LOCA2 | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/loca2.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/loca2.yaml) |
-| [NEX-GDDP-CMIP6](product-guidance/nex-gddp-cmip6.md) | NASA-NEX-GDDP | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/nex-gddp-cmip6.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/nex-gddp-cmip6.yaml) |
-| [MACAv2-METDATA](product-guidance/maca-metdata.md) | MACAv2, MACA | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/maca-metdata.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/maca-metdata.yaml) |
-| [MACAv2-LIVNEH](product-guidance/maca-livneh.md) | MACAv2, MACA | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/maca-livneh.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/maca-livneh.yaml) |
-| [LOCA CMIP5](product-guidance/loca-cmip5.md) | LOCA | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/loca-cmip5.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/loca-cmip5.yaml) |
-| [NEX-GDDP CMIP5](product-guidance/nex-gddp-cmip5.md) | NASA-NEX-GDDP | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/nex-gddp-cmip5.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/nex-gddp-cmip5.yaml) |
-| [NEX-DCP30](product-guidance/nex-dcp30.md) | NASA-NEX-DCP30 | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/nex-dcp30.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/nex-dcp30.yaml) |
-| [GDPCIR](product-guidance/gdpcir.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/gdpcir.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/gdpcir.yaml) |
-| [GARD-LENS](product-guidance/gard-lens.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/gard-lens.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/gard-lens.yaml) |
-| [WUS-D3](product-guidance/wus-d3.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/wus-d3.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/wus-d3.yaml) |
-| [NA-CORDEX CMIP5](product-guidance/na-cordex.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/na-cordex.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/na-cordex.yaml) |
-| [IM3/HyperFACETS TGW](product-guidance/tgw.md) | IM3/HyperFACETS | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/tgw.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/tgw.yaml) |
-| [21st Century Hydrologic Projections for Alaska and Hawaii](product-guidance/alaska-hawaii-bcsd.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/alaska-hawaii-bcsd.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/alaska-hawaii-bcsd.yaml) |
-| [Reclamation BCSD climate and hydrology projections](product-guidance/reclamation-bcsd.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/reclamation-bcsd.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/reclamation-bcsd.yaml) |
-| [Reclamation BCCA climate and hydrology projections](product-guidance/reclamation-bcca.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/reclamation-bcca.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/reclamation-bcca.yaml) |
-| [ORNL DBCCA](product-guidance/ornl-dbcca.md) | SWA 9505v3 - DBBCA, SWA 9505v3 DBBCA | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/ornl-dbcca.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/ornl-dbcca.yaml) |
-| [CarbonPlan MACA](product-guidance/carbonplan-maca.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/carbonplan-maca.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/carbonplan-maca.yaml) |
-| [CanDCS-M6](product-guidance/candcs-m6.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/candcs-m6.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/candcs-m6.yaml) |
-| [Global BCCAQ (Gebrechorkos et al.)](product-guidance/global-bccaq.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/global-bccaq.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/global-bccaq.yaml) |
-| [En-GARD dataset in the NCAR matrix](product-guidance/en-gard.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/en-gard.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/en-gard.yaml) |
-| [CarbonPlan GARD-SV and GARD-MV](product-guidance/carbonplan-gard.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/carbonplan-gard.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/carbonplan-gard.yaml) |
-| [STAR-ESDM](product-guidance/star-esdm.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/star-esdm.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/star-esdm.yaml) |
-| [CanLEAD v1](product-guidance/canlead-v1.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/canlead-v1.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/canlead-v1.yaml) |
-| [UW-Madison Probabilistic Downscaling (UW-PD)](product-guidance/uw-pd-cmip5.md) | UWPD | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/uw-pd-cmip5.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/uw-pd-cmip5.yaml) |
-| [ICAR dataset in the NCAR matrix](product-guidance/icar.md) | ICAR? (not publicly available yet) | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/icar.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/icar.yaml) |
-| [CanRCM4 Large Ensemble](product-guidance/canrcm4-le.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/canrcm4-le.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/canrcm4-le.yaml) |
-| [CONUS404](product-guidance/conus404.md) | CONUS 404 | historical-simulation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/conus404.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/conus404.yaml) |
-| [Argonne Dynamically Downscaled Archive V2 (ADDA_V2)](product-guidance/adda-v2.md) | ADDA / ClimRR, ADDA | historical-simulation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/adda-v2.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/adda-v2.yaml) |
-| [EPA Dynamically Downscaled Ensemble (EDDE) v1](product-guidance/edde-v1.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/edde-v1.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/edde-v1.yaml) |
-| [ORNL RegCM](product-guidance/ornl-regcm.md) | SWA 9505v3 - RegCM, SWA 9505v3 RegCM | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/ornl-regcm.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/ornl-regcm.yaml) |
-| [CarbonPlan DeepSD](product-guidance/carbonplan-deepsd.md) |  | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/carbonplan-deepsd.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/carbonplan-deepsd.yaml) |
-| [ERA5](product-guidance/era5.md) |  | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/era5.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/era5.yaml) |
-| [ERA5-Land](product-guidance/era5-land.md) |  | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/era5-land.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/era5-land.yaml) |
-| [MERRA-2](product-guidance/merra2.md) | MERRA2 | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/merra2.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/merra2.yaml) |
-| [JRA-3Q](product-guidance/jra3q.md) |  | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/jra3q.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/jra3q.yaml) |
-| [CMIP6](product-guidance/cmip6.md) |  | collection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/cmip6.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/cmip6.yaml) |
-| [CONUS-I](product-guidance/conus1.md) | CONUS 1 | historical-simulation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/conus1.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/conus1.yaml) |
-| [CONUS-II](product-guidance/conus2.md) | CONUS 2 | historical-simulation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/conus2.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/conus2.yaml) |
-| [CONUS404-PGW](product-guidance/conus404-pgw.md) | CONUS 404-PGW | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/conus404-pgw.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/conus404-pgw.yaml) |
-| [LOCA2-CA](product-guidance/loca2-ca.md) |  | unresolved | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/loca2-ca.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/loca2-ca.yaml) |
-| [NIU / WRF-BCC (candidate match)](product-guidance/niu.md) | NIU | unresolved | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/niu.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/niu.yaml) |
-| [EDDE v2](product-guidance/edde-v2.md) | EDDEv2 | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/edde-v2.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/edde-v2.yaml) |
-| [SPEAR](product-guidance/spear.md) |  | model-ensemble | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/spear.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/spear.yaml) |
-| [CESM-LENS](product-guidance/cesm-lens.md) |  | model-ensemble | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/cesm-lens.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/cesm-lens.yaml) |
-| [SMILEs](product-guidance/smiles.md) | SMILES | collection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/smiles.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/smiles.yaml) |
-| [AORC](product-guidance/aorc.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/aorc.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/aorc.yaml) |
-| [PRISM](product-guidance/prism.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/prism.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/prism.yaml) |
-| [Livneh gridded meteorology](product-guidance/livneh.md) | Livneh | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/livneh.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/livneh.yaml) |
-| [Daymet](product-guidance/daymet.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/daymet.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/daymet.yaml) |
-| [nClimGrid](product-guidance/nclimgrid.md) | NClimGrid | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/nclimgrid.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/nclimgrid.yaml) |
-| [Stage IV](product-guidance/stage-iv.md) | Stage 4, Stage4 | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/stage-iv.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/stage-iv.yaml) |
-| [GPCP](product-guidance/gpcp.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/gpcp.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/gpcp.yaml) |
-| [GHCN](product-guidance/ghcn.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/ghcn.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/ghcn.yaml) |
-| [gridMET](product-guidance/gridmet.md) | METDATA, Gridmet, GridMet | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/gridmet.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/gridmet.yaml) |
-| [MRMS](product-guidance/mrms.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/mrms.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/mrms.yaml) |
-| [NLDAS](product-guidance/nldas.md) |  | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/nldas.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/nldas.yaml) |
-| [MESACLIP](product-guidance/mesaclip.md) |  | model-ensemble | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/mesaclip.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/mesaclip.yaml) |
-| [BCSD-CMIP5 (workshop label)](product-guidance/bcsd-cmip5.md) | BCSD-CMIP5 | unresolved | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/bcsd-cmip5.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/bcsd-cmip5.yaml) |
-| [WRF-PNNL6](product-guidance/wrf-pnnl6.md) |  | historical-simulation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/wrf-pnnl6.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/wrf-pnnl6.yaml) |
-| [WRF-UW-Mass](product-guidance/wrf-uw-mass.md) | Mass Downscaling | downscaled-projection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/wrf-uw-mass.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/wrf-uw-mass.yaml) |
-| [HighResMIP](product-guidance/highresmip.md) |  | collection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/highresmip.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/highresmip.yaml) |
-| [CORDEX](product-guidance/cordex.md) |  | collection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/cordex.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/cordex.yaml) |
-| [NARR](product-guidance/narr.md) |  | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/narr.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/narr.yaml) |
-| [HRRR](product-guidance/hrrr.md) |  | collection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/hrrr.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/hrrr.yaml) |
-| [CFSR / CFSv2](product-guidance/cfsr-cfsv2.md) | CFSRv2 | reanalysis | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/cfsr-cfsv2.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/cfsr-cfsv2.yaml) |
-| [MSWEP](product-guidance/mswep.md) |  | observation | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/mswep.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/mswep.yaml) |
-| [ClimateNA](product-guidance/climatena.md) |  | collection | [Guidance](https://github.com/practical-precip/datasets/edit/main/product-guidance/climatena.md) / [Facts](https://github.com/practical-precip/datasets/edit/main/products/climatena.yaml) |
+- [Argonne Dynamically Downscaled Archive V2 (ADDA_V2)](datasets/adda-v2.md)
+- [21st Century Hydrologic Projections for Alaska and Hawaii](datasets/alaska-hawaii-bcsd.md)
+- [AORC](datasets/aorc.md)
+- [BCSD-CMIP5 (workshop label)](datasets/bcsd-cmip5.md)
+- [CanDCS-M6](datasets/candcs-m6.md)
+- [CanLEAD v1](datasets/canlead-v1.md)
+- [CanRCM4 Large Ensemble](datasets/canrcm4-le.md)
+- [CarbonPlan DeepSD](datasets/carbonplan-deepsd.md)
+- [CarbonPlan GARD-SV and GARD-MV](datasets/carbonplan-gard.md)
+- [CarbonPlan MACA](datasets/carbonplan-maca.md)
+- [CESM-LENS](datasets/cesm-lens.md)
+- [CFSR / CFSv2](datasets/cfsr-cfsv2.md)
+- [ClimateNA](datasets/climatena.md)
+- [CMIP6](datasets/cmip6.md)
+- [CONUS-I](datasets/conus1.md)
+- [CONUS-II](datasets/conus2.md)
+- [CONUS404-PGW](datasets/conus404-pgw.md)
+- [CONUS404](datasets/conus404.md)
+- [CORDEX](datasets/cordex.md)
+- [Daymet](datasets/daymet.md)
+- [EPA Dynamically Downscaled Ensemble (EDDE) v1](datasets/edde-v1.md)
+- [EDDE v2](datasets/edde-v2.md)
+- [En-GARD dataset in the NCAR matrix](datasets/en-gard.md)
+- [ERA5-Land](datasets/era5-land.md)
+- [ERA5](datasets/era5.md)
+- [GARD-LENS](datasets/gard-lens.md)
+- [GDPCIR](datasets/gdpcir.md)
+- [GHCN](datasets/ghcn.md)
+- [Global BCCAQ (Gebrechorkos et al.)](datasets/global-bccaq.md)
+- [GPCP](datasets/gpcp.md)
+- [gridMET](datasets/gridmet.md)
+- [HighResMIP](datasets/highresmip.md)
+- [HRRR](datasets/hrrr.md)
+- [ICAR dataset in the NCAR matrix](datasets/icar.md)
+- [JRA-3Q](datasets/jra3q.md)
+- [Livneh gridded meteorology](datasets/livneh.md)
+- [LOCA CMIP5](datasets/loca-cmip5.md)
+- [LOCA2-CA](datasets/loca2-ca.md)
+- [LOCA2 North America](datasets/loca2.md)
+- [MACAv2-LIVNEH](datasets/maca-livneh.md)
+- [MACAv2-METDATA](datasets/maca-metdata.md)
+- [MERRA-2](datasets/merra2.md)
+- [MESACLIP](datasets/mesaclip.md)
+- [MRMS](datasets/mrms.md)
+- [MSWEP](datasets/mswep.md)
+- [NA-CORDEX CMIP5](datasets/na-cordex.md)
+- [NARR](datasets/narr.md)
+- [nClimGrid](datasets/nclimgrid.md)
+- [NEX-DCP30](datasets/nex-dcp30.md)
+- [NEX-GDDP CMIP5](datasets/nex-gddp-cmip5.md)
+- [NEX-GDDP-CMIP6](datasets/nex-gddp-cmip6.md)
+- [NIU / WRF-BCC (candidate match)](datasets/niu.md)
+- [NLDAS](datasets/nldas.md)
+- [ORNL DBCCA](datasets/ornl-dbcca.md)
+- [ORNL RegCM](datasets/ornl-regcm.md)
+- [PRISM](datasets/prism.md)
+- [Reclamation BCCA climate and hydrology projections](datasets/reclamation-bcca.md)
+- [Reclamation BCSD climate and hydrology projections](datasets/reclamation-bcsd.md)
+- [SMILEs](datasets/smiles.md)
+- [SPEAR](datasets/spear.md)
+- [Stage IV](datasets/stage-iv.md)
+- [STAR-ESDM](datasets/star-esdm.md)
+- [IM3/HyperFACETS TGW](datasets/tgw.md)
+- [UW-Madison Probabilistic Downscaling (UW-PD)](datasets/uw-pd-cmip5.md)
+- [WRF-PNNL6](datasets/wrf-pnnl6.md)
+- [WRF-UW-Mass](datasets/wrf-uw-mass.md)
+- [WUS-D3](datasets/wus-d3.md)
+
+## Guidance boxes
+
+### Annual maximum
+
+- [Record length for extremes](guidance/cells/annual-maximum/coverage.md)
+- [Capture storm footprints](guidance/cells/annual-maximum/domain.md)
+- [Sample rare events](guidance/cells/annual-maximum/members.md)
+- [Compare tail changes](guidance/cells/annual-maximum/models.md)
+- [Resolve the event scale](guidance/cells/annual-maximum/spatial.md)
+- [Match the duration](guidance/cells/annual-maximum/temporal.md)
+
+### Annual precipitation
+
+- [Baseline and future periods](guidance/cells/annual-precipitation/coverage.md)
+- [Include the full basin](guidance/cells/annual-precipitation/domain.md)
+- [Forced change and internal variability](guidance/cells/annual-precipitation/members.md)
+- [Climate model uncertainty](guidance/cells/annual-precipitation/models.md)
+- [Check basin and reference coverage](guidance/cells/annual-precipitation/spatial.alaska.md)
+- [Evaluate island and elevation coverage](guidance/cells/annual-precipitation/spatial.hawaii.md)
+- [Catchment spatial support](guidance/cells/annual-precipitation/spatial.md)
+- [Evaluate terrain and basin totals](guidance/cells/annual-precipitation/spatial.northwest.md)
+- [Evaluate seasonal and basin totals](guidance/cells/annual-precipitation/spatial.southwest.md)
+- [Annual aggregation](guidance/cells/annual-precipitation/temporal.md)
+
+### Intermittency
+
+- [Sequence completeness](guidance/cells/intermittency/coverage.md)
+- [Follow regional spells](guidance/cells/intermittency/domain.md)
+- [Sample long spells](guidance/cells/intermittency/members.md)
+- [Compare occurrence](guidance/cells/intermittency/models.md)
+- [Wet-interval definition](guidance/cells/intermittency/spatial.md)
+- [Preserve the sequence](guidance/cells/intermittency/temporal.md)
+
+### Precipitation phase
+
+- [Seasonal phase changes](guidance/cells/precipitation-phase/coverage.md)
+- [Cover the snow zone](guidance/cells/precipitation-phase/domain.md)
+- [Sample snow seasons](guidance/cells/precipitation-phase/members.md)
+- [Compare phase response](guidance/cells/precipitation-phase/models.md)
+- [Represent elevation](guidance/cells/precipitation-phase/spatial.md)
+- [Pair weather variables](guidance/cells/precipitation-phase/temporal.md)
+
+### Spatial coherence
+
+- [Keep comparable events](guidance/cells/spatial-coherence/coverage.md)
+- [Use a continuous field](guidance/cells/spatial-coherence/domain.md)
+- [Sample joint extremes](guidance/cells/spatial-coherence/members.md)
+- [Test each method](guidance/cells/spatial-coherence/models.md)
+- [Spatial dependence](guidance/cells/spatial-coherence/spatial.md)
+- [Check synchronized storms](guidance/cells/spatial-coherence/temporal.md)
+

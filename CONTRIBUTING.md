@@ -1,66 +1,67 @@
-# Contributing to datasets
+# Contributing
 
-Start with the [content index](INDEX.md). Improve one subject at a time and cite
-the source supporting a factual change. Plain prose, links, images and equations
-are welcome. Keep findings separate from your interpretation and state the
-region, period and dataset version to which a recommendation applies.
+You need an invitation to this private repository and a GitHub account. Ask an organization maintainer for access if a link shows 404. You do not need to know Git to propose a change.
 
 ## Edit online
 
-The [README](README.md) walks through a single-file edit. Use a GitHub account,
-open a file, select the pencil, make your change and preview it. Choose a new
-branch when offered, then propose the change as a pull request. This private repository requires an invitation and write access for branch edits.
-If you can read but cannot create a branch, request write access from a maintainer
-or submit an issue. Forking private repositories depends on organization policy.
+1. Open [the index](INDEX.md) and choose a dataset or guidance box.
+2. Click the pencil icon above the file. If necessary, open the file menu and choose **Edit file**.
+3. Change a table value, or scroll to **Guidance** and edit the prose. Keep the existing metadata headings and field labels.
+4. Click **Preview**. Check links, tables, images, and equations.
+5. Click **Commit changes**. Write a short description, such as "Clarify LOCA2 precipitation release". Select **Create a new branch for this commit and start a pull request**.
+6. Open the pull request. Explain what changed, link the supporting source, and say whether the text is your expert advice or a published finding. Request a maintainer's review.
 
-To change several files together, open this repository in
-[github.dev](https://github.dev/practical-precip/datasets). Its file explorer and
-Source Control panel let you edit and commit multiple files on one branch.
-Alternatively, make your first edit on a new branch, select that branch in
-GitHub, and edit additional files there before opening the pull request.
-[GitHub's editing guide](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files)
-explains the available controls.
+A reviewer may suggest edits. You can make them using the same pencil button on your branch. The maintainer will check the content in the site before publishing it.
 
-## Formatting and evidence
+## Write guidance
 
-- Keep field names and indentation in YAML. Use spaces, not tabs. A colon in
-  prose is easiest to enter in a block beginning with `>-` on the value line.
-- Write dates as quoted ISO strings, such as `'2026-09-11'`. Use `null` for an
-  unknown nullable value. Empty lists mean not recorded, not zero or none.
-- Put prose below the Markdown frontmatter. Link a paper with ordinary
-  `[descriptive text](https://...)`, or add it to `papers.yaml` and cite its key
-  using `[@paper-key]`.
-- Upload figures under `assets/` using GitHub's **Add file / Upload files**.
-  Reference them as `![Description](/content-assets/datasets/your-image.png)`.
-  Keep file names simple and include useful alternative text. Do not upload an
-  image without the right to redistribute it.
-- Use `$x$` for inline equations and `$$` on separate lines for a display equation.
-  GitHub previews and the website can render math differently, so the website
-  preview remains the final rendering check.
-- Keep `review.status: draft` for unreviewed changes. `expert-reviewed` requires
-  named reviewers and a review date. Automated checks cannot grant this status.
+Everything below the `## Guidance` heading is ordinary Markdown. Use paragraphs, lists, links, images, and equations. For example:
 
-A regional Markdown document is a complete replacement for the general document,
-not an appended paragraph. Link it from the general document's `regions` mapping.
-Region and application IDs come from the guidance repository. The website checks
-those links when it assembles both repositories.
+```markdown
+Compare wet-day frequency over the same observation period.
 
-## Add a record
+The evaluation in [@pierce-loca2] concerns a particular release and domain.
 
-Copy a nearby example or a file from [templates](templates/), change its ID and
-file name, then register it in `catalog.yaml`.
-The [field guide](FIELDS.md) explains the other files to update. Unknown facts
-are acceptable when clearly marked. Do not invent release dates, licenses or
-model counts to fill fields.
+![Describe what this figure shows](/content-assets/datasets/my-figure.png)
 
-## Review and publication
+$$
+P_{basin} = \sum_i w_i P_i
+$$
+```
 
-Run `npm ci`, `npm run check`, and `npm test` for local validation. A pull request
-should explain the evidence, affected region or version, and unresolved details.
-When a check fails, open **Details** beside the failed check to find the file and
-error. Ask for help in the pull request if the message is unclear.
+Upload an image through **Add file > Upload files** into `assets/datasets/` or `assets/guidance/`. Use the matching `/content-assets/datasets/` or `/content-assets/guidance/` URL in the prose. Include informative alternative text. Use images you have permission to share.
 
-Maintainers review facts and recommendations, merge the content, then update the
-website's selected metadata commit. Website build checks catch incompatible
-application/region references across repositories. New guidance can therefore be
-reviewed independently of changes to the website's appearance.
+To cite a paper, add or update its page in [references](references/) and use `[@paper-id]`. You can also write a normal HTTPS link to a paper. Record what the paper supports and its scope; a link alone does not establish suitability for an application.
+
+Update **Review / Updated** when you revise guidance. Add your name to **Contributors**. Keep **Status** as `draft` until an expert has reviewed it. Record reviewers and a review date when using `expert-reviewed`.
+
+## Add a dataset
+
+1. Copy a similar page from `datasets/` using GitHub's **Raw** view, or start with [the dataset template](templates/dataset.md).
+2. Use **Add file > Create new file** and name it `datasets/clear-product-name.md`. Use lowercase words separated by hyphens. The filename and **Id** must match.
+3. Change the name, ID, facts, sources, and guidance. Use `(not recorded)` only for unknown numeric values, dates, or optional URLs. For other unknown facts, say what is unknown in plain language. Do not leave claims from the copied product.
+4. Set **Guidance** to `product-guidance/clear-product-name.md`. This is the site's internal address; the prose remains in this same page.
+5. Add the ID to [Dataset order](Dataset%20order.md). Add any workshop names to [Workshop names](Workshop%20names.md).
+6. Propose the changes together in one pull request.
+
+## Add regional guidance
+
+Copy an existing regional page, or use [the regional template](templates/regional-guidance.md). Put a dataset version in `datasets/regional/` or a box version beside the general file in `guidance/cells/`. In the general page, add a **Regions** section (inside **Expert Guidance** for a dataset) with a Field/Value table mapping the region ID to its internal file address. See [this existing example](datasets/wus-d3.md). A region uses the general guidance unless an override is provided. Regional pages cannot contain further regional overrides.
+
+## Change the guidance table
+
+[Table.md](guidance/Table.md) controls column definitions and row order. Each application page in `guidance/applications/` defines its title and assigns a Markdown box to every column. For a new column, add its definition and a box assignment in every application. For a new row, copy an application page and its box pages, give them stable IDs, and add the ID to the table's row list. Maintainers validate these linked changes together.
+
+## Use Git
+
+```sh
+git clone git@github.com:practical-precip/datasets-and-guidance.git
+cd datasets-and-guidance
+git switch -c clarify-dataset-guidance
+# Edit Markdown files in your preferred editor.
+git add datasets/your-dataset.md
+git commit -S -m "Clarify dataset guidance"
+git push -u origin clarify-dataset-guidance
+```
+
+Open the branch on GitHub and choose **Compare & pull request**. No Node.js, Python, JSON, or YAML is needed here. Maintainers run validation from the site repository; its [contribution guide](https://github.com/practical-precip/site/blob/main/CONTRIBUTING.md) describes the publication step.

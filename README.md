@@ -1,68 +1,36 @@
-# Practical Precip: datasets
+# Datasets and guidance
 
-A shared catalog of precipitation datasets, observations, reanalyses and model collections. Each record has editable YAML facts and a Markdown guidance page.
+A shared notebook for choosing and evaluating precipitation data. Each dataset and each guidance box is an ordinary Markdown page. You can edit it in GitHub without installing anything.
 
-This repository is private for invited collaborators. Sign in to GitHub with an
-account that has access. Its selected guidance and dataset facts are rendered on
-the public website. Files under `assets/` are also copied to the public site.
-Repository notes and contributor discussions remain in this private repository.
+This repository is private. Invited contributors can read and propose edits. Accepted content may appear on the [public website](https://practical-precip.github.io/site/), so keep private notes and unpublished material elsewhere.
 
-## Contribute without installing anything
+## Start here
 
-1. Open the [content index](INDEX.md) and choose a topic or dataset.
-2. Open its guidance page and click the pencil icon on GitHub.
-3. Edit the prose below the second `---` line. Add a paper or provider link where
-   it supports a claim. The text between the `---` lines describes the review
-   status and should stay in place.
-4. Preview your edit, then choose **Commit changes** or **Propose changes**.
-   Choose a new branch. You need write access for this workflow. Private-repository
-   forks depend on organization settings; do not assume a fork is available.
-5. Open a pull request, which is a request for a maintainer to review the edit.
-   Explain what you changed and why. You do not need to publish the website.
+- [Find a dataset or guidance box](INDEX.md)
+- [Edit online, step by step](CONTRIBUTING.md#edit-online)
+- [Contribute with Git](CONTRIBUTING.md#use-git)
+- [Understand the fields](FIELDS.md)
+- [Match workshop dataset names](Workshop%20names.md)
+- [See the NCAR matrix coverage](notes/NCAR%20matrix%20coverage.md)
+- [Browse the academic references](references/)
 
-For metadata, choose the YAML link in the index. Edit the text after a field
-name, keeping indentation and field names intact. Unknown values can stay
-unknown. See [field guidance](FIELDS.md) and the [contribution guide](CONTRIBUTING.md).
-If editing a file is uncomfortable, [suggest a correction](https://github.com/practical-precip/datasets/issues/new?template=correction.yml).
-A maintainer can turn the suggestion into an edit.
+## A small edit is welcome
 
-## For technical contributors
+Open a page, click the pencil, and change the text. For guidance, scroll to **Guidance** and write normal paragraphs. Add a source for factual claims, describe the dataset version and study region, and distinguish published findings from your own advice. Draft guidance is not an expert endorsement.
 
-With write access, clone this repository and work on a branch. Node.js 22.13 or
-newer is only needed for local checks:
+For a metadata correction, change the value in the table. Keep the field names and section headings so the site can recognize them. Use **Preview** to check the formatting, then propose the change on a new branch and open a pull request. A maintainer reviews it before publication.
 
-```sh
-git clone https://github.com/practical-precip/datasets.git
-cd datasets
-git switch -c improve-guidance
-npm ci
-npm run check
-npm test
-```
+## Where things live
 
-Edit the Markdown and YAML files, rerun the checks, commit and push your branch,
-then open a pull request against `practical-precip/datasets`. GitHub also runs the
-checks on pull requests, so online contributors do not need Node or Git.
+| Folder or page | What you can edit |
+| --- | --- |
+| [datasets](datasets/) | One page per dataset, with facts, sources, and expert guidance together |
+| [guidance/cells](guidance/cells/) | One page per guidance box, plus optional regional versions |
+| [guidance/applications](guidance/applications/) | Application names, introductions, metrics, and box assignments |
+| [Guidance table](guidance/Table.md) | Column definitions and application order |
+| [Dataset order](Dataset%20order.md) | Dataset order on the site |
+| [Regions](Regions.md) | Region names, state membership, and map label positions |
+| [references](references/) | Paper details and the claims they support |
+| [assets](assets/) | Images and PDFs used in guidance |
 
-## How the site uses this repository
-
-The [website repository](https://github.com/practical-precip/pcef_workshop_site_mockup)
-selects a specific commit of this repository. A content edit is reviewed here
-first. A site maintainer then updates that selected commit, checks the preview,
-and publishes the site. Merging here does not immediately change the live site.
-The files are independent of the website framework and can be reused by other
-applications. Content contributors do not need to understand submodules.
-
-Scientific recommendations are drafts unless a named expert review is recorded.
-Automated checks validate structure and links between files, not scientific skill.
-See [content origin](notes/origin.md) for provenance and licensing status.
-
-## Invite a contributor
-
-A maintainer can use repository **Settings / Collaborators and teams** to invite
-a GitHub account or grant access through an organization team. Grant **Write**
-for contributors who will create branches and pull requests here. Read access
-allows viewing; contributors without write access can suggest corrections through
-issues when their role permits. No invitations are sent by this setup.
-
-The repository remains private until an owner chooses to change visibility.
+There are no build scripts or software dependencies here. The [site repository](https://github.com/practical-precip/site) converts and validates these pages. A maintainer selects a reviewed content revision and publishes it. Merging a pull request here does not immediately change the public website.

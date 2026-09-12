@@ -1,1 +1,7 @@
-Content extracted from [site commit 094ab41](https://github.com/practical-precip/pcef_workshop_site_mockup/tree/094ab411da70ceaeaf22b22628c88955277adc30) on 2026-09-11. Earlier authorship and development history remain available there. Dataset licenses apply to their source data, not automatically to this repository. A repository-wide reuse license has not yet been selected.
+# Repository history
+
+The combined repository continues the history of `practical-precip/datasets`. Guidance was imported from revision `ac6e8b8a68570ec64c89ca7594a6044e6dcfdee9` of [the former guidance repository](https://github.com/practical-precip/guidance). That repository is retained as an archive.
+
+The Markdown migration preserved 133 source records exactly, including 67 datasets, 34 general and regional guidance boxes, two separate regional dataset pages, five applications, 20 references, and the table, region, catalog, and coverage indexes. Illustration generation code moved to the public site repository. Source documents and the original typed workshop list are retained in this folder.
+
+The site records the selected content commit in its submodule and public snapshot. Repository privacy restricts editing and source access; reviewed content is deliberately rendered on the public website.

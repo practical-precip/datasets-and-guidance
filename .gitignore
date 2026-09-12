@@ -1,3 +1,2 @@
-node_modules/
-.worktrees/
 .DS_Store
+.worktrees/
