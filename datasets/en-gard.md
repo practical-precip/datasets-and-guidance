@@ -9,7 +9,6 @@
 | Summary | The matrix identifies a dataset available on request. The linked code is not a download of that dataset. This record is separate from GARD-LENS and CarbonPlan GARD. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/en-gard.md |
 | Kind | downscaled-projection |
 
 ## Generation

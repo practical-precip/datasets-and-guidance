@@ -8,7 +8,6 @@
 | Name | NEX-DCP30 |
 | Version | NCCS Version 1, CMIP5 monthly archive. |
 | Summary | Monthly projections on a 30 arc-second CONUS grid for climate summaries. |
-| Guidance | product-guidance/nex-dcp30.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

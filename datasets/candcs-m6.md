@@ -9,7 +9,6 @@
 | Summary | CanDCS-M6 is the multivariate product. CanDCS-U6 uses BCCAQv2 and is a different selection. Check provider errata before downloading. |
 | Source Scope | Matrix fields supplemented by the Canadian provider download page checked on 2026-09-11. Errata and file metadata still need review for the selected release. The reference-data and scenario lists retain the matrix configuration. The current provider page describes blended NRCANmet/PNWNAmet and a later SSP3-7.0 subset; check the selected release separately. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/candcs-m6.md |
 | Kind | downscaled-projection |
 
 ## Generation

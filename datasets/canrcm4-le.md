@@ -9,7 +9,6 @@
 | Summary | A large initial-condition ensemble samples internal variability under one parent GCM. It does not span structural uncertainty across many GCMs. This is distinct from bias-adjusted CanLEAD. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/canrcm4-le.md |
 | Kind | downscaled-projection |
 
 ## Generation

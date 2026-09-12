@@ -10,7 +10,6 @@
 | Summary | WRF experiment using ERA5 weather with CESM2 large-ensemble warming perturbations. Repeated baseline weather is not an independent sequence of future weather. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/conus404-pgw.md |
 
 ## Aliases
 

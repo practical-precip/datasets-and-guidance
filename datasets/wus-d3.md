@@ -8,7 +8,6 @@
 | Name | WUS-D3 |
 | Version | Original ensemble described by Rahimi et al. (2024); separate from later bias-corrected forcing experiments. |
 | Summary | WRF dynamical downscaling over the western US, with hourly output for selected variables. |
-| Guidance | product-guidance/wus-d3.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

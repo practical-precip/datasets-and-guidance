@@ -10,7 +10,6 @@
 | Summary | Western US WRF simulation at 6 km. The original paper covers 1981-2015; later evaluation materials describe 1981-2020. |
 | Source Scope | Identified from the user-supplied DOI and primary paper. Later period corroborated by an author poster. Raw archive availability and a complete run inventory were not established. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/wrf-pnnl6.md |
 
 ## Aliases
 

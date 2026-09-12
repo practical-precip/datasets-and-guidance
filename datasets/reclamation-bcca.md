@@ -9,7 +9,6 @@
 | Summary | Do not substitute the neighboring BCSD monthly collection. Check event persistence and spatial coherence before basin-scale hydrologic use. CMIP3 coverage requires separate verification. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/reclamation-bcca.md |
 | Kind | downscaled-projection |
 
 ## Generation

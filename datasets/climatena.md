@@ -10,7 +10,6 @@
 | Summary | Climate estimation software/data family using interpolation and elevation adjustment. Its output is not a daily precipitation event series. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/climatena.md |
 
 ## Aliases
 

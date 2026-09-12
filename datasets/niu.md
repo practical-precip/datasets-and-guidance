@@ -10,7 +10,6 @@
 | Summary | Northern Illinois University is confirmed. WRF-BCC is a documented candidate product; confirm that it is the intended workshop dataset. |
 | Source Scope | Institution identified by the user. Candidate properties below come from Gensini, Haberlie and Ashley; identity remains provisional and is not attributed to Cliff Mass. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/niu.md |
 
 ## Aliases
 

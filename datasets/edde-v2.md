@@ -10,7 +10,6 @@
 | Summary | CMIP6 WRF ensemble using MPI-ESM1-2-HR and NorESM2-MM. Version 2 is distinct from the existing EDDE v1 record. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/edde-v2.md |
 
 ## Aliases
 

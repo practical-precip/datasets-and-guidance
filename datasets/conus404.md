@@ -9,7 +9,6 @@
 | Summary | Use as a historical hydroclimate comparator after evaluating regional biases. This record does not describe a future projection or the future warming experiment mentioned in the matrix. |
 | Source Scope | Matrix entry reconciled with GDEX d559000 on 2026-09-11. Its abstract and archive time-range fields differ by one water year; both are retained. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/conus404.md |
 | Kind | historical-simulation |
 
 ## Generation

@@ -9,7 +9,6 @@
 | Summary | Distinguish a daily probability distribution from a sampled weather sequence. Stochastic realizations are not additional GCM initial-condition members. Check space-time dependence for basin applications. |
 | Source Scope | Matrix fields supplemented by the NOAA AWS registry description checked on 2026-09-11. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/uw-pd-cmip5.md |
 | Kind | downscaled-projection |
 
 ## Generation

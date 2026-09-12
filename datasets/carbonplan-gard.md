@@ -9,7 +9,6 @@
 | Summary | SV and MV are separate run collections. CarbonPlan omits En-GARD stochastic ensemble generation. Model and scenario overlap must be checked before comparing methods. |
 | Source Scope | Matrix fields supplemented by the CarbonPlan release article checked on 2026-09-11. Run-specific availability and data licenses still require verification. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/carbonplan-gard.md |
 | Kind | downscaled-projection |
 
 ## Generation

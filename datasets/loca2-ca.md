@@ -10,7 +10,6 @@
 | Summary | Workshop name awaiting its provider link and release. A California delivery should not be silently treated as the complete North America LOCA2 archive. |
 | Source Scope | User-supplied workshop label. Identity or release details remain unresolved. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/loca2-ca.md |
 
 ## Aliases
 

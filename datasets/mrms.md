@@ -10,7 +10,6 @@
 | Summary | Multi-Radar Multi-Sensor system. Select the precipitation product and accumulation interval rather than treating every field as a two-minute total. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/mrms.md |
 
 ## Aliases
 

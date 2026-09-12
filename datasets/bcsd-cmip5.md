@@ -10,7 +10,6 @@
 | Summary | BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one. |
 | Source Scope | User-supplied workshop label. Identity or release details remain unresolved. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/bcsd-cmip5.md |
 
 ## Aliases
 

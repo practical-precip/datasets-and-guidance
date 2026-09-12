@@ -1,4 +1,4 @@
-# wus-d3.northwest.md
+# Regional guidance template
 
 | Field | Value |
 | --- | --- |
@@ -24,14 +24,4 @@
 
 ## Guidance
 
-## Application guidance
-
-Evaluate seasonal precipitation and basin totals by elevation, with more than one suitable reference where available. Compare results separately for each driving GCM.
-
-## Interpretation limits
-
-The reported behavior in [@rahimi-wus-d3] applies to the original forcing configuration. Confirm whether a downloaded simulation uses corrected GCM forcing before transferring this finding. Mountain reference uncertainty also matters when interpreting annual maximum daily precipitation.
-
-## Expert contribution needed
-
-Add basin-level evaluations for the selected WUS-D3 configuration. This guidance is an AI-assisted interpretation pending expert review.
+Describe the region, supporting evaluation, and how this advice differs from the general guidance. Add citations and identify the product release.

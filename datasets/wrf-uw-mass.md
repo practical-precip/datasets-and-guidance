@@ -10,7 +10,6 @@
 | Summary | Pacific Northwest hourly WRF projections at 12 km. The documented CMIP5 ensemble contains 13 projections from 12 distinct GCMs. |
 | Source Scope | User workshop name matched to the UW/CIG provider catalog. Scope is its CMIP5 13-projection ensemble, not every WRF project on the page. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/wrf-uw-mass.md |
 
 ## Aliases
 

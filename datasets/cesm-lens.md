@@ -10,7 +10,6 @@
 | Summary | Raw CESM large ensembles, distinct from downscaled GARD-LENS. CESM1 LENS and CESM2 LENS2 require separate generation selection. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/cesm-lens.md |
 
 ## Aliases
 

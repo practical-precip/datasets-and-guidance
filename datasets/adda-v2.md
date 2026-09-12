@@ -9,7 +9,6 @@
 | Summary | The cited study evaluates historical precipitation. ClimRR includes derived climate information; verify access to native hourly fields. Do not infer a complete future ensemble from this historical evaluation. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/adda-v2.md |
 | Kind | historical-simulation |
 
 ## Generation

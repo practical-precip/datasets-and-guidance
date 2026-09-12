@@ -10,7 +10,6 @@
 | Summary | Operational forecast and analysis system, not a homogeneous climate reanalysis. Select model version, initialization time and forecast lead. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/hrrr.md |
 
 ## Aliases
 

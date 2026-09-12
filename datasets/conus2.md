@@ -10,7 +10,6 @@
 | Summary | The WRF-CONUSII family is identified in partner documentation. Release, grid, forcing and period still need confirmation. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/conus2.md |
 
 ## Aliases
 

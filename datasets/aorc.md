@@ -10,7 +10,6 @@
 | Summary | Analysis of Record for Calibration forcing analysis. Select release and native versus National Water Model grid. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/aorc.md |
 
 ## Aliases
 

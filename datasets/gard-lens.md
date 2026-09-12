@@ -8,7 +8,6 @@
 | Name | GARD-LENS |
 | Version | 2024 published ensemble; NCAR GDEX d619000 (DOI 10.5065/5W7W-5224). |
 | Summary | Daily projections from 200 initial-condition members across three CMIP6 models. |
-| Guidance | product-guidance/gard-lens.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

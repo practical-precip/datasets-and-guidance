@@ -10,7 +10,6 @@
 | Summary | CMIP6 high-resolution intercomparison with atmosphere-only and coupled experiments. There is no single grid or pooled member count. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/highresmip.md |
 
 ## Aliases
 

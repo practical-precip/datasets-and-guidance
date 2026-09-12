@@ -9,7 +9,6 @@
 | Summary | Distinguish the adjusted global and regional parent ensembles and the two reference datasets. They are not independent GCMs. Use member spread to examine internal variability. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/canlead-v1.md |
 | Kind | downscaled-projection |
 
 ## Generation

@@ -8,7 +8,6 @@
 | Name | NA-CORDEX CMIP5 |
 | Version | North American CMIP5 archive; distinguish native, regridded, and bias-corrected outputs. |
 | Summary | A regional climate-model ensemble with 25 km and 50 km simulations over North America. |
-| Guidance | product-guidance/na-cordex.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

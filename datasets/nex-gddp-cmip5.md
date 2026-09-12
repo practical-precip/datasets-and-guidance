@@ -8,7 +8,6 @@
 | Name | NEX-GDDP CMIP5 |
 | Version | CMIP5 archive, NCCS Version 1 description. |
 | Summary | Global daily BCSD projections from 21 CMIP5 models. |
-| Guidance | product-guidance/nex-gddp-cmip5.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

@@ -9,7 +9,6 @@
 | Summary | Select the archive generation and BCSD collection explicitly. Monthly output cannot resolve daily precipitation extremes. CMIP3 scenarios and archive availability require separate verification. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/reclamation-bcsd.md |
 | Kind | downscaled-projection |
 
 ## Generation

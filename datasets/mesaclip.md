@@ -10,7 +10,6 @@
 | Summary | High-resolution CESM project with ten-member historical/future ensembles and a distinct preindustrial control. It is not regional downscaling. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/mesaclip.md |
 
 ## Aliases
 

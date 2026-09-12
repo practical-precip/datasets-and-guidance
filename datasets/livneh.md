@@ -10,7 +10,6 @@
 | Summary | Station-derived gridded meteorology. Earlier CONUS and later LOCA2 training datasets differ from the 2015 North American release. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/livneh.md |
 
 ## Aliases
 

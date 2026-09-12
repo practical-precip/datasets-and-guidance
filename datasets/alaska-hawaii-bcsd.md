@@ -9,7 +9,6 @@
 | Summary | Keep Alaska and Hawaii grids and reference data separate. This CMIP5 BCSD family is distinct from later CMIP6 Alaska/Hawaii datasets. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/alaska-hawaii-bcsd.md |
 | Kind | downscaled-projection |
 
 ## Generation

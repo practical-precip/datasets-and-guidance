@@ -8,7 +8,6 @@
 | Summary | Global daily CMIP6 projections using bias correction and spatial disaggregation at 0.25 degrees. |
 | Provider | NASA Earth Exchange / NASA Center for Climate Simulation |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/nex-gddp-cmip6.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

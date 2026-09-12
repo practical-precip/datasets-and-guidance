@@ -8,7 +8,6 @@
 | Name | IM3/HyperFACETS TGW |
 | Version | Jones et al. (2023) thermodynamic warming experiments. |
 | Summary | CONUS WRF simulations of historical weather repeated under four warming trajectories. |
-| Guidance | product-guidance/tgw.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

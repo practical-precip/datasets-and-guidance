@@ -9,7 +9,6 @@
 | Summary | Historical and future time windows differ by model and scenario. A 36 km regional model does not directly resolve local convective rainfall. Check each run before calculating paired changes. |
 | Source Scope | Matrix entry supplemented by EPA AWS registry documentation checked on 2026-09-11. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/edde-v1.md |
 | Kind | downscaled-projection |
 
 ## Generation

@@ -9,7 +9,6 @@
 | Summary | The matrix describes data available on request. Confirm the configuration and availability with the provider. Do not treat the planned CMIP6 scenarios as released data. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/icar.md |
 | Kind | downscaled-projection |
 
 ## Generation

@@ -10,7 +10,6 @@
 | Summary | An intercomparison archive with many models, experiments and grids. Select source, experiment, member and grid IDs before comparing files. |
 | Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/cmip6.md |
 
 ## Aliases
 

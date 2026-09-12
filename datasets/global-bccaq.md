@@ -9,7 +9,6 @@
 | Summary | Evaluate the reference precipitation product in your region. A global grid does not establish regional skill for extremes or mountain precipitation. |
 | Source Scope | Matrix entry reconciled with the 2023 dataset paper checked on 2026-09-11. The paper identifies SSP5-3.4-OS where the matrix lists SSP3-7.0; this record follows the paper. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/global-bccaq.md |
 | Kind | downscaled-projection |
 
 ## Generation

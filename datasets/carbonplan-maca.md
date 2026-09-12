@@ -9,7 +9,6 @@
 | Summary | This ERA5-trained global implementation is distinct from MACAv2-METDATA and MACAv2-LIVNEH. Use the run catalog to align models and scenarios across methods. |
 | Source Scope | Matrix fields supplemented by the CarbonPlan release article checked on 2026-09-11. Run-specific availability and data licenses still require verification. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/carbonplan-maca.md |
 | Kind | downscaled-projection |
 
 ## Generation

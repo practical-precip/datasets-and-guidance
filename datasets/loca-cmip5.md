@@ -8,7 +8,6 @@
 | Name | LOCA CMIP5 |
 | Version | Original LOCA CMIP5 archive at native 1/16 degree; not LOCA_8th evaluation data. |
 | Summary | Daily localized constructed-analog projections from the CMIP5 generation. |
-| Guidance | product-guidance/loca-cmip5.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 

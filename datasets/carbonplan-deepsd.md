@@ -9,7 +9,6 @@
 | Summary | Distinguish DeepSD and bias-corrected DeepSD-BC. Test dry-day frequency and intensity tails explicitly before using this experimental implementation for precipitation extremes. |
 | Source Scope | Matrix fields supplemented by the CarbonPlan release article checked on 2026-09-11. Run-specific availability and data licenses still require verification. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/carbonplan-deepsd.md |
 | Kind | downscaled-projection |
 
 ## Generation

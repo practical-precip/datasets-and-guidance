@@ -9,7 +9,6 @@
 | Summary | The matrix describes an earlier configuration and labels it not yet public. Later STAR-ESDM1-0 files exist in DRCDP; their domain, reference data, and release scope must not be substituted silently. |
 | Source Scope | NCAR matrix transcription. Provider and publication links are supplied for follow-up; only sources explicitly marked checked below were independently read. Download availability and data files were not tested. |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/star-esdm.md |
 | Kind | downscaled-projection |
 
 ## Generation

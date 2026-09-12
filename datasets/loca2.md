@@ -8,7 +8,6 @@
 | Summary | Daily CMIP6 projections using localized constructed analogs on a roughly 6 km North American grid. |
 | Provider | Scripps Institution of Oceanography, UC San Diego |
 | Verified On | 2026-09-11 |
-| Guidance | product-guidance/loca2.md |
 | Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
 | Kind | downscaled-projection |
 
