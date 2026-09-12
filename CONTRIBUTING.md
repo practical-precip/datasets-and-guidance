@@ -50,7 +50,7 @@ The link label is the display name. The filename supplies the ID (`loca2`). Inde
 
 ## Edit guidance-box metadata
 
-Guidance boxes and table configuration still use Markdown labeled lists, such as `- __Title:__ Basin guidance`. Keep double underscores around labels and preserve list indentation. Their prose starts below `## Guidance`. The NestedText change applies to dataset records and their regional versions.
+Guidance boxes and application pages still use Markdown labeled lists, such as `- __Title:__ Basin guidance`. Keep double underscores around labels and preserve list indentation. Their prose starts below `## Guidance`. Datasets, region definitions, and the table layout use NestedText.
 
 ## Write guidance
 
@@ -119,7 +119,27 @@ For a guidance box, use [the Markdown regional template](templates/regional-guid
 
 ## Change the guidance table
 
-[Table.md](guidance/Table.md) controls column definitions and row order. Each application page in `guidance/applications/` defines its title and assigns a Markdown box to every column. For a new column, add its definition and a box assignment in every application. For a new row, copy an application page and its box pages, give them stable IDs, and add the ID to the table's row list. Maintainers validate these linked changes together.
+[Table.nt](guidance/Table.nt) uses NestedText and controls column definitions and row order. Each application page in `guidance/applications/` defines its title and assigns a Markdown box to every column. For a new column, add its definition and a box assignment in every application. For a new row, copy an application page and its box pages, give them stable IDs, and add the ID to the table's row list. Maintainers validate these linked changes together.
+
+## Change climate regions
+
+[Regions.nt](Regions.nt) is a NestedText list. Each item defines an `id`, display `name`, `short` label, `states`, and map `label` coordinates. Keep two-digit state FIPS codes, including leading zeros, as plain values without quotes. For example:
+
+```text
+-
+  id: northwest
+  name: Northwest
+  short: NW
+  states:
+    - 53
+    - 41
+    - 16
+  label:
+    - 170
+    - 105
+```
+
+List order controls region order in the selector. The two label values are map x and y positions, not longitude and latitude. Keep existing IDs stable because regional guidance refers to them. Each state must belong to only one region. Maintainers check map placement and regional guidance in the site preview.
 
 ## Use Git
 

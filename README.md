@@ -1,6 +1,6 @@
 # Datasets and guidance
 
-A shared notebook for choosing and evaluating precipitation data. Datasets use standard NestedText files. Guidance boxes use Markdown. You can edit it in GitHub without installing anything.
+A shared notebook for choosing and evaluating precipitation data. Datasets, climate regions, and table definitions use standard NestedText files. Guidance boxes use Markdown. You can edit it in GitHub without installing anything.
 
 This repository is private. Invited contributors can read and propose edits. Accepted content may appear on the [public website](https://practical-precip.github.io/site/), so keep private notes and unpublished material elsewhere.
 
@@ -24,9 +24,9 @@ For a dataset correction, edit the value after a NestedText key such as `provide
 - __[datasets](datasets/):__ One NestedText file per dataset, with facts, sources, and expert guidance together
 - __[guidance/cells](guidance/cells/):__ One page per guidance box, plus optional regional versions
 - __[guidance/applications](guidance/applications/):__ Application names, introductions, metrics, and box assignments
-- __[Guidance table](guidance/Table.md):__ Column definitions and application order
+- __[Guidance table](guidance/Table.nt):__ Column definitions and application order
 - __[INDEX.md](INDEX.md):__ Dataset names, IDs, aliases, and website order
-- __[Regions](Regions.md):__ Region names, state membership, and map label positions
+- __[Regions](Regions.nt):__ Region names, state membership, and map label positions
 - __[references.bib](references.bib):__ Paper details and the claims they support
 - __[assets](assets/):__ Images and PDFs used in guidance
 

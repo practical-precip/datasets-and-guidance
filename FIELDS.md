@@ -24,6 +24,6 @@ For datasets, leave unknown optional dates, numbers, and URLs blank after the co
 
 Use one NestedText list item per scenario, variable, reference, or source. Strings are not quoted or escaped. Longer guidance uses a multi-line string under `expert guidance / text`; each line starts with an indented `>`. That string is rendered as Markdown, including citations, images, and equations.
 
-For guidance boxes and table configuration, the existing Markdown labeled-list format still applies. Use `__Field:__` labels, `(not recorded)` for optional unknown values, and `No entries.` for empty collections. Guidance prose follows `## Guidance`.
+For guidance boxes and application pages, the existing Markdown labeled-list format still applies. Use `__Field:__` labels, `(not recorded)` for optional unknown values, and `No entries.` for empty collections. Guidance prose follows `## Guidance`.
 
-State membership in Regions.md uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
+State membership in Regions.nt uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
