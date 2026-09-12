@@ -1,15 +1,13 @@
 # CFSR / CFSv2
 
-| Field | Value |
-| --- | --- |
-| Id | cfsr-cfsv2 |
-| Name | CFSR / CFSv2 |
-| Kind | reanalysis |
-| Provider | NOAA NCEP |
-| Version | Family record; select product stream and release. |
-| Summary | The workshop shorthand CFSRv2 is interpreted as this family. A transition separates retrospective reanalysis from operational analyses and forecasts. |
-| Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
-| Verified On | 2026-09-11 |
+- __Id:__ cfsr-cfsv2
+- __Name:__ CFSR / CFSv2
+- __Kind:__ reanalysis
+- __Provider:__ NOAA NCEP
+- __Version:__ Family record; select product stream and release.
+- __Summary:__ The workshop shorthand CFSRv2 is interpreted as this family. A transition separates retrospective reanalysis from operational analyses and forecasts.
+- __Source Scope:__ Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -21,39 +19,31 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | reanalysis |
-| Description | The workshop shorthand CFSRv2 is interpreted as this family. A transition separates retrospective reanalysis from operational analyses and forecasts. |
-| Reference Dataset | See selected product documentation. |
-| Training Period | Not established for the selected product. |
+- __Family:__ reanalysis
+- __Description:__ The workshop shorthand CFSRv2 is interpreted as this family. A transition separates retrospective reanalysis from operational analyses and forecasts.
+- __Reference Dataset:__ See selected product documentation.
+- __Training Period:__ Not established for the selected product.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global |
-| Grid | Inspect the selected product or station/point coordinates. |
-| Timestep | Collection and forecast lead dependent |
-| Historical | CFSR January 1979-March 2011; operational CFSv2 April 2011 onward |
-| Future | Not applicable to this historical observation/analysis record. |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ Global
+- __Grid:__ Inspect the selected product or station/point coordinates.
+- __Timestep:__ Collection and forecast lead dependent
+- __Historical:__ CFSR January 1979-March 2011; operational CFSv2 April 2011 onward
+- __Future:__ Not applicable to this historical observation/analysis record.
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | (not recorded) |
-| Unit | stream dependent |
+- __Value:__ (not recorded)
+- __Unit:__ stream dependent
 
 ### Scenarios
 
@@ -61,17 +51,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Not a GCM ensemble, or not yet identified. |
-| Model Count | (not recorded) |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ Not a GCM ensemble, or not yet identified.
+- __Model Count:__ (not recorded)
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -79,15 +67,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system |
-| Data | https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | Not established for the selected distribution. Public access is not a license. |
-| License Url | (not recorded) |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Landing Page:__ https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+- __Data:__ https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ Not established for the selected distribution. Public access is not a license.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## References
 
@@ -95,9 +81,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system | Provider identity and core properties, including product/period distinctions. Data files were not inspected. |
+1. __Url:__ https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+   - __Locator:__ Provider identity and core properties, including product/period distinctions. Data files were not inspected.
 
 ## Relevant Rows
 
@@ -113,23 +98,19 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider documentation | https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system | Select release, product stream and access method. |
+1. __Label:__ Provider documentation
+   - __Url:__ https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+   - __Description:__ Select release, product stream and access method.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | CFSR / CFSv2 guidance |
-| Summary | Draft guidance for the stated product family. |
+- __Title:__ CFSR / CFSv2 guidance
+- __Summary:__ Draft guidance for the stated product family.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

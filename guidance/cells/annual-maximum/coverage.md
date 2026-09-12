@@ -1,10 +1,8 @@
 # Record length for extremes
 
-| Field | Value |
-| --- | --- |
-| Title | Record length for extremes |
-| Priority | essential |
-| Summary | Short time slices supply few annual maxima. Extrapolated return levels require uncertainty estimates and explicit climate assumptions. |
+- __Title:__ Record length for extremes
+- __Priority:__ essential
+- __Summary:__ Short time slices supply few annual maxima. Extrapolated return levels require uncertainty estimates and explicit climate assumptions.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

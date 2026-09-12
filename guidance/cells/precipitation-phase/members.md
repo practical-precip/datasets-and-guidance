@@ -1,10 +1,8 @@
 # Sample snow seasons
 
-| Field | Value |
-| --- | --- |
-| Title | Sample snow seasons |
-| Priority | context |
-| Summary | Consider member variability when estimating the frequency of low-snow years or rain-on-snow conditions. |
+- __Title:__ Sample snow seasons
+- __Priority:__ context
+- __Summary:__ Consider member variability when estimating the frequency of low-snow years or rain-on-snow conditions.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

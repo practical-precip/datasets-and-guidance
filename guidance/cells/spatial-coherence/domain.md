@@ -1,10 +1,8 @@
 # Use a continuous field
 
-| Field | Value |
-| --- | --- |
-| Title | Use a continuous field |
-| Priority | essential |
-| Summary | Require spatially consistent coverage across connected catchments or assets. Inspect seams when combining products. |
+- __Title:__ Use a continuous field
+- __Priority:__ essential
+- __Summary:__ Require spatially consistent coverage across connected catchments or assets. Inspect seams when combining products.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

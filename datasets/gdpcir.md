@@ -1,42 +1,34 @@
 # GDPCIR
 
-| Field | Value |
-| --- | --- |
-| Provider | Climate Impact Lab; Microsoft Planetary Computer distribution |
-| Verified On | 2026-09-11 |
-| Id | gdpcir |
-| Name | GDPCIR |
-| Version | Dataset described by Gergel et al. (2024); collection licenses vary by model. |
-| Summary | Global daily CMIP6 projections using quantile delta mapping and localized-analog downscaling. |
-| Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
-| Kind | downscaled-projection |
+- __Provider:__ Climate Impact Lab; Microsoft Planetary Computer distribution
+- __Verified On:__ 2026-09-11
+- __Id:__ gdpcir
+- __Name:__ GDPCIR
+- __Version:__ Dataset described by Gergel et al. (2024); collection licenses vary by model.
+- __Summary:__ Global daily CMIP6 projections using quantile delta mapping and localized-analog downscaling.
+- __Source Scope:__ Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested.
+- __Kind:__ downscaled-projection
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Statistical downscaling |
-| Description | Quantile Delta Mapping (QDM), then Quantile-Preserving Localized-Analog Downscaling (QPLAD). |
-| Reference Dataset | ERA5 |
-| Training Period | 1995-2014 |
+- __Family:__ Statistical downscaling
+- __Description:__ Quantile Delta Mapping (QDM), then Quantile-Preserving Localized-Analog Downscaling (QPLAD).
+- __Reference Dataset:__ ERA5
+- __Training Period:__ 1995-2014
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global quarter-degree grid; verify application masks. |
-| Grid | Regular latitude-longitude grid. |
-| Timestep | Daily |
-| Historical | 1950-2014 |
-| Future | 2015-2099 or 2100, depending on the source GCM. |
-| Calendar | 365-day record excluding leap days, according to the Planetary Computer collection description. |
+- __Domain:__ Global quarter-degree grid; verify application masks.
+- __Grid:__ Regular latitude-longitude grid.
+- __Timestep:__ Daily
+- __Historical:__ 1950-2014
+- __Future:__ 2015-2099 or 2100, depending on the source GCM.
+- __Calendar:__ 365-day record excluding leap days, according to the Planetary Computer collection description.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 0.25 |
-| Unit | degrees |
+- __Value:__ 0.25
+- __Unit:__ degrees
 
 ### Scenarios
 
@@ -47,37 +39,40 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| pr | Daily cumulative precipitation; verify units in the selected Zarr store. | Daily precipitation. |
-| tasmin | K; verify the selected distribution. | Daily minimum near-surface temperature. |
-| tasmax | K; verify the selected distribution. | Daily maximum near-surface temperature. |
+1. __Name:__ pr
+   - __Unit:__ Daily cumulative precipitation; verify units in the selected Zarr store.
+   - __Description:__ Daily precipitation.
+
+2. __Name:__ tasmin
+   - __Unit:__ K; verify the selected distribution.
+   - __Description:__ Daily minimum near-surface temperature.
+
+3. __Name:__ tasmax
+   - __Unit:__ K; verify the selected distribution.
+   - __Description:__ Daily maximum near-surface temperature.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | CMIP6 |
-| Model Count | 25 |
-| Members | One selected ensemble member per GCM; scenario availability varies. |
+- __Driving Models:__ CMIP6
+- __Model Count:__ 25
+- __Members:__ One selected ensemble member per GCM; scenario availability varies.
 
 ### Member Counts
 
-| Model | Count | Scope | Source Url |
-| --- | --- | --- | --- |
-| Each GCM in the described archive | 1 | A selected member for each GCM; available scenarios differ. | https://gmd.copernicus.org/articles/17/191/2024/ |
+1. __Model:__ Each GCM in the described archive
+   - __Count:__ 1
+   - __Scope:__ A selected member for each GCM; available scenarios differ.
+   - __Source Url:__ https://gmd.copernicus.org/articles/17/191/2024/
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://github.com/ClimateImpactLab/downscaleCMIP6 |
-| Data | https://planetarycomputer.microsoft.com/dataset/group/cil-gdpcir/ |
-| Format | Partitioned Zarr stores on Microsoft Planetary Computer. |
-| License | Model-dependent collections: CC0-1.0 or CC-BY-4.0. Check the collection containing each selected model. |
-| License Url | https://planetarycomputer.microsoft.com/dataset/cil-gdpcir-cc-by |
-| Subsetting | Chunked Zarr stores allow client-side selection of variables, regions, and time. This is not a claim of a server-side subset API. |
-| Cost | The paper describes freely available data. User compute, storage, or platform charges are not estimated. |
+- __Landing Page:__ https://github.com/ClimateImpactLab/downscaleCMIP6
+- __Data:__ https://planetarycomputer.microsoft.com/dataset/group/cil-gdpcir/
+- __Format:__ Partitioned Zarr stores on Microsoft Planetary Computer.
+- __License:__ Model-dependent collections: CC0-1.0 or CC-BY-4.0. Check the collection containing each selected model.
+- __License Url:__ https://planetarycomputer.microsoft.com/dataset/cil-gdpcir-cc-by
+- __Subsetting:__ Chunked Zarr stores allow client-side selection of variables, regions, and time. This is not a claim of a server-side subset API.
+- __Cost:__ The paper describes freely available data. User compute, storage, or platform charges are not estimated.
 
 ## Relevant Rows
 
@@ -92,11 +87,14 @@
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf | Page 1, Climate Impacts Lab / Quantile Delta Mapping row. |
-| https://gmd.copernicus.org/articles/17/191/2024/ | Abstract and sections 2-3: reference period, models, scenarios, and method. Publication date, section 2.1, Results, code/data availability, and Financial support. |
-| https://planetarycomputer.microsoft.com/api/stac/v1/collections/cil-gdpcir-cc-by | Collection description: licenses, daily calendar, end-year variation, and Zarr layout. |
+1. __Url:__ https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+   - __Locator:__ Page 1, Climate Impacts Lab / Quantile Delta Mapping row.
+
+2. __Url:__ https://gmd.copernicus.org/articles/17/191/2024/
+   - __Locator:__ Abstract and sections 2-3: reference period, models, scenarios, and method. Publication date, section 2.1, Results, code/data availability, and Financial support.
+
+3. __Url:__ https://planetarycomputer.microsoft.com/api/stac/v1/collections/cil-gdpcir-cc-by
+   - __Locator:__ Collection description: licenses, daily calendar, end-year variation, and Zarr layout.
 
 ## Generation
 
@@ -104,31 +102,32 @@
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | 2024-01-11 |
-| Notes | Publication date of Gergel et al.; not a creation or release timestamp for all Zarr stores. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ 2024-01-11
+- __Notes:__ Publication date of Gergel et al.; not a creation or release timestamp for all Zarr stores.
 
 ## Existing Uses
 
-| Description | Url |
-| --- | --- |
-| The dataset paper analyzes climate trends and quantile changes at global, city, and administrative-region scales. | https://gmd.copernicus.org/articles/17/191/2024/ |
+1. __Description:__ The dataset paper analyzes climate trends and quantile changes at global, city, and administrative-region scales.
+   - __Url:__ https://gmd.copernicus.org/articles/17/191/2024/
 
 ## Funding
 
-| Agency | Award | Notes | Source Url |
-| --- | --- | --- | --- |
-| Rockefeller Foundation | 2021 NFR 005 | Financial support listed in the paper. | https://gmd.copernicus.org/articles/17/191/2024/ |
+1. __Agency:__ Rockefeller Foundation
+   - __Award:__ 2021 NFR 005
+   - __Notes:__ Financial support listed in the paper.
+   - __Source Url:__ https://gmd.copernicus.org/articles/17/191/2024/
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider documentation | https://github.com/ClimateImpactLab/downscaleCMIP6 | Product descriptions and links maintained by the provider. |
-| Downscaling code | https://github.com/ClimateImpactLab/downscaleCMIP6 | QDM/QPLAD pipeline and reproducibility resources. |
+1. __Label:__ Provider documentation
+   - __Url:__ https://github.com/ClimateImpactLab/downscaleCMIP6
+   - __Description:__ Product descriptions and links maintained by the provider.
+
+2. __Label:__ Downscaling code
+   - __Url:__ https://github.com/ClimateImpactLab/downscaleCMIP6
+   - __Description:__ QDM/QPLAD pipeline and reproducibility resources.
 
 ## Aliases
 
@@ -136,17 +135,13 @@ No entries.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | GDPCIR evaluation guidance |
-| Summary | Draft interpretation of documented product properties; expert review is pending. |
+- __Title:__ GDPCIR evaluation guidance
+- __Summary:__ Draft interpretation of documented product properties; expert review is pending.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 
@@ -154,9 +149,10 @@ No entries.
 
 ### Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| The published workflow applies QDM followed by QPLAD using ERA5 over 1995-2014. | gergel-gdpcir | Abstract and sections 2-3. | Method and training design of the 2024 release; not a validation of every precipitation metric. |
+1. __Statement:__ The published workflow applies QDM followed by QPLAD using ERA5 over 1995-2014.
+   - __Paper:__ gergel-gdpcir
+   - __Locator:__ Abstract and sections 2-3.
+   - __Scope:__ Method and training design of the 2024 release; not a validation of every precipitation metric.
 
 ## Guidance
 

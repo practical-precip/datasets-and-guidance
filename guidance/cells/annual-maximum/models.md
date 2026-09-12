@@ -1,10 +1,8 @@
 # Compare tail changes
 
-| Field | Value |
-| --- | --- |
-| Title | Compare tail changes |
-| Priority | essential |
-| Summary | Examine how annual maxima and their projected changes differ across driving models and downscaling choices. |
+- __Title:__ Compare tail changes
+- __Priority:__ essential
+- __Summary:__ Examine how annual maxima and their projected changes differ across driving models and downscaling choices.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

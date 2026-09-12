@@ -1,10 +1,8 @@
 # Capture storm footprints
 
-| Field | Value |
-| --- | --- |
-| Title | Capture storm footprints |
-| Priority | context |
-| Summary | Large-area flood studies need complete storm coverage. A small site study may need a smaller domain, but still needs credible regional processes. |
+- __Title:__ Capture storm footprints
+- __Priority:__ context
+- __Summary:__ Large-area flood studies need complete storm coverage. A small site study may need a smaller domain, but still needs credible regional processes.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

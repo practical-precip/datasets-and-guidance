@@ -1,15 +1,13 @@
 # CONUS404
 
-| Field | Value |
-| --- | --- |
-| Id | conus404 |
-| Name | CONUS404 |
-| Provider | NCAR / USGS |
-| Version | Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications. |
-| Summary | Use as a historical hydroclimate comparator after evaluating regional biases. This record does not describe a future projection or the future warming experiment mentioned in the matrix. |
-| Source Scope | Matrix entry reconciled with GDEX d559000 on 2026-09-11. Its abstract and archive time-range fields differ by one water year; both are retained. |
-| Verified On | 2026-09-11 |
-| Kind | historical-simulation |
+- __Id:__ conus404
+- __Name:__ CONUS404
+- __Provider:__ NCAR / USGS
+- __Version:__ Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
+- __Summary:__ Use as a historical hydroclimate comparator after evaluating regional biases. This record does not describe a future projection or the future warming experiment mentioned in the matrix.
+- __Source Scope:__ Matrix entry reconciled with GDEX d559000 on 2026-09-11. Its abstract and archive time-range fields differ by one water year; both are retained.
+- __Verified On:__ 2026-09-11
+- __Kind:__ historical-simulation
 
 ## Generation
 
@@ -17,39 +15,31 @@
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Exact creation/release dates are not established. Simulation periods and version tokens are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Exact creation/release dates are not established. Simulation periods and version tokens are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Dynamical downscaling |
-| Description | WRF regional reanalysis |
-| Reference Dataset | ERA5 atmospheric forcing; not statistical calibration |
-| Training Period | Not applicable to physical reanalysis forcing. |
+- __Family:__ Dynamical downscaling
+- __Description:__ WRF regional reanalysis
+- __Reference Dataset:__ ERA5 atmospheric forcing; not statistical calibration
+- __Training Period:__ Not applicable to physical reanalysis forcing.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | CONUS and transboundary basins in Canada and Mexico |
-| Grid | Lambert conformal model grid |
-| Timestep | Hourly |
-| Historical | Water years 1980-2021 in abstract; archive time coverage extends to 2022-09-30 |
-| Future | Not applicable to this historical record. |
-| Calendar | Not established from the sources checked. |
+- __Domain:__ CONUS and transboundary basins in Canada and Mexico
+- __Grid:__ Lambert conformal model grid
+- __Timestep:__ Hourly
+- __Historical:__ Water years 1980-2021 in abstract; archive time coverage extends to 2022-09-30
+- __Future:__ Not applicable to this historical record.
+- __Calendar:__ Not established from the sources checked.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 4 |
-| Unit | km |
+- __Value:__ 4
+- __Unit:__ km
 
 ### Scenarios
 
@@ -57,17 +47,15 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Verify units and accumulation interval in selected files. | Precipitation is covered by this record. Additional atmospheric variables require a complete archive-specific inventory. |
+1. __Name:__ precipitation
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Precipitation is covered by this record. Additional atmospheric variables require a complete archive-specific inventory.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | ERA5 reanalysis, not a GCM ensemble |
-| Model Count | (not recorded) |
-| Members | Not established from the sources checked. |
+- __Driving Models:__ ERA5 reanalysis, not a GCM ensemble
+- __Model Count:__ (not recorded)
+- __Members:__ Not established from the sources checked.
 
 ### Member Counts
 
@@ -75,15 +63,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://gdex.ucar.edu/datasets/d559000/ |
-| Data | https://gdex.ucar.edu/datasets/d559000/ |
-| Format | GDEX archive plus linked Zarr distribution on Microsoft Planetary Computer; inspect native file headers. |
-| License | Not established. Public access does not itself specify reuse terms. |
-| License Url | (not recorded) |
-| Subsetting | Not verified. The linked documentation may describe access, rather than provide a working subset service. |
-| Cost | Not established from the sources checked. |
+- __Landing Page:__ https://gdex.ucar.edu/datasets/d559000/
+- __Data:__ https://gdex.ucar.edu/datasets/d559000/
+- __Format:__ GDEX archive plus linked Zarr distribution on Microsoft Planetary Computer; inspect native file headers.
+- __License:__ Not established. Public access does not itself specify reuse terms.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not verified. The linked documentation may describe access, rather than provide a working subset service.
+- __Cost:__ Not established from the sources checked.
 
 ## References
 
@@ -91,10 +77,11 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf | Page 1, dataset row 22: CONUS404. Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability. |
-| https://gdex.ucar.edu/datasets/d559000/ | Checked: model and ERA5 forcing, grid, abstract WY1980-2021 versus archive through WY2022, related Zarr distribution and citations. |
+1. __Url:__ https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+   - __Locator:__ Page 1, dataset row 22: CONUS404. Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability.
+
+2. __Url:__ https://gdex.ucar.edu/datasets/d559000/
+   - __Locator:__ Checked: model and ERA5 forcing, grid, abstract WY1980-2021 versus archive through WY2022, related Zarr distribution and citations.
 
 ## Relevant Rows
 
@@ -110,10 +97,13 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or method documentation | https://gdex.ucar.edu/datasets/d559000/ | Follow-up resource; availability of data must be confirmed. |
-| Related publication or technical report | https://doi.org/10.1175/BAMS-D-21-0326.1 | Publication linked by the matrix. Its scope may describe a method or historical evaluation rather than every cataloged configuration. |
+1. __Label:__ Provider or method documentation
+   - __Url:__ https://gdex.ucar.edu/datasets/d559000/
+   - __Description:__ Follow-up resource; availability of data must be confirmed.
+
+2. __Label:__ Related publication or technical report
+   - __Url:__ https://doi.org/10.1175/BAMS-D-21-0326.1
+   - __Description:__ Publication linked by the matrix. Its scope may describe a method or historical evaluation rather than every cataloged configuration.
 
 ## Aliases
 
@@ -121,17 +111,13 @@ No entries.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | CONUS404 evaluation guidance |
-| Summary | Draft interpretation of documented product properties; expert review is pending. |
+- __Title:__ CONUS404 evaluation guidance
+- __Summary:__ Draft interpretation of documented product properties; expert review is pending.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

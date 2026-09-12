@@ -1,16 +1,12 @@
 # Regional guidance template
 
-| Field | Value |
-| --- | --- |
-| Title | Regional evaluation guidance |
-| Summary | Draft regional guidance awaiting evidence and expert review. |
+- __Title:__ Regional evaluation guidance
+- __Summary:__ Draft regional guidance awaiting evidence and expert review.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

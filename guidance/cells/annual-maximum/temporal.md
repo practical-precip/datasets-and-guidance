@@ -1,10 +1,8 @@
 # Match the duration
 
-| Field | Value |
-| --- | --- |
-| Title | Match the duration |
-| Priority | essential |
-| Summary | Daily data cannot directly supply hourly extremes. The output interval must resolve your target accumulation duration. |
+- __Title:__ Match the duration
+- __Priority:__ essential
+- __Summary:__ Daily data cannot directly supply hourly extremes. The output interval must resolve your target accumulation duration.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

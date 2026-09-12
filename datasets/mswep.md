@@ -1,15 +1,13 @@
 # MSWEP
 
-| Field | Value |
-| --- | --- |
-| Id | mswep |
-| Name | MSWEP |
-| Kind | observation |
-| Provider | GloH2O |
-| Version | Family record; select product stream and release. |
-| Summary | Merged precipitation analysis. Select version and Past, Past_nogauge or NRT variant. V3 is not corrected for gauge undercatch. |
-| Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
-| Verified On | 2026-09-11 |
+- __Id:__ mswep
+- __Name:__ MSWEP
+- __Kind:__ observation
+- __Provider:__ GloH2O
+- __Version:__ Family record; select product stream and release.
+- __Summary:__ Merged precipitation analysis. Select version and Past, Past_nogauge or NRT variant. V3 is not corrected for gauge undercatch.
+- __Source Scope:__ Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -21,39 +19,31 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | observation |
-| Description | Merged precipitation analysis. Select version and Past, Past_nogauge or NRT variant. V3 is not corrected for gauge undercatch. |
-| Reference Dataset | See selected product documentation. |
-| Training Period | Not established for the selected product. |
+- __Family:__ observation
+- __Description:__ Merged precipitation analysis. Select version and Past, Past_nogauge or NRT variant. V3 is not corrected for gauge undercatch.
+- __Reference Dataset:__ See selected product documentation.
+- __Training Period:__ Not established for the selected product.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global |
-| Grid | Inspect the selected product or station/point coordinates. |
-| Timestep | V3 hourly; V2 3-hourly |
-| Historical | 1979 onward; variant dependent |
-| Future | Not applicable to this historical observation/analysis record. |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ Global
+- __Grid:__ Inspect the selected product or station/point coordinates.
+- __Timestep:__ V3 hourly; V2 3-hourly
+- __Historical:__ 1979 onward; variant dependent
+- __Future:__ Not applicable to this historical observation/analysis record.
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 0.1 |
-| Unit | degree |
+- __Value:__ 0.1
+- __Unit:__ degree
 
 ### Scenarios
 
@@ -61,17 +51,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Not a GCM ensemble, or not yet identified. |
-| Model Count | (not recorded) |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ Not a GCM ensemble, or not yet identified.
+- __Model Count:__ (not recorded)
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -79,15 +67,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://www.gloh2o.org/ |
-| Data | https://www.gloh2o.org/ |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | CC BY-NC 4.0 as stated for the current provider distribution; verify terms for the selected release. |
-| License Url | https://www.gloh2o.org/ |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Request-based access; verify terms and any costs for the intended use. |
+- __Landing Page:__ https://www.gloh2o.org/
+- __Data:__ https://www.gloh2o.org/
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ CC BY-NC 4.0 as stated for the current provider distribution; verify terms for the selected release.
+- __License Url:__ https://www.gloh2o.org/
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Request-based access; verify terms and any costs for the intended use.
 
 ## References
 
@@ -95,9 +81,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://www.gloh2o.org/ | Provider identity and core properties, including product/period distinctions. Data files were not inspected. |
+1. __Url:__ https://www.gloh2o.org/
+   - __Locator:__ Provider identity and core properties, including product/period distinctions. Data files were not inspected.
 
 ## Relevant Rows
 
@@ -113,24 +98,23 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider documentation | https://www.gloh2o.org/ | Select release, product stream and access method. |
-| V3 manuscript (preprint) | https://arxiv.org/abs/2602.01436 | Provider-linked V3 description; not labeled as a peer-reviewed paper here. |
+1. __Label:__ Provider documentation
+   - __Url:__ https://www.gloh2o.org/
+   - __Description:__ Select release, product stream and access method.
+
+2. __Label:__ V3 manuscript (preprint)
+   - __Url:__ https://arxiv.org/abs/2602.01436
+   - __Description:__ Provider-linked V3 description; not labeled as a peer-reviewed paper here.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | MSWEP guidance |
-| Summary | Draft guidance for the stated product family. |
+- __Title:__ MSWEP guidance
+- __Summary:__ Draft guidance for the stated product family.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

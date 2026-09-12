@@ -1,31 +1,31 @@
 # Field guide
 
-Metadata uses ordinary Markdown tables and lists. Keep the field labels and headings, and edit their values. Guidance prose starts at `## Guidance` and can have any subheadings.
+Metadata uses labeled Markdown lists. Keep the double-underscore labels, such as `- __Name:__`, and edit the text after them. Keep the section headings and list indentation. Guidance prose starts at `## Guidance` and can have any subheadings.
 
-| Field or section | Meaning |
-| --- | --- |
-| Id | Stable lowercase identifier; keep it consistent with the filename |
-| Name / Aliases | Full product name and familiar workshop names |
-| Kind | `downscaled-projection`, `historical-simulation`, `observation`, `reanalysis`, `model-ensemble`, `collection`, or `unresolved` |
-| Version | Specific release or family covered by the record |
-| Source Scope | What was checked, and what remains unverified |
-| Dates | Creation, public release, and publication dates are different; use YYYY-MM-DD |
-| Method | Downscaling method, reference dataset, and training period |
-| Coverage | Domain, spacing, timestep, time periods, scenarios, variables, and calendar |
-| Ensemble | Driving models, model count, and initial-condition members |
-| Access | Landing page, data link, file format, license, subsetting, and costs |
-| Metadata Sources | The source URL and where to find support for the recorded facts |
-| References | Citation keys in references.bib |
-| Existing Uses | Documented applications, with a source |
-| Funding | Agency, award, scope, and supporting source |
-| Associated Resources | Related documentation, code, or publications |
-| Expert Guidance | Review status, contributors, evidence, and optional regional overrides |
-| Relevant Rows | Application IDs from the guidance table |
+- __Id:__ Stable lowercase identifier; keep it consistent with the filename
+- __Name / Aliases:__ Full product name and familiar workshop names
+- __Kind:__ `downscaled-projection`, `historical-simulation`, `observation`, `reanalysis`, `model-ensemble`, `collection`, or `unresolved`
+- __Version:__ Specific release or family covered by the record
+- __Source Scope:__ What was checked, and what remains unverified
+- __Dates:__ Creation, public release, and publication dates are different; use YYYY-MM-DD
+- __Method:__ Downscaling method, reference dataset, and training period
+- __Coverage:__ Domain, spacing, timestep, time periods, scenarios, variables, and calendar
+- __Ensemble:__ Driving models, model count, and initial-condition members
+- __Access:__ Landing page, data link, file format, license, subsetting, and costs
+- __Metadata Sources:__ The source URL and where to find support for the recorded facts
+- __References:__ Citation keys in references.bib
+- __Existing Uses:__ Documented applications, with a source
+- __Funding:__ Agency, award, scope, and supporting source
+- __Associated Resources:__ Related documentation, code, or publications
+- __Expert Guidance:__ Review status, contributors, evidence, and optional regional overrides
+- __Relevant Rows:__ Application IDs from the guidance table
 
-Use `(not recorded)` for a missing number, date, or optional URL. Use a clear sentence for other unknown values. An empty collection is written `No entries.`; replace that line with a list or table when adding items. `(omit)` in a table means the field does not apply to that row.
+Use `(not recorded)` for a missing number, date, or optional URL. Use a clear sentence for other unknown values. An empty collection is written `No entries.`; replace that line with list items when adding information. For a nested field, write `- __Funding:__ No entries.` until you have entries to add.
 
-Most lists have one item per line. In a table cell that holds multiple values, separate them with `; ` (semicolon and space). This applies to workshop product IDs, region state codes, and map coordinates. State membership uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
+Use one item per line for lists of scenarios, aliases, references, state codes, and other values. Do not join several items with semicolons. Within a single value, a semicolon or vertical bar is just punctuation and needs no escaping.
 
-In a metadata table, escape a literal vertical bar as `\|`. Use `<br>` only for a line break inside a metadata value. Write longer advice below **Guidance** instead of inside a table.
+Collections of records, such as metadata sources or climate regions, use numbered entries. The first labeled field starts the entry; its other fields are indented bullet points. Copy an existing entry to add another. Keep its indentation, and place the entries in the order you want them to appear.
 
-A dataset record identifies a product or a carefully scoped family. A workshop name does not automatically establish a unique release. Preserve unresolved names and state uncertainty. Public download access does not establish a reuse license. Fine grid spacing does not demonstrate skill at that scale.
+State membership uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
+
+You can wrap a long value onto the next line. Indent the continuation beneath its field; the site treats a soft wrap as a space. For paragraphs, images, and equations, use the __Guidance__ section.

@@ -1,10 +1,8 @@
 # Cover the snow zone
 
-| Field | Value |
-| --- | --- |
-| Title | Cover the snow zone |
-| Priority | essential |
-| Summary | The footprint must include the elevations contributing snow storage and meltwater to the study area. |
+- __Title:__ Cover the snow zone
+- __Priority:__ essential
+- __Summary:__ The footprint must include the elevations contributing snow storage and meltwater to the study area.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

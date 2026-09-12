@@ -1,23 +1,20 @@
 # Climate model uncertainty
 
-| Field | Value |
-| --- | --- |
-| Title | Climate model uncertainty |
-| Priority | essential |
-| Summary | Use several driving models to examine uncertainty in projected annual changes. A large file count may still represent only a few models. |
+- __Title:__ Climate model uncertainty
+- __Priority:__ essential
+- __Summary:__ Use several driving models to examine uncertainty in projected annual changes. A large file count may still represent only a few models.
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| Lehner et al. used seven single-model large ensembles alongside CMIP5 and CMIP6 to distinguish internal variability from model-response uncertainty. | lehner | Abstract; Section 2.1 | Global and regional temperature and precipitation projections; not a downscaled product comparison. |
+1. __Statement:__ Lehner et al. used seven single-model large ensembles alongside CMIP5 and CMIP6 to distinguish internal variability from model-response uncertainty.
+   - __Paper:__ lehner
+   - __Locator:__ Abstract; Section 2.1
+   - __Scope:__ Global and regional temperature and precipitation projections; not a downscaled product comparison.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

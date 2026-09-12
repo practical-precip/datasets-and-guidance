@@ -1,15 +1,13 @@
 # BCSD-CMIP5 (workshop label)
 
-| Field | Value |
-| --- | --- |
-| Id | bcsd-cmip5 |
-| Name | BCSD-CMIP5 (workshop label) |
-| Kind | unresolved |
-| Provider | Archive not yet identified |
-| Version | Workshop label awaiting identification. |
-| Summary | BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one. |
-| Source Scope | User-supplied workshop label. Identity or release details remain unresolved. |
-| Verified On | 2026-09-11 |
+- __Id:__ bcsd-cmip5
+- __Name:__ BCSD-CMIP5 (workshop label)
+- __Kind:__ unresolved
+- __Provider:__ Archive not yet identified
+- __Version:__ Workshop label awaiting identification.
+- __Summary:__ BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one.
+- __Source Scope:__ User-supplied workshop label. Identity or release details remain unresolved.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -21,39 +19,31 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | unresolved |
-| Description | BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one. |
-| Reference Dataset | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Training Period | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Family:__ unresolved
+- __Description:__ BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one.
+- __Reference Dataset:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Training Period:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Archive dependent |
-| Grid | Inspect the selected distribution; the nominal resolution does not specify coordinates. |
-| Timestep | Archive dependent |
-| Historical | Archive dependent |
-| Future | Experiment or release dependent; see source documentation. |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ Archive dependent
+- __Grid:__ Inspect the selected distribution; the nominal resolution does not specify coordinates.
+- __Timestep:__ Archive dependent
+- __Historical:__ Archive dependent
+- __Future:__ Experiment or release dependent; see source documentation.
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | (not recorded) |
-| Unit | archive dependent |
+- __Value:__ (not recorded)
+- __Unit:__ archive dependent
 
 ### Scenarios
 
@@ -61,17 +51,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Not a GCM ensemble, or not yet identified. |
-| Model Count | (not recorded) |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ Not a GCM ensemble, or not yet identified.
+- __Model Count:__ (not recorded)
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -79,15 +67,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg |
-| Data | https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | Not established for the selected distribution. Public access is not a license. |
-| License Url | (not recorded) |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Landing Page:__ https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+- __Data:__ https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ Not established for the selected distribution. Public access is not a license.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## References
 
@@ -95,9 +81,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg | User-supplied identification lead; no complete release specification established. |
+1. __Url:__ https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+   - __Locator:__ User-supplied identification lead; no complete release specification established.
 
 ## Relevant Rows
 
@@ -113,23 +98,19 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or identification lead | https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg | Resolve the release and availability before selecting data. |
+1. __Label:__ Provider or identification lead
+   - __Url:__ https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+   - __Description:__ Resolve the release and availability before selecting data.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | BCSD-CMIP5 (workshop label) guidance |
-| Summary | Draft guidance for the workshop dataset name. |
+- __Title:__ BCSD-CMIP5 (workshop label) guidance
+- __Summary:__ Draft guidance for the workshop dataset name.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

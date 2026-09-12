@@ -1,23 +1,20 @@
 # Sample rare events
 
-| Field | Value |
-| --- | --- |
-| Title | Sample rare events |
-| Priority | essential |
-| Summary | Annual maxima are noisy. Initial-condition ensembles help assess how much an extreme estimate depends on the realized climate sequence. |
+- __Title:__ Sample rare events
+- __Priority:__ essential
+- __Summary:__ Annual maxima are noisy. Initial-condition ensembles help assess how much an extreme estimate depends on the realized climate sequence.
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| Bhatia and Ganguly found that concatenating initial-condition ensemble information reduced uncertainty in precipitation-extreme estimates and depth-duration-frequency curves in their analysis. | extremes | Abstract | CESM large-ensemble experiment; pooling requires the assumptions and climate windows to be appropriate. |
+1. __Statement:__ Bhatia and Ganguly found that concatenating initial-condition ensemble information reduced uncertainty in precipitation-extreme estimates and depth-duration-frequency curves in their analysis.
+   - __Paper:__ extremes
+   - __Locator:__ Abstract
+   - __Scope:__ CESM large-ensemble experiment; pooling requires the assumptions and climate windows to be appropriate.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

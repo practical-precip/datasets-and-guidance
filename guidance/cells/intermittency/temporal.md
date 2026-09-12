@@ -1,23 +1,20 @@
 # Preserve the sequence
 
-| Field | Value |
-| --- | --- |
-| Title | Preserve the sequence |
-| Priority | essential |
-| Summary | Use a timestep suited to the dry or wet spells you need. Monthly totals do not identify consecutive dry days. |
+- __Title:__ Preserve the sequence
+- __Priority:__ essential
+- __Summary:__ Use a timestep suited to the dry or wet spells you need. Monthly totals do not identify consecutive dry days.
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| Lange evaluated dry-day frequency separately from wet-day intensity, defining dry days using a precipitation threshold of 0.1 mm/day. | lange | Section 4, evaluation metrics | ISIMIP3BASD v1.0 evaluation; this threshold is a study definition, not a universal application threshold. |
+1. __Statement:__ Lange evaluated dry-day frequency separately from wet-day intensity, defining dry days using a precipitation threshold of 0.1 mm/day.
+   - __Paper:__ lange
+   - __Locator:__ Section 4, evaluation metrics
+   - __Scope:__ ISIMIP3BASD v1.0 evaluation; this threshold is a study definition, not a universal application threshold.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

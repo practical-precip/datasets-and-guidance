@@ -1,17 +1,13 @@
 # Evaluate island and elevation coverage
 
-| Field | Value |
-| --- | --- |
-| Title | Evaluate island and elevation coverage |
-| Priority | context |
-| Summary | Choose a spatial scale that represents your catchment and elevation gradients. Fine grid spacing is not a guarantee of accurate basin totals. |
+- __Title:__ Evaluate island and elevation coverage
+- __Priority:__ context
+- __Summary:__ Choose a spatial scale that represents your catchment and elevation gradients. Fine grid spacing is not a guarantee of accurate basin totals.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

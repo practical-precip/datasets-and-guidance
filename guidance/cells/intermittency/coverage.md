@@ -1,10 +1,8 @@
 # Sequence completeness
 
-| Field | Value |
-| --- | --- |
-| Title | Sequence completeness |
-| Priority | essential |
-| Summary | Missing intervals and disconnected time slices can truncate spells or create false ones. |
+- __Title:__ Sequence completeness
+- __Priority:__ essential
+- __Summary:__ Missing intervals and disconnected time slices can truncate spells or create false ones.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

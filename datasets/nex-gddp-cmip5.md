@@ -1,42 +1,34 @@
 # NEX-GDDP CMIP5
 
-| Field | Value |
-| --- | --- |
-| Provider | NASA Earth Exchange / Climate Analytics Group / NCCS |
-| Verified On | 2026-09-11 |
-| Id | nex-gddp-cmip5 |
-| Name | NEX-GDDP CMIP5 |
-| Version | CMIP5 archive, NCCS Version 1 description. |
-| Summary | Global daily BCSD projections from 21 CMIP5 models. |
-| Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
-| Kind | downscaled-projection |
+- __Provider:__ NASA Earth Exchange / Climate Analytics Group / NCCS
+- __Verified On:__ 2026-09-11
+- __Id:__ nex-gddp-cmip5
+- __Name:__ NEX-GDDP CMIP5
+- __Version:__ CMIP5 archive, NCCS Version 1 description.
+- __Summary:__ Global daily BCSD projections from 21 CMIP5 models.
+- __Source Scope:__ Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested.
+- __Kind:__ downscaled-projection
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Statistical downscaling |
-| Description | Bias correction and spatial disaggregation (BCSD). |
-| Reference Dataset | Global Meteorological Forcing Dataset (GMFD), as listed in the NCAR matrix. |
-| Training Period | Not recorded in the sources checked; inspect the release documentation. |
+- __Family:__ Statistical downscaling
+- __Description:__ Bias correction and spatial disaggregation (BCSD).
+- __Reference Dataset:__ Global Meteorological Forcing Dataset (GMFD), as listed in the NCAR matrix.
+- __Training Period:__ Not recorded in the sources checked; inspect the release documentation.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global; verify land mask and spatial coverage in the selected files. |
-| Grid | Regular latitude-longitude grid. |
-| Timestep | Daily |
-| Historical | 1950-2005 |
-| Future | 2006-2099 in NCCS summary; Earth Engine lists through 2100. Check the selected model/distribution. |
-| Calendar | Not verified from data files. Read the time coordinate, calendar, and accumulation interval before combining products. |
+- __Domain:__ Global; verify land mask and spatial coverage in the selected files.
+- __Grid:__ Regular latitude-longitude grid.
+- __Timestep:__ Daily
+- __Historical:__ 1950-2005
+- __Future:__ 2006-2099 in NCCS summary; Earth Engine lists through 2100. Check the selected model/distribution.
+- __Calendar:__ Not verified from data files. Read the time coordinate, calendar, and accumulation interval before combining products.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 0.25 |
-| Unit | degrees |
+- __Value:__ 0.25
+- __Unit:__ degrees
 
 ### Scenarios
 
@@ -45,19 +37,23 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| pr | kg m-2 s-1 (daily mean precipitation flux in Earth Engine) | Precipitation. Confirm whether the selected variable is a rate or accumulated amount. |
-| tasmin | K; verify the selected distribution. | Daily minimum near-surface temperature. |
-| tasmax | K; verify the selected distribution. | Daily maximum near-surface temperature. |
+1. __Name:__ pr
+   - __Unit:__ kg m-2 s-1 (daily mean precipitation flux in Earth Engine)
+   - __Description:__ Precipitation. Confirm whether the selected variable is a rate or accumulated amount.
+
+2. __Name:__ tasmin
+   - __Unit:__ K; verify the selected distribution.
+   - __Description:__ Daily minimum near-surface temperature.
+
+3. __Name:__ tasmax
+   - __Unit:__ K; verify the selected distribution.
+   - __Description:__ Daily maximum near-surface temperature.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | CMIP5 |
-| Model Count | 21 |
-| Members | Model/member/scenario availability must be checked in the selected archive. |
+- __Driving Models:__ CMIP5
+- __Model Count:__ 21
+- __Members:__ Model/member/scenario availability must be checked in the selected archive.
 
 ### Member Counts
 
@@ -65,15 +61,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://www.nccs.nasa.gov/nex-gddp/ |
-| Data | https://registry.opendata.aws/nasanex/ |
-| Format | NetCDF4 classic; also distributed through Earth Engine. |
-| License | Public domain, as stated by the Earth Engine dataset distribution. |
-| License Url | https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP |
-| Subsetting | NCCS lists THREDDS search, subset, download, and visualization services. Service operation was not tested. |
-| Cost | Data are public domain. Public S3 distribution is listed; optional platform and analysis costs are not estimated. |
+- __Landing Page:__ https://www.nccs.nasa.gov/nex-gddp/
+- __Data:__ https://registry.opendata.aws/nasanex/
+- __Format:__ NetCDF4 classic; also distributed through Earth Engine.
+- __License:__ Public domain, as stated by the Earth Engine dataset distribution.
+- __License Url:__ https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP
+- __Subsetting:__ NCCS lists THREDDS search, subset, download, and visualization services. Service operation was not tested.
+- __Cost:__ Data are public domain. Public S3 distribution is listed; optional platform and analysis costs are not estimated.
 
 ## Relevant Rows
 
@@ -88,11 +82,14 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf | Page 1, NEX-GDDP combined CMIP5/CMIP6 row; this entry includes only CMIP5. |
-| https://www.nccs.nasa.gov/nex-gddp/ | Description and Summary disagree on final year and contain a monthly/daily wording inconsistency. Data Access: service capabilities. |
-| https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP | Daily cadence, precipitation units, model list, date range, and terms of use. |
+1. __Url:__ https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+   - __Locator:__ Page 1, NEX-GDDP combined CMIP5/CMIP6 row; this entry includes only CMIP5.
+
+2. __Url:__ https://www.nccs.nasa.gov/nex-gddp/
+   - __Locator:__ Description and Summary disagree on final year and contain a monthly/daily wording inconsistency. Data Access: service capabilities.
+
+3. __Url:__ https://developers.google.com/earth-engine/datasets/catalog/NASA_NEX-GDDP
+   - __Locator:__ Daily cadence, precipitation units, model list, date range, and terms of use.
 
 ## Generation
 
@@ -100,12 +97,10 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Exact dataset creation and release dates were not established from the sources reviewed. A paper date, repository timestamp, or simulation year is not a dataset creation date. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Exact dataset creation and release dates were not established from the sources reviewed. A paper date, repository timestamp, or simulation year is not a dataset creation date.
 
 ## Existing Uses
 
@@ -117,10 +112,13 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider documentation | https://www.nccs.nasa.gov/nex-gddp/ | Product descriptions and links maintained by the provider. |
-| NASA NEX public archive | https://registry.opendata.aws/nasanex/ | Archive access and distribution details. |
+1. __Label:__ Provider documentation
+   - __Url:__ https://www.nccs.nasa.gov/nex-gddp/
+   - __Description:__ Product descriptions and links maintained by the provider.
+
+2. __Label:__ NASA NEX public archive
+   - __Url:__ https://registry.opendata.aws/nasanex/
+   - __Description:__ Archive access and distribution details.
 
 ## Aliases
 
@@ -128,17 +126,13 @@ No entries.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | NEX-GDDP CMIP5 evaluation guidance |
-| Summary | Draft interpretation of documented product properties; expert review is pending. |
+- __Title:__ NEX-GDDP CMIP5 evaluation guidance
+- __Summary:__ Draft interpretation of documented product properties; expert review is pending.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

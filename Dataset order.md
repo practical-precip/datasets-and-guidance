@@ -1,8 +1,6 @@
 # Dataset order
 
-| Field | Value |
-| --- | --- |
-| Version | 1 |
+- __Version:__ 1
 
 ## Products
 

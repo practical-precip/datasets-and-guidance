@@ -1,10 +1,8 @@
 # Sample long spells
 
-| Field | Value |
-| --- | --- |
-| Title | Sample long spells |
-| Priority | context |
-| Summary | A single realization may include too few persistent dry or wet events for your intended risk estimate. |
+- __Title:__ Sample long spells
+- __Priority:__ context
+- __Summary:__ A single realization may include too few persistent dry or wet events for your intended risk estimate.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

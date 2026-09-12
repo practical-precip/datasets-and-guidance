@@ -1,15 +1,13 @@
 # SMILEs
 
-| Field | Value |
-| --- | --- |
-| Id | smiles |
-| Name | SMILEs |
-| Kind | collection |
-| Provider | Multiple modeling centers |
-| Version | Family record; select a specific release or experiment before using data. |
-| Summary | Single-model initial-condition large ensembles: an ensemble class, not one dataset. This label is not CESM SMYLE initialized forecasts. |
-| Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
-| Verified On | 2026-09-11 |
+- __Id:__ smiles
+- __Name:__ SMILEs
+- __Kind:__ collection
+- __Provider:__ Multiple modeling centers
+- __Version:__ Family record; select a specific release or experiment before using data.
+- __Summary:__ Single-model initial-condition large ensembles: an ensemble class, not one dataset. This label is not CESM SMYLE initialized forecasts.
+- __Source Scope:__ Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -21,39 +19,31 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | collection |
-| Description | Single-model initial-condition large ensembles: an ensemble class, not one dataset. This label is not CESM SMYLE initialized forecasts. |
-| Reference Dataset | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Training Period | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Family:__ collection
+- __Description:__ Single-model initial-condition large ensembles: an ensemble class, not one dataset. This label is not CESM SMYLE initialized forecasts.
+- __Reference Dataset:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Training Period:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Model dependent |
-| Grid | Inspect the selected distribution; the nominal resolution does not specify coordinates. |
-| Timestep | Model and variable dependent |
-| Historical | Model dependent |
-| Future | Experiment or release dependent; see source documentation. |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ Model dependent
+- __Grid:__ Inspect the selected distribution; the nominal resolution does not specify coordinates.
+- __Timestep:__ Model and variable dependent
+- __Historical:__ Model dependent
+- __Future:__ Experiment or release dependent; see source documentation.
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | (not recorded) |
-| Unit | model dependent |
+- __Value:__ (not recorded)
+- __Unit:__ model dependent
 
 ### Scenarios
 
@@ -61,17 +51,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Model or experiment dependent. |
-| Model Count | (not recorded) |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ Model or experiment dependent.
+- __Model Count:__ (not recorded)
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -79,15 +67,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://www.cesm.ucar.edu/community-projects/mmlea |
-| Data | https://www.cesm.ucar.edu/community-projects/mmlea |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | Not established for the selected distribution. Public access is not a license. |
-| License Url | (not recorded) |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Landing Page:__ https://www.cesm.ucar.edu/community-projects/mmlea
+- __Data:__ https://www.cesm.ucar.edu/community-projects/mmlea
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ Not established for the selected distribution. Public access is not a license.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## References
 
@@ -95,9 +81,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://www.cesm.ucar.edu/community-projects/mmlea | Provider/project description: identity and core properties summarized above. Unstated fields remain unknown. |
+1. __Url:__ https://www.cesm.ucar.edu/community-projects/mmlea
+   - __Locator:__ Provider/project description: identity and core properties summarized above. Unstated fields remain unknown.
 
 ## Relevant Rows
 
@@ -113,23 +98,19 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or identification lead | https://www.cesm.ucar.edu/community-projects/mmlea | Resolve the release and availability before selecting data. |
+1. __Label:__ Provider or identification lead
+   - __Url:__ https://www.cesm.ucar.edu/community-projects/mmlea
+   - __Description:__ Resolve the release and availability before selecting data.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | SMILEs guidance |
-| Summary | Draft guidance for the workshop dataset name. |
+- __Title:__ SMILEs guidance
+- __Summary:__ Draft guidance for the workshop dataset name.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

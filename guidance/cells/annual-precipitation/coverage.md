@@ -1,10 +1,8 @@
 # Baseline and future periods
 
-| Field | Value |
-| --- | --- |
-| Title | Baseline and future periods |
-| Priority | essential |
-| Summary | Require a usable historical reference period and output covering the planning horizon and scenario of interest. |
+- __Title:__ Baseline and future periods
+- __Priority:__ essential
+- __Summary:__ Require a usable historical reference period and output covering the planning horizon and scenario of interest.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

@@ -1,10 +1,8 @@
 # Seasonal phase changes
 
-| Field | Value |
-| --- | --- |
-| Title | Seasonal phase changes |
-| Priority | essential |
-| Summary | Use historical and future windows that support evaluation of the changing snowfall season. |
+- __Title:__ Seasonal phase changes
+- __Priority:__ essential
+- __Summary:__ Use historical and future windows that support evaluation of the changing snowfall season.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

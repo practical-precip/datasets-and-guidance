@@ -1,15 +1,13 @@
 # CONUS-II
 
-| Field | Value |
-| --- | --- |
-| Id | conus2 |
-| Name | CONUS-II |
-| Kind | historical-simulation |
-| Provider | NCAR / Global Water Futures partners |
-| Version | Family record; select a specific release or experiment before using data. |
-| Summary | The WRF-CONUSII family is identified in partner documentation. Release, grid, forcing and period still need confirmation. |
-| Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
-| Verified On | 2026-09-11 |
+- __Id:__ conus2
+- __Name:__ CONUS-II
+- __Kind:__ historical-simulation
+- __Provider:__ NCAR / Global Water Futures partners
+- __Version:__ Family record; select a specific release or experiment before using data.
+- __Summary:__ The WRF-CONUSII family is identified in partner documentation. Release, grid, forcing and period still need confirmation.
+- __Source Scope:__ Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -21,39 +19,31 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | historical simulation |
-| Description | The WRF-CONUSII family is identified in partner documentation. Release, grid, forcing and period still need confirmation. |
-| Reference Dataset | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Training Period | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Family:__ historical simulation
+- __Description:__ The WRF-CONUSII family is identified in partner documentation. Release, grid, forcing and period still need confirmation.
+- __Reference Dataset:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Training Period:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | North American regional model domain; exact boundaries not established |
-| Grid | Inspect the selected distribution; the nominal resolution does not specify coordinates. |
-| Timestep | Not established |
-| Historical | Not established |
-| Future | Not applicable to this historical observation/analysis record. |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ North American regional model domain; exact boundaries not established
+- __Grid:__ Inspect the selected distribution; the nominal resolution does not specify coordinates.
+- __Timestep:__ Not established
+- __Historical:__ Not established
+- __Future:__ Not applicable to this historical observation/analysis record.
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | (not recorded) |
-| Unit | not established |
+- __Value:__ (not recorded)
+- __Unit:__ not established
 
 ### Scenarios
 
@@ -61,17 +51,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Not a GCM ensemble, or not yet identified. |
-| Model Count | (not recorded) |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ Not a GCM ensemble, or not yet identified.
+- __Model Count:__ (not recorded)
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -79,15 +67,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html |
-| Data | https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | Not established for the selected distribution. Public access is not a license. |
-| License Url | (not recorded) |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Landing Page:__ https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html
+- __Data:__ https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ Not established for the selected distribution. Public access is not a license.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## References
 
@@ -95,9 +81,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html | Provider/project description: identity and core properties summarized above. Unstated fields remain unknown. |
+1. __Url:__ https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html
+   - __Locator:__ Provider/project description: identity and core properties summarized above. Unstated fields remain unknown.
 
 ## Relevant Rows
 
@@ -113,23 +98,19 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or identification lead | https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html | Resolve the release and availability before selecting data. |
+1. __Label:__ Provider or identification lead
+   - __Url:__ https://datatool.readthedocs.io/en/stable/scripts/gwf-ncar-conus_ii.html
+   - __Description:__ Resolve the release and availability before selecting data.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | CONUS-II guidance |
-| Summary | Draft guidance for the workshop dataset name. |
+- __Title:__ CONUS-II guidance
+- __Summary:__ Draft guidance for the workshop dataset name.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

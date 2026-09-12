@@ -1,15 +1,13 @@
 # Global BCCAQ (Gebrechorkos et al.)
 
-| Field | Value |
-| --- | --- |
-| Id | global-bccaq |
-| Name | Global BCCAQ (Gebrechorkos et al.) |
-| Provider | Gebrechorkos and collaborators / CEDA |
-| Version | Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications. |
-| Summary | Evaluate the reference precipitation product in your region. A global grid does not establish regional skill for extremes or mountain precipitation. |
-| Source Scope | Matrix entry reconciled with the 2023 dataset paper checked on 2026-09-11. The paper identifies SSP5-3.4-OS where the matrix lists SSP3-7.0; this record follows the paper. |
-| Verified On | 2026-09-11 |
-| Kind | downscaled-projection |
+- __Id:__ global-bccaq
+- __Name:__ Global BCCAQ (Gebrechorkos et al.)
+- __Provider:__ Gebrechorkos and collaborators / CEDA
+- __Version:__ Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
+- __Summary:__ Evaluate the reference precipitation product in your region. A global grid does not establish regional skill for extremes or mountain precipitation.
+- __Source Scope:__ Matrix entry reconciled with the 2023 dataset paper checked on 2026-09-11. The paper identifies SSP5-3.4-OS where the matrix lists SSP3-7.0; this record follows the paper.
+- __Verified On:__ 2026-09-11
+- __Kind:__ downscaled-projection
 
 ## Generation
 
@@ -17,39 +15,31 @@
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | 2023-09-11 |
-| Notes | Exact creation/release dates are not established. Simulation periods and version tokens are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ 2023-09-11
+- __Notes:__ Exact creation/release dates are not established. Simulation periods and version tokens are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Statistical downscaling |
-| Description | Bias correction constructed analogs and quantile mapping |
-| Reference Dataset | MSWX/MSWEP, GloH2O reference products as identified in the matrix |
-| Training Period | 1981-2014 |
+- __Family:__ Statistical downscaling
+- __Description:__ Bias correction constructed analogs and quantile mapping
+- __Reference Dataset:__ MSWX/MSWEP, GloH2O reference products as identified in the matrix
+- __Training Period:__ 1981-2014
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global |
-| Grid | Latitude-longitude output grid described in the matrix; confirm coordinates in selected files. |
-| Timestep | Daily |
-| Historical | 1981-2014 |
-| Future | 2015-2100 |
-| Calendar | Not established from the sources checked. |
+- __Domain:__ Global
+- __Grid:__ Latitude-longitude output grid described in the matrix; confirm coordinates in selected files.
+- __Timestep:__ Daily
+- __Historical:__ 1981-2014
+- __Future:__ 2015-2100
+- __Calendar:__ Not established from the sources checked.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 0.25 |
-| Unit | degree |
+- __Value:__ 0.25
+- __Unit:__ degree
 
 ### Scenarios
 
@@ -59,19 +49,23 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Verify units and accumulation interval in selected files. | Variable family identified in the matrix; archive names and availability may differ. |
-| minimum temperature | Verify units and accumulation interval in selected files. | Variable family identified in the matrix; archive names and availability may differ. |
-| maximum temperature | Verify units and accumulation interval in selected files. | Variable family identified in the matrix; archive names and availability may differ. |
+1. __Name:__ precipitation
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Variable family identified in the matrix; archive names and availability may differ.
+
+2. __Name:__ minimum temperature
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Variable family identified in the matrix; archive names and availability may differ.
+
+3. __Name:__ maximum temperature
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Variable family identified in the matrix; archive names and availability may differ.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | 18 CMIP6 models |
-| Model Count | 18 |
-| Members | Not established from the sources checked. |
+- __Driving Models:__ 18 CMIP6 models
+- __Model Count:__ 18
+- __Members:__ Not established from the sources checked.
 
 ### Member Counts
 
@@ -79,15 +73,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://catalogue.ceda.ac.uk/uuid/c107618f1db34801bb88a1e927b82317/ |
-| Data | https://catalogue.ceda.ac.uk/uuid/c107618f1db34801bb88a1e927b82317/ |
-| Format | Not established from the sources checked. |
-| License | Not established. Public access does not itself specify reuse terms. |
-| License Url | (not recorded) |
-| Subsetting | Not verified. The linked documentation may describe access, rather than provide a working subset service. |
-| Cost | Not established from the sources checked. |
+- __Landing Page:__ https://catalogue.ceda.ac.uk/uuid/c107618f1db34801bb88a1e927b82317/
+- __Data:__ https://catalogue.ceda.ac.uk/uuid/c107618f1db34801bb88a1e927b82317/
+- __Format:__ Not established from the sources checked.
+- __License:__ Not established. Public access does not itself specify reuse terms.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not verified. The linked documentation may describe access, rather than provide a working subset service.
+- __Cost:__ Not established from the sources checked.
 
 ## References
 
@@ -95,10 +87,11 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf | Page 1, dataset row 11: Global BCCAQ (Gebrechorkos et al.). Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability. |
-| https://www.nature.com/articles/s41597-023-02528-x | Checked: Abstract and Methods/Data acquisition establish scenarios (including SSP5-3.4-OS), periods, 18 GCMs, MSWX and MSWEP references. |
+1. __Url:__ https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+   - __Locator:__ Page 1, dataset row 11: Global BCCAQ (Gebrechorkos et al.). Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability.
+
+2. __Url:__ https://www.nature.com/articles/s41597-023-02528-x
+   - __Locator:__ Checked: Abstract and Methods/Data acquisition establish scenarios (including SSP5-3.4-OS), periods, 18 GCMs, MSWX and MSWEP references.
 
 ## Relevant Rows
 
@@ -114,10 +107,13 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or method documentation | https://catalogue.ceda.ac.uk/uuid/c107618f1db34801bb88a1e927b82317/ | Follow-up resource; availability of data must be confirmed. |
-| Related publication or technical report | https://www.nature.com/articles/s41597-023-02528-x | Publication linked by the matrix. Its scope may describe a method or historical evaluation rather than every cataloged configuration. |
+1. __Label:__ Provider or method documentation
+   - __Url:__ https://catalogue.ceda.ac.uk/uuid/c107618f1db34801bb88a1e927b82317/
+   - __Description:__ Follow-up resource; availability of data must be confirmed.
+
+2. __Label:__ Related publication or technical report
+   - __Url:__ https://www.nature.com/articles/s41597-023-02528-x
+   - __Description:__ Publication linked by the matrix. Its scope may describe a method or historical evaluation rather than every cataloged configuration.
 
 ## Aliases
 
@@ -125,17 +121,13 @@ No entries.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | Global BCCAQ (Gebrechorkos et al.) evaluation guidance |
-| Summary | Draft interpretation of documented product properties; expert review is pending. |
+- __Title:__ Global BCCAQ (Gebrechorkos et al.) evaluation guidance
+- __Summary:__ Draft interpretation of documented product properties; expert review is pending.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

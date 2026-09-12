@@ -1,10 +1,8 @@
 # Compare phase response
 
-| Field | Value |
-| --- | --- |
-| Title | Compare phase response |
-| Priority | context |
-| Summary | Snow-related impacts depend on the joint changes in temperature and precipitation across models. |
+- __Title:__ Compare phase response
+- __Priority:__ context
+- __Summary:__ Snow-related impacts depend on the joint changes in temperature and precipitation across models.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

@@ -1,10 +1,8 @@
 # Compare occurrence
 
-| Field | Value |
-| --- | --- |
-| Title | Compare occurrence |
-| Priority | context |
-| Summary | Assess whether driving models and downscaling methods give consistent changes in wet frequency and spell persistence. |
+- __Title:__ Compare occurrence
+- __Priority:__ context
+- __Summary:__ Assess whether driving models and downscaling methods give consistent changes in wet frequency and spell persistence.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

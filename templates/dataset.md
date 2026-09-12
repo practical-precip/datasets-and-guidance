@@ -1,42 +1,34 @@
 # New dataset
 
-| Field | Value |
-| --- | --- |
-| Id | new-dataset |
-| Name | New dataset |
-| Version | Release not yet identified |
-| Summary | Not recorded. Add a source and its scope. |
-| Provider | Not recorded. Add a source and its scope. |
-| Verified On | 2026-09-11 |
-| Source Scope | Not recorded. Add a source and its scope. |
-| Kind | unresolved |
+- __Id:__ new-dataset
+- __Name:__ New dataset
+- __Version:__ Release not yet identified
+- __Summary:__ Not recorded. Add a source and its scope.
+- __Provider:__ Not recorded. Add a source and its scope.
+- __Verified On:__ 2026-09-11
+- __Source Scope:__ Not recorded. Add a source and its scope.
+- __Kind:__ unresolved
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Not recorded. Add a source and its scope. |
-| Description | Not recorded. Add a source and its scope. |
-| Reference Dataset | Not recorded. Add a source and its scope. |
-| Training Period | Not recorded. Add a source and its scope. |
+- __Family:__ Not recorded. Add a source and its scope.
+- __Description:__ Not recorded. Add a source and its scope.
+- __Reference Dataset:__ Not recorded. Add a source and its scope.
+- __Training Period:__ Not recorded. Add a source and its scope.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Not recorded. Add a source and its scope. |
-| Grid | Not recorded. Add a source and its scope. |
-| Timestep | Not recorded. Add a source and its scope. |
-| Historical | Not recorded. Add a source and its scope. |
-| Future | Not recorded. Add a source and its scope. |
-| Calendar | Not recorded. Add a source and its scope. |
+- __Domain:__ Not recorded. Add a source and its scope.
+- __Grid:__ Not recorded. Add a source and its scope.
+- __Timestep:__ Not recorded. Add a source and its scope.
+- __Historical:__ Not recorded. Add a source and its scope.
+- __Future:__ Not recorded. Add a source and its scope.
+- __Calendar:__ Not recorded. Add a source and its scope.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | (not recorded) |
-| Unit | Not recorded. Add a source and its scope. |
+- __Value:__ (not recorded)
+- __Unit:__ Not recorded. Add a source and its scope.
 
 ### Scenarios
 
@@ -44,17 +36,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Not recorded. | Confirm the variable and accumulation period. |
+1. __Name:__ precipitation
+   - __Unit:__ Not recorded.
+   - __Description:__ Confirm the variable and accumulation period.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Not recorded. Add a source and its scope. |
-| Model Count | (not recorded) |
-| Members | Not recorded. Add a source and its scope. |
+- __Driving Models:__ Not recorded. Add a source and its scope.
+- __Model Count:__ (not recorded)
+- __Members:__ Not recorded. Add a source and its scope.
 
 ### Member Counts
 
@@ -62,15 +52,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://example.org/replace-this |
-| Data | https://example.org/replace-this |
-| Format | Not recorded. Add a source and its scope. |
-| License | Not recorded. Add a source and its scope. |
-| License Url | (not recorded) |
-| Subsetting | Not recorded. Add a source and its scope. |
-| Cost | Not recorded. Add a source and its scope. |
+- __Landing Page:__ https://example.org/replace-this
+- __Data:__ https://example.org/replace-this
+- __Format:__ Not recorded. Add a source and its scope.
+- __License:__ Not recorded. Add a source and its scope.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not recorded. Add a source and its scope.
+- __Cost:__ Not recorded. Add a source and its scope.
 
 ## References
 
@@ -78,9 +66,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://example.org/replace-this | Replace with the provider or paper and the supporting section. |
+1. __Url:__ https://example.org/replace-this
+   - __Locator:__ Replace with the provider or paper and the supporting section.
 
 ## Relevant Rows
 
@@ -92,12 +79,10 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Dates not yet established. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Dates not yet established.
 
 ## Existing Uses
 
@@ -117,17 +102,13 @@ No entries.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | New dataset guidance |
-| Summary | Draft guidance awaiting evidence and expert review. |
+- __Title:__ New dataset guidance
+- __Summary:__ Draft guidance awaiting evidence and expert review.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

@@ -1,15 +1,13 @@
 # Stage IV
 
-| Field | Value |
-| --- | --- |
-| Id | stage-iv |
-| Name | Stage IV |
-| Kind | observation |
-| Provider | NCEP / River Forecast Centers |
-| Version | Family record; select a specific release or experiment before using data. |
-| Summary | Radar and gauge precipitation analysis. Check accumulation duration, coverage and processing changes before climate comparisons. |
-| Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
-| Verified On | 2026-09-11 |
+- __Id:__ stage-iv
+- __Name:__ Stage IV
+- __Kind:__ observation
+- __Provider:__ NCEP / River Forecast Centers
+- __Version:__ Family record; select a specific release or experiment before using data.
+- __Summary:__ Radar and gauge precipitation analysis. Check accumulation duration, coverage and processing changes before climate comparisons.
+- __Source Scope:__ Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -22,39 +20,31 @@ No entries.
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | observation |
-| Description | Radar and gauge precipitation analysis. Check accumulation duration, coverage and processing changes before climate comparisons. |
-| Reference Dataset | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Training Period | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Family:__ observation
+- __Description:__ Radar and gauge precipitation analysis. Check accumulation duration, coverage and processing changes before climate comparisons.
+- __Reference Dataset:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Training Period:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | US radar/forecast-center analysis domain |
-| Grid | Inspect the selected distribution; the nominal resolution does not specify coordinates. |
-| Timestep | Accumulation interval depends on product |
-| Historical | Archive and accumulation dependent |
-| Future | Not applicable to this historical observation/analysis record. |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ US radar/forecast-center analysis domain
+- __Grid:__ Inspect the selected distribution; the nominal resolution does not specify coordinates.
+- __Timestep:__ Accumulation interval depends on product
+- __Historical:__ Archive and accumulation dependent
+- __Future:__ Not applicable to this historical observation/analysis record.
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 4 |
-| Unit | km nominal |
+- __Value:__ 4
+- __Unit:__ km nominal
 
 ### Scenarios
 
@@ -62,17 +52,15 @@ No entries.
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | Not a GCM ensemble, or not yet identified. |
-| Model Count | (not recorded) |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ Not a GCM ensemble, or not yet identified.
+- __Model Count:__ (not recorded)
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -80,15 +68,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html |
-| Data | https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | Not established for the selected distribution. Public access is not a license. |
-| License Url | (not recorded) |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Landing Page:__ https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html
+- __Data:__ https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ Not established for the selected distribution. Public access is not a license.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## References
 
@@ -96,9 +82,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html | Provider/project description: identity and core properties summarized above. Unstated fields remain unknown. |
+1. __Url:__ https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html
+   - __Locator:__ Provider/project description: identity and core properties summarized above. Unstated fields remain unknown.
 
 ## Relevant Rows
 
@@ -114,23 +99,19 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or identification lead | https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html | Resolve the release and availability before selecting data. |
+1. __Label:__ Provider or identification lead
+   - __Url:__ https://www.emc.ncep.noaa.gov/mmb/research/stage4.FAQ.html
+   - __Description:__ Resolve the release and availability before selecting data.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | Stage IV guidance |
-| Summary | Draft guidance for the workshop dataset name. |
+- __Title:__ Stage IV guidance
+- __Summary:__ Draft guidance for the workshop dataset name.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

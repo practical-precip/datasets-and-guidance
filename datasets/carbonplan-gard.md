@@ -1,15 +1,13 @@
 # CarbonPlan GARD-SV and GARD-MV
 
-| Field | Value |
-| --- | --- |
-| Id | carbonplan-gard |
-| Name | CarbonPlan GARD-SV and GARD-MV |
-| Provider | CarbonPlan |
-| Version | Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications. |
-| Summary | SV and MV are separate run collections. CarbonPlan omits En-GARD stochastic ensemble generation. Model and scenario overlap must be checked before comparing methods. |
-| Source Scope | Matrix fields supplemented by the CarbonPlan release article checked on 2026-09-11. Run-specific availability and data licenses still require verification. |
-| Verified On | 2026-09-11 |
-| Kind | downscaled-projection |
+- __Id:__ carbonplan-gard
+- __Name:__ CarbonPlan GARD-SV and GARD-MV
+- __Provider:__ CarbonPlan
+- __Version:__ Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
+- __Summary:__ SV and MV are separate run collections. CarbonPlan omits En-GARD stochastic ensemble generation. Model and scenario overlap must be checked before comparing methods.
+- __Source Scope:__ Matrix fields supplemented by the CarbonPlan release article checked on 2026-09-11. Run-specific availability and data licenses still require verification.
+- __Verified On:__ 2026-09-11
+- __Kind:__ downscaled-projection
 
 ## Generation
 
@@ -17,39 +15,31 @@
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | 2022-06-30 |
-| Publication | (not recorded) |
-| Notes | Date of the first-release article, not dataset creation or every later run. |
+- __Created:__ (not recorded)
+- __Released:__ 2022-06-30
+- __Publication:__ (not recorded)
+- __Notes:__ Date of the first-release article, not dataset creation or every later run.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Statistical downscaling |
-| Description | Single-variate and multivariate GARD implementations |
-| Reference Dataset | ERA5 |
-| Training Period | Not established from the sources checked. |
+- __Family:__ Statistical downscaling
+- __Description:__ Single-variate and multivariate GARD implementations
+- __Reference Dataset:__ ERA5
+- __Training Period:__ Not established from the sources checked.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global |
-| Grid | Latitude-longitude output grid described in the matrix; confirm coordinates in selected files. |
-| Timestep | Daily |
-| Historical | Historical component of 1950-2099; experiment transition must be checked. |
-| Future | Future component of 1950-2099; not every model/scenario is necessarily complete. |
-| Calendar | Not established from the sources checked. |
+- __Domain:__ Global
+- __Grid:__ Latitude-longitude output grid described in the matrix; confirm coordinates in selected files.
+- __Timestep:__ Daily
+- __Historical:__ Historical component of 1950-2099; experiment transition must be checked.
+- __Future:__ Future component of 1950-2099; not every model/scenario is necessarily complete.
+- __Calendar:__ Not established from the sources checked.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 0.25 |
-| Unit | degree |
+- __Value:__ 0.25
+- __Unit:__ degree
 
 ### Scenarios
 
@@ -59,19 +49,23 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Verify units and accumulation interval in selected files. | Variable family identified in the matrix; archive names and availability may differ. |
-| minimum temperature | Verify units and accumulation interval in selected files. | Variable family identified in the matrix; archive names and availability may differ. |
-| maximum temperature | Verify units and accumulation interval in selected files. | Variable family identified in the matrix; archive names and availability may differ. |
+1. __Name:__ precipitation
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Variable family identified in the matrix; archive names and availability may differ.
+
+2. __Name:__ minimum temperature
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Variable family identified in the matrix; archive names and availability may differ.
+
+3. __Name:__ maximum temperature
+   - __Unit:__ Verify units and accumulation interval in selected files.
+   - __Description:__ Variable family identified in the matrix; archive names and availability may differ.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | CMIP6; availability differs between SV and MV |
-| Model Count | (not recorded) |
-| Members | Not established from the sources checked. |
+- __Driving Models:__ CMIP6; availability differs between SV and MV
+- __Model Count:__ (not recorded)
+- __Members:__ Not established from the sources checked.
 
 ### Member Counts
 
@@ -79,15 +73,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://carbonplan.org/research/cmip6-downscaling-explainer |
-| Data | https://carbonplan.org/research/cmip6-downscaling-explainer |
-| Format | Not established from the sources checked. |
-| License | Not established. Public access does not itself specify reuse terms. |
-| License Url | (not recorded) |
-| Subsetting | Not verified. The linked documentation may describe access, rather than provide a working subset service. |
-| Cost | Not established from the sources checked. |
+- __Landing Page:__ https://carbonplan.org/research/cmip6-downscaling-explainer
+- __Data:__ https://carbonplan.org/research/cmip6-downscaling-explainer
+- __Format:__ Not established from the sources checked.
+- __License:__ Not established. Public access does not itself specify reuse terms.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not verified. The linked documentation may describe access, rather than provide a working subset service.
+- __Cost:__ Not established from the sources checked.
 
 ## References
 
@@ -95,10 +87,11 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf | Page 1, dataset row 15: CarbonPlan GARD-SV and GARD-MV. Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability. |
-| https://carbonplan.org/research/cmip6-downscaling-explainer | Checked: first-release date, method distinctions, coverage and funding. Run counts are not GCM counts. |
+1. __Url:__ https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+   - __Locator:__ Page 1, dataset row 15: CarbonPlan GARD-SV and GARD-MV. Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability.
+
+2. __Url:__ https://carbonplan.org/research/cmip6-downscaling-explainer
+   - __Locator:__ Checked: first-release date, method distinctions, coverage and funding. Run counts are not GCM counts.
 
 ## Relevant Rows
 
@@ -110,17 +103,25 @@ No entries.
 
 ## Funding
 
-| Agency | Award | Notes | Source Url |
-| --- | --- | --- | --- |
-| Microsoft AI for Earth | (not recorded) | Grant acknowledged in release article. | https://carbonplan.org/research/cmip6-downscaling-explainer |
-| NASA | 80NSSC21M0065 | Contributing support acknowledged in release article. | https://carbonplan.org/research/cmip6-downscaling-explainer |
+1. __Agency:__ Microsoft AI for Earth
+   - __Award:__ (not recorded)
+   - __Notes:__ Grant acknowledged in release article.
+   - __Source Url:__ https://carbonplan.org/research/cmip6-downscaling-explainer
+
+2. __Agency:__ NASA
+   - __Award:__ 80NSSC21M0065
+   - __Notes:__ Contributing support acknowledged in release article.
+   - __Source Url:__ https://carbonplan.org/research/cmip6-downscaling-explainer
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or method documentation | https://carbonplan.org/research/cmip6-downscaling-explainer | Follow-up resource; availability of data must be confirmed. |
-| Run catalog | https://github.com/carbonplan/cmip6-downscaling/blob/main/datasets.md | Resolve method, GCM, scenario and run availability. |
+1. __Label:__ Provider or method documentation
+   - __Url:__ https://carbonplan.org/research/cmip6-downscaling-explainer
+   - __Description:__ Follow-up resource; availability of data must be confirmed.
+
+2. __Label:__ Run catalog
+   - __Url:__ https://github.com/carbonplan/cmip6-downscaling/blob/main/datasets.md
+   - __Description:__ Resolve method, GCM, scenario and run availability.
 
 ## Aliases
 
@@ -128,17 +129,13 @@ No entries.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | CarbonPlan GARD-SV and GARD-MV evaluation guidance |
-| Summary | Draft interpretation of documented product properties; expert review is pending. |
+- __Title:__ CarbonPlan GARD-SV and GARD-MV evaluation guidance
+- __Summary:__ Draft interpretation of documented product properties; expert review is pending.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

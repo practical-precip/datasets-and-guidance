@@ -1,12 +1,10 @@
 # Annual maximum precipitation
 
-| Field | Value |
-| --- | --- |
-| Id | annual-maximum |
-| Title | Annual maximum precipitation |
-| Short | Annual maxima |
-| Use | Extreme rainfall & flood studies |
-| Intro | Define the accumulation duration and spatial support first. A maximum hourly point value, a maximum daily grid value, and a basin-average storm maximum answer different questions. |
+- __Id:__ annual-maximum
+- __Title:__ Annual maximum precipitation
+- __Short:__ Annual maxima
+- __Use:__ Extreme rainfall & flood studies
+- __Intro:__ Define the accumulation duration and spatial support first. A maximum hourly point value, a maximum daily grid value, and a basin-average storm maximum answer different questions.
 
 ## Metrics
 
@@ -22,25 +20,21 @@
 
 ## Figure
 
-| Field | Value |
-| --- | --- |
-| Title | A daily total does not identify an hourly peak. |
-| Alt | Two synthetic 24-hour storms both total 48 mm. One is steady at 2 mm each hour; the other places all 48 mm in two hours with a peak of 30 mm. |
-| Caption | The constructed storms have identical daily accumulations of 48 mm and different hourly maxima. Daily output alone cannot distinguish these within-day sequences. |
-| Image | /content-assets/guidance/figures/annual-maximum.png |
-| Pdf | /content-assets/guidance/figures/annual-maximum.pdf |
-| Provenance | Original synthetic example, generated with Matplotlib. No observations or downscaling product output are shown. |
-| Data | /content-assets/guidance/figures/examples.json |
-| Code | /content-assets/guidance/figures/make_figures.py |
+- __Title:__ A daily total does not identify an hourly peak.
+- __Alt:__ Two synthetic 24-hour storms both total 48 mm. One is steady at 2 mm each hour; the other places all 48 mm in two hours with a peak of 30 mm.
+- __Caption:__ The constructed storms have identical daily accumulations of 48 mm and different hourly maxima. Daily output alone cannot distinguish these within-day sequences.
+- __Image:__ /content-assets/guidance/figures/annual-maximum.png
+- __Pdf:__ /content-assets/guidance/figures/annual-maximum.pdf
+- __Provenance:__ Original synthetic example, generated with Matplotlib. No observations or downscaling product output are shown.
+- __Data:__ /content-assets/guidance/figures/examples.json
+- __Code:__ /content-assets/guidance/figures/make_figures.py
 
 ## Cells
 
-| Field | Value |
-| --- | --- |
-| Spatial | cells/annual-maximum/spatial.md |
-| Temporal | cells/annual-maximum/temporal.md |
-| Models | cells/annual-maximum/models.md |
-| Members | cells/annual-maximum/members.md |
-| Domain | cells/annual-maximum/domain.md |
-| Coverage | cells/annual-maximum/coverage.md |
+- __Spatial:__ cells/annual-maximum/spatial.md
+- __Temporal:__ cells/annual-maximum/temporal.md
+- __Models:__ cells/annual-maximum/models.md
+- __Members:__ cells/annual-maximum/members.md
+- __Domain:__ cells/annual-maximum/domain.md
+- __Coverage:__ cells/annual-maximum/coverage.md
 

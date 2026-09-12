@@ -1,10 +1,8 @@
 # Wet-interval definition
 
-| Field | Value |
-| --- | --- |
-| Title | Wet-interval definition |
-| Priority | context |
-| Summary | A catchment can receive rain somewhere while one location remains dry. Occurrence depends on spatial aggregation. |
+- __Title:__ Wet-interval definition
+- __Priority:__ context
+- __Summary:__ A catchment can receive rain somewhere while one location remains dry. Occurrence depends on spatial aggregation.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

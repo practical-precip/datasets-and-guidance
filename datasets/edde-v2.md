@@ -1,15 +1,13 @@
 # EDDE v2
 
-| Field | Value |
-| --- | --- |
-| Id | edde-v2 |
-| Name | EDDE v2 |
-| Kind | downscaled-projection |
-| Provider | US Environmental Protection Agency |
-| Version | Family record; select a specific release or experiment before using data. |
-| Summary | CMIP6 WRF ensemble using MPI-ESM1-2-HR and NorESM2-MM. Version 2 is distinct from the existing EDDE v1 record. |
-| Source Scope | Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected. |
-| Verified On | 2026-09-11 |
+- __Id:__ edde-v2
+- __Name:__ EDDE v2
+- __Kind:__ downscaled-projection
+- __Provider:__ US Environmental Protection Agency
+- __Version:__ Family record; select a specific release or experiment before using data.
+- __Summary:__ CMIP6 WRF ensemble using MPI-ESM1-2-HR and NorESM2-MM. Version 2 is distinct from the existing EDDE v1 record.
+- __Source Scope:__ Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+- __Verified On:__ 2026-09-11
 
 ## Aliases
 
@@ -21,39 +19,31 @@
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | (not recorded) |
-| Notes | Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ (not recorded)
+- __Notes:__ Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Dynamical downscaling |
-| Description | CMIP6 WRF ensemble using MPI-ESM1-2-HR and NorESM2-MM. Version 2 is distinct from the existing EDDE v1 record. |
-| Reference Dataset | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Training Period | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Family:__ Dynamical downscaling
+- __Description:__ CMIP6 WRF ensemble using MPI-ESM1-2-HR and NorESM2-MM. Version 2 is distinct from the existing EDDE v1 record.
+- __Reference Dataset:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Training Period:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Conterminous United States |
-| Grid | Inspect the selected distribution; the nominal resolution does not specify coordinates. |
-| Timestep | Hourly |
-| Historical | 1985-2014 historical |
-| Future | 2025-2100 |
-| Calendar | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Domain:__ Conterminous United States
+- __Grid:__ Inspect the selected distribution; the nominal resolution does not specify coordinates.
+- __Timestep:__ Hourly
+- __Historical:__ 1985-2014 historical
+- __Future:__ 2025-2100
+- __Calendar:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 12 |
-| Unit | km |
+- __Value:__ 12
+- __Unit:__ km
 
 ### Scenarios
 
@@ -62,17 +52,15 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| precipitation | Inspect the selected variable, accumulation interval and units. | Catalog focus; this is not a complete inventory of variables or files. |
+1. __Name:__ precipitation
+   - __Unit:__ Inspect the selected variable, accumulation interval and units.
+   - __Description:__ Catalog focus; this is not a complete inventory of variables or files.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | MPI-ESM1-2-HR and NorESM2-MM |
-| Model Count | 2 |
-| Members | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Driving Models:__ MPI-ESM1-2-HR and NorESM2-MM
+- __Model Count:__ 2
+- __Members:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ### Member Counts
 
@@ -80,15 +68,13 @@ No entries.
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://registry.opendata.aws/epa-edde-v2/ |
-| Data | https://registry.opendata.aws/epa-edde-v2/ |
-| Format | Not established for the selected release. Contributions with provider documentation are welcome. |
-| License | Not established for the selected distribution. Public access is not a license. |
-| License Url | (not recorded) |
-| Subsetting | Not established for the selected release. Contributions with provider documentation are welcome. |
-| Cost | Not established for the selected release. Contributions with provider documentation are welcome. |
+- __Landing Page:__ https://registry.opendata.aws/epa-edde-v2/
+- __Data:__ https://registry.opendata.aws/epa-edde-v2/
+- __Format:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __License:__ Not established for the selected distribution. Public access is not a license.
+- __License Url:__ (not recorded)
+- __Subsetting:__ Not established for the selected release. Contributions with provider documentation are welcome.
+- __Cost:__ Not established for the selected release. Contributions with provider documentation are welcome.
 
 ## References
 
@@ -96,9 +82,8 @@ No entries.
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://registry.opendata.aws/epa-edde-v2/ | Provider/project description: identity and core properties summarized above. Unstated fields remain unknown. |
+1. __Url:__ https://registry.opendata.aws/epa-edde-v2/
+   - __Locator:__ Provider/project description: identity and core properties summarized above. Unstated fields remain unknown.
 
 ## Relevant Rows
 
@@ -114,23 +99,19 @@ No entries.
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider or identification lead | https://registry.opendata.aws/epa-edde-v2/ | Resolve the release and availability before selecting data. |
+1. __Label:__ Provider or identification lead
+   - __Url:__ https://registry.opendata.aws/epa-edde-v2/
+   - __Description:__ Resolve the release and availability before selecting data.
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | EDDE v2 guidance |
-| Summary | Draft guidance for the workshop dataset name. |
+- __Title:__ EDDE v2 guidance
+- __Summary:__ Draft guidance for the workshop dataset name.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

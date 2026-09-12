@@ -1,10 +1,8 @@
 # Check synchronized storms
 
-| Field | Value |
-| --- | --- |
-| Title | Check synchronized storms |
-| Priority | essential |
-| Summary | Use synchronized timestamps and an interval that resolves the propagation or concurrence of events of interest. |
+- __Title:__ Check synchronized storms
+- __Priority:__ essential
+- __Summary:__ Use synchronized timestamps and an interval that resolves the propagation or concurrence of events of interest.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

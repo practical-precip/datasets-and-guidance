@@ -1,10 +1,8 @@
 # Catchment spatial support
 
-| Field | Value |
-| --- | --- |
-| Title | Catchment spatial support |
-| Priority | context |
-| Summary | Choose a spatial scale that represents your catchment and elevation gradients. Fine grid spacing is not a guarantee of accurate basin totals. |
+- __Title:__ Catchment spatial support
+- __Priority:__ context
+- __Summary:__ Choose a spatial scale that represents your catchment and elevation gradients. Fine grid spacing is not a guarantee of accurate basin totals.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 
@@ -23,12 +19,10 @@ No entries.
 
 ## Regions
 
-| Field | Value |
-| --- | --- |
-| Northwest | cells/annual-precipitation/spatial.northwest.md |
-| Southwest | cells/annual-precipitation/spatial.southwest.md |
-| Alaska | cells/annual-precipitation/spatial.alaska.md |
-| Hawaii | cells/annual-precipitation/spatial.hawaii.md |
+- __Northwest:__ cells/annual-precipitation/spatial.northwest.md
+- __Southwest:__ cells/annual-precipitation/spatial.southwest.md
+- __Alaska:__ cells/annual-precipitation/spatial.alaska.md
+- __Hawaii:__ cells/annual-precipitation/spatial.hawaii.md
 
 ## Guidance
 

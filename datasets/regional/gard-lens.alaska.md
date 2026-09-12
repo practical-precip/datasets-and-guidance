@@ -1,16 +1,12 @@
 # gard-lens.alaska.md
 
-| Field | Value |
-| --- | --- |
-| Title | GARD-LENS: Alaska evaluation guidance |
-| Summary | Check the Alaska observation processing before evaluating heavy precipitation. |
+- __Title:__ GARD-LENS: Alaska evaluation guidance
+- __Summary:__ Check the Alaska observation processing before evaluating heavy precipitation.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 
@@ -18,9 +14,10 @@
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| The authors capped Alaska GMET training precipitation at 500 mm/day and regridded it from a 2 km curvilinear grid to an approximately 4 km rectilinear grid. | hartke-gard-lens | Methods: Observation data. | Processing of Alaska training observations, not a stated maximum imposed on every projected GARD-LENS value. |
+1. __Statement:__ The authors capped Alaska GMET training precipitation at 500 mm/day and regridded it from a 2 km curvilinear grid to an approximately 4 km rectilinear grid.
+   - __Paper:__ hartke-gard-lens
+   - __Locator:__ Methods: Observation data.
+   - __Scope:__ Processing of Alaska training observations, not a stated maximum imposed on every projected GARD-LENS value.
 
 ## Guidance
 

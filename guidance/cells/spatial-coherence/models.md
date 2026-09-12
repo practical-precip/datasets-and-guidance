@@ -1,10 +1,8 @@
 # Test each method
 
-| Field | Value |
-| --- | --- |
-| Title | Test each method |
-| Priority | context |
-| Summary | Assess field behavior across driving models and downscaling methods before treating them as interchangeable. |
+- __Title:__ Test each method
+- __Priority:__ context
+- __Summary:__ Assess field behavior across driving models and downscaling methods before treating them as interchangeable.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

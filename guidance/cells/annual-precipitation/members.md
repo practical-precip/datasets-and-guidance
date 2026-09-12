@@ -1,23 +1,20 @@
 # Forced change and internal variability
 
-| Field | Value |
-| --- | --- |
-| Title | Forced change and internal variability |
-| Priority | context |
-| Summary | For short records or modest changes, internal variability can affect the interpretation of annual precipitation trends. |
+- __Title:__ Forced change and internal variability
+- __Priority:__ context
+- __Summary:__ For short records or modest changes, internal variability can affect the interpretation of annual precipitation trends.
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| Uncertainty partitioning based on a single realization can be biased at regional scales; the study obtained more accurate separation using multiple initial-condition large ensembles. | lehner | Abstract; Sections 3 and 4 | Results depend on the region, variable, and ensemble archive considered. |
+1. __Statement:__ Uncertainty partitioning based on a single realization can be biased at regional scales; the study obtained more accurate separation using multiple initial-condition large ensembles.
+   - __Paper:__ lehner
+   - __Locator:__ Abstract; Sections 3 and 4
+   - __Scope:__ Results depend on the region, variable, and ensemble archive considered.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

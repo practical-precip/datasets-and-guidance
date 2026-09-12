@@ -1,16 +1,12 @@
 # wus-d3.northwest.md
 
-| Field | Value |
-| --- | --- |
-| Title | WUS-D3: Northwest evaluation guidance |
-| Summary | Check winter mountain precipitation and the forcing configuration. |
+- __Title:__ WUS-D3: Northwest evaluation guidance
+- __Summary:__ Check winter mountain precipitation and the forcing configuration.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 
@@ -18,9 +14,10 @@
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| The original WUS-D3 study found that downscaling amplified parent-model wet biases in Washington and Oregon, especially over mountains in winter. | rahimi-wus-d3 | Section 3, Figures 3-4 and supplementary Figure S3. | Historical evaluation of the original uncorrected-forcing ensemble; not a conclusion about later bias-corrected experiments or every Northwest basin. |
+1. __Statement:__ The original WUS-D3 study found that downscaling amplified parent-model wet biases in Washington and Oregon, especially over mountains in winter.
+   - __Paper:__ rahimi-wus-d3
+   - __Locator:__ Section 3, Figures 3-4 and supplementary Figure S3.
+   - __Scope:__ Historical evaluation of the original uncorrected-forcing ensemble; not a conclusion about later bias-corrected experiments or every Northwest basin.
 
 ## Guidance
 

@@ -1,10 +1,8 @@
 # Include the full basin
 
-| Field | Value |
-| --- | --- |
-| Title | Include the full basin |
-| Priority | essential |
-| Summary | Check that the product covers the entire contributing area, including upstream regions across national boundaries. |
+- __Title:__ Include the full basin
+- __Priority:__ essential
+- __Summary:__ Check that the product covers the entire contributing area, including upstream regions across national boundaries.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 

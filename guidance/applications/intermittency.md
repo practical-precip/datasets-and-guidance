@@ -1,12 +1,10 @@
 # Intermittency
 
-| Field | Value |
-| --- | --- |
-| Id | intermittency |
-| Title | Intermittency |
-| Short | Wet & dry spells |
-| Use | Drought, agriculture & runoff timing |
-| Intro | Define a wet interval before counting wet days or spells. Then evaluate both occurrence and persistence. Matching the precipitation distribution does not establish that the sequence is useful. |
+- __Id:__ intermittency
+- __Title:__ Intermittency
+- __Short:__ Wet & dry spells
+- __Use:__ Drought, agriculture & runoff timing
+- __Intro:__ Define a wet interval before counting wet days or spells. Then evaluate both occurrence and persistence. Matching the precipitation distribution does not establish that the sequence is useful.
 
 ## Metrics
 
@@ -21,25 +19,21 @@
 
 ## Figure
 
-| Field | Value |
-| --- | --- |
-| Title | Wet frequency does not identify spell length. |
-| Alt | Two constructed 12-day rainfall sequences contain six wet days and 12 mm total. One alternates wet and dry days; the other groups six wet days together. |
-| Caption | Both sequences have six wet days and 12 mm of precipitation. At a threshold of 1 mm/day, the longest dry spell within the displayed window is one day in the alternating sequence and six days in the clustered sequence. |
-| Image | /content-assets/guidance/figures/intermittency.png |
-| Pdf | /content-assets/guidance/figures/intermittency.pdf |
-| Provenance | Original synthetic example, generated with Matplotlib. No observations or downscaling product output are shown. |
-| Data | /content-assets/guidance/figures/examples.json |
-| Code | /content-assets/guidance/figures/make_figures.py |
+- __Title:__ Wet frequency does not identify spell length.
+- __Alt:__ Two constructed 12-day rainfall sequences contain six wet days and 12 mm total. One alternates wet and dry days; the other groups six wet days together.
+- __Caption:__ Both sequences have six wet days and 12 mm of precipitation. At a threshold of 1 mm/day, the longest dry spell within the displayed window is one day in the alternating sequence and six days in the clustered sequence.
+- __Image:__ /content-assets/guidance/figures/intermittency.png
+- __Pdf:__ /content-assets/guidance/figures/intermittency.pdf
+- __Provenance:__ Original synthetic example, generated with Matplotlib. No observations or downscaling product output are shown.
+- __Data:__ /content-assets/guidance/figures/examples.json
+- __Code:__ /content-assets/guidance/figures/make_figures.py
 
 ## Cells
 
-| Field | Value |
-| --- | --- |
-| Spatial | cells/intermittency/spatial.md |
-| Temporal | cells/intermittency/temporal.md |
-| Models | cells/intermittency/models.md |
-| Members | cells/intermittency/members.md |
-| Domain | cells/intermittency/domain.md |
-| Coverage | cells/intermittency/coverage.md |
+- __Spatial:__ cells/intermittency/spatial.md
+- __Temporal:__ cells/intermittency/temporal.md
+- __Models:__ cells/intermittency/models.md
+- __Members:__ cells/intermittency/members.md
+- __Domain:__ cells/intermittency/domain.md
+- __Coverage:__ cells/intermittency/coverage.md
 

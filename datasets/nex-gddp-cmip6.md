@@ -1,42 +1,34 @@
 # NEX-GDDP-CMIP6
 
-| Field | Value |
-| --- | --- |
-| Id | nex-gddp-cmip6 |
-| Name | NEX-GDDP-CMIP6 |
-| Version | Original archive described in 2022; later v1 revisions and v2 exist and require separate review. |
-| Summary | Global daily CMIP6 projections using bias correction and spatial disaggregation at 0.25 degrees. |
-| Provider | NASA Earth Exchange / NASA Center for Climate Simulation |
-| Verified On | 2026-09-11 |
-| Source Scope | Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested. |
-| Kind | downscaled-projection |
+- __Id:__ nex-gddp-cmip6
+- __Name:__ NEX-GDDP-CMIP6
+- __Version:__ Original archive described in 2022; later v1 revisions and v2 exist and require separate review.
+- __Summary:__ Global daily CMIP6 projections using bias correction and spatial disaggregation at 0.25 degrees.
+- __Provider:__ NASA Earth Exchange / NASA Center for Climate Simulation
+- __Verified On:__ 2026-09-11
+- __Source Scope:__ Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested.
+- __Kind:__ downscaled-projection
 
 ## Method
 
-| Field | Value |
-| --- | --- |
-| Family | Statistical downscaling |
-| Description | Bias correction and spatial disaggregation (BCSD). |
-| Reference Dataset | Global Meteorological Forcing Dataset (GMFD). |
-| Training Period | 1960-2014 reference data in the 2022 description. |
+- __Family:__ Statistical downscaling
+- __Description:__ Bias correction and spatial disaggregation (BCSD).
+- __Reference Dataset:__ Global Meteorological Forcing Dataset (GMFD).
+- __Training Period:__ 1960-2014 reference data in the 2022 description.
 
 ## Coverage
 
-| Field | Value |
-| --- | --- |
-| Domain | Global land coverage, 60 degrees south to 90 degrees north; check masks. |
-| Grid | Regular latitude-longitude grid. |
-| Timestep | Daily |
-| Historical | 1950-2014 |
-| Future | 2015-2100 |
-| Calendar | Check the selected file time coordinate and technical-note handling of model calendars. |
+- __Domain:__ Global land coverage, 60 degrees south to 90 degrees north; check masks.
+- __Grid:__ Regular latitude-longitude grid.
+- __Timestep:__ Daily
+- __Historical:__ 1950-2014
+- __Future:__ 2015-2100
+- __Calendar:__ Check the selected file time coordinate and technical-note handling of model calendars.
 
 ### Grid Spacing
 
-| Field | Value |
-| --- | --- |
-| Value | 0.25 |
-| Unit | degrees |
+- __Value:__ 0.25
+- __Unit:__ degrees
 
 ### Scenarios
 
@@ -47,35 +39,32 @@
 
 ### Variables
 
-| Name | Unit | Description |
-| --- | --- | --- |
-| pr | kg m-2 s-1 (daily mean precipitation flux) | Convert to daily accumulation using the file time interval. |
+1. __Name:__ pr
+   - __Unit:__ kg m-2 s-1 (daily mean precipitation flux)
+   - __Description:__ Convert to daily accumulation using the file time interval.
 
 ## Ensemble
 
-| Field | Value |
-| --- | --- |
-| Driving Models | CMIP6 |
-| Model Count | 35 |
-| Members | One variant per model in the original 2022 archive; do not interpret model count as within-model member count. |
+- __Driving Models:__ CMIP6
+- __Model Count:__ 35
+- __Members:__ One variant per model in the original 2022 archive; do not interpret model count as within-model member count.
 
 ### Member Counts
 
-| Model | Count | Scope | Source Url |
-| --- | --- | --- | --- |
-| Each GCM in the original 2022 archive | 1 | One selected variant per model in the described release; later archives require a new inventory. | https://www.nature.com/articles/s41597-022-01393-4 |
+1. __Model:__ Each GCM in the original 2022 archive
+   - __Count:__ 1
+   - __Scope:__ One selected variant per model in the described release; later archives require a new inventory.
+   - __Source Url:__ https://www.nature.com/articles/s41597-022-01393-4
 
 ## Access
 
-| Field | Value |
-| --- | --- |
-| Landing Page | https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/ |
-| Data | https://registry.opendata.aws/nex-gddp-cmip6/ |
-| Format | NetCDF4; AWS S3 and NCCS THREDDS access. |
-| License | CC BY-SA 4.0 for the archive described in the 2022 paper; confirm terms for the selected release. |
-| License Url | https://creativecommons.org/licenses/by-sa/4.0/ |
-| Subsetting | NCCS THREDDS NetCDF Subset Service supports variable, latitude/longitude, and time selection; public S3 offers file access. |
-| Cost | AWS registry documents public S3 access without an AWS account. Compute and storage costs for user analyses are not estimated. |
+- __Landing Page:__ https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/
+- __Data:__ https://registry.opendata.aws/nex-gddp-cmip6/
+- __Format:__ NetCDF4; AWS S3 and NCCS THREDDS access.
+- __License:__ CC BY-SA 4.0 for the archive described in the 2022 paper; confirm terms for the selected release.
+- __License Url:__ https://creativecommons.org/licenses/by-sa/4.0/
+- __Subsetting:__ NCCS THREDDS NetCDF Subset Service supports variable, latitude/longitude, and time selection; public S3 offers file access.
+- __Cost:__ AWS registry documents public S3 access without an AWS account. Compute and storage costs for user analyses are not estimated.
 
 ## References
 
@@ -83,13 +72,20 @@
 
 ## Metadata Sources
 
-| Url | Locator |
-| --- | --- |
-| https://pmc.ncbi.nlm.nih.gov/articles/PMC9163132/ | Methods, Data Records, and Usage Notes (original archive). |
-| https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/ | Coverage, resolution, access, and links to v1/v2 technical notes. Subsetting examples. |
-| https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf | Page 1, combined NEX-GDDP CMIP5/CMIP6 row. Existing version-specific provider metadata takes precedence. |
-| https://www.nature.com/articles/s41597-022-01393-4 | Publication date, Methods, Technical Validation, and Acknowledgements. |
-| https://registry.opendata.aws/nex-gddp-cmip6/ | Public S3 access. |
+1. __Url:__ https://pmc.ncbi.nlm.nih.gov/articles/PMC9163132/
+   - __Locator:__ Methods, Data Records, and Usage Notes (original archive).
+
+2. __Url:__ https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/
+   - __Locator:__ Coverage, resolution, access, and links to v1/v2 technical notes. Subsetting examples.
+
+3. __Url:__ https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+   - __Locator:__ Page 1, combined NEX-GDDP CMIP5/CMIP6 row. Existing version-specific provider metadata takes precedence.
+
+4. __Url:__ https://www.nature.com/articles/s41597-022-01393-4
+   - __Locator:__ Publication date, Methods, Technical Validation, and Acknowledgements.
+
+5. __Url:__ https://registry.opendata.aws/nex-gddp-cmip6/
+   - __Locator:__ Public S3 access.
 
 ## Relevant Rows
 
@@ -104,31 +100,32 @@
 
 ## Dates
 
-| Field | Value |
-| --- | --- |
-| Created | (not recorded) |
-| Released | (not recorded) |
-| Publication | 2022-06-03 |
-| Notes | Date of the Thrasher et al. dataset paper, not the data creation date or a later archive revision. |
+- __Created:__ (not recorded)
+- __Released:__ (not recorded)
+- __Publication:__ 2022-06-03
+- __Notes:__ Date of the Thrasher et al. dataset paper, not the data creation date or a later archive revision.
 
 ## Existing Uses
 
-| Description | Url |
-| --- | --- |
-| Dataset paper evaluates the original downscaled archive. This is documented technical validation, not proof of suitability for all applications. | https://www.nature.com/articles/s41597-022-01393-4 |
+1. __Description:__ Dataset paper evaluates the original downscaled archive. This is documented technical validation, not proof of suitability for all applications.
+   - __Url:__ https://www.nature.com/articles/s41597-022-01393-4
 
 ## Funding
 
-| Agency | Award | Notes | Source Url |
-| --- | --- | --- | --- |
-| NASA | (not recorded) | NASA Earth Exchange workplan 2018-2022 at Ames Research Center. | https://www.nature.com/articles/s41597-022-01393-4 |
+1. __Agency:__ NASA
+   - __Award:__ (not recorded)
+   - __Notes:__ NASA Earth Exchange workplan 2018-2022 at Ames Research Center.
+   - __Source Url:__ https://www.nature.com/articles/s41597-022-01393-4
 
 ## Associated Resources
 
-| Label | Url | Description |
-| --- | --- | --- |
-| Provider documentation | https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/ | Product descriptions and links maintained by the provider. |
-| NCCS subsetting examples | https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/ | THREDDS and NetCDF Subset Service access examples. |
+1. __Label:__ Provider documentation
+   - __Url:__ https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/
+   - __Description:__ Product descriptions and links maintained by the provider.
+
+2. __Label:__ NCCS subsetting examples
+   - __Url:__ https://www.nccs.nasa.gov/data-collections/nex-gddp-cmip6/
+   - __Description:__ THREDDS and NetCDF Subset Service access examples.
 
 ## Aliases
 
@@ -136,17 +133,13 @@
 
 ## Expert Guidance
 
-| Field | Value |
-| --- | --- |
-| Title | NEX-GDDP-CMIP6 evaluation guidance |
-| Summary | Provisional application guidance; evaluate the selected product release. |
+- __Title:__ NEX-GDDP-CMIP6 evaluation guidance
+- __Summary:__ Provisional application guidance; evaluate the selected product release.
 
 ### Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 #### Contributors
 

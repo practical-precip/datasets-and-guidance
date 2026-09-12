@@ -1,10 +1,8 @@
 # Keep comparable events
 
-| Field | Value |
-| --- | --- |
-| Title | Keep comparable events |
-| Priority | context |
-| Summary | Use overlapping periods and compatible calendars for spatial diagnostics. Avoid comparing different seasons or unmatched event records. |
+- __Title:__ Keep comparable events
+- __Priority:__ context
+- __Summary:__ Use overlapping periods and compatible calendars for spatial diagnostics. Avoid comparing different seasons or unmatched event records.
 
 ## Evidence
 
@@ -12,10 +10,8 @@ No entries.
 
 ## Review
 
-| Field | Value |
-| --- | --- |
-| Status | draft |
-| Updated | 2026-09-11 |
+- __Status:__ draft
+- __Updated:__ 2026-09-11
 
 ### Contributors
 
