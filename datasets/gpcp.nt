@@ -1,0 +1,88 @@
+kind: observation
+provider: Global Precipitation Climatology Project / NOAA distribution
+version: Family record; select a specific release or experiment before using data.
+summary: Satellite and gauge precipitation analyses. Generation, grid and cadence must be selected together.
+source scope: Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified on: 2026-09-11
+generation:
+  []
+dates:
+  created:
+  released:
+  publication:
+  notes: Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
+method:
+  family: observation
+  description: Satellite and gauge precipitation analyses. Generation, grid and cadence must be selected together.
+  reference dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Global
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Daily and monthly products
+  historical: Daily 1-degree product from October 1996; monthly products from 1979
+  future: Not applicable to this historical observation/analysis record.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid spacing:
+    value:
+    unit: product dependent
+  scenarios:
+    - Not applicable: historical observations or analysis
+  variables:
+    -
+      name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving models: Not a GCM ensemble, or not yet identified.
+  model count:
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member counts:
+    []
+access:
+  landing page: https://www.ncei.noaa.gov/products/global-precipitation-climatology-project
+  data: https://www.ncei.noaa.gov/products/global-precipitation-climatology-project
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license url:
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references:
+  []
+metadata sources:
+  -
+    url: https://www.ncei.noaa.gov/products/global-precipitation-climatology-project
+    locator: Provider/project description: identity and core properties summarized above. Unstated fields remain unknown.
+relevant rows:
+  []
+existing uses:
+  []
+funding:
+  []
+associated resources:
+  -
+    label: Provider or identification lead
+    url: https://www.ncei.noaa.gov/products/global-precipitation-climatology-project
+    description: Resolve the release and availability before selecting data.
+expert guidance:
+  title: GPCP guidance
+  summary: Draft guidance for the workshop dataset name.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      - Initial AI-assisted draft
+  evidence:
+    []
+  text:
+    >
+    > ## What to check
+    >
+    > Consider this family as a historical reference or forcing source. Check coverage, measurement or model biases, temporal accumulation, and independence from the downscaling training data.
+    >
+    > Satellite and gauge precipitation analyses. Generation, grid and cadence must be selected together.
+    >
+    > ## Expert contributions
+    >
+    > Add application or regional findings with links to supporting studies. Include the release, evaluation period and reference observations. This draft is not a product endorsement.
+    >

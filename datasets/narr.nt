@@ -1,0 +1,84 @@
+kind: reanalysis
+provider: NOAA NCEP
+version: Family record; select product stream and release.
+summary: Regional reanalysis that assimilates precipitation observations. Archive endpoints and available variables must be checked.
+source scope: Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified on: 2026-09-11
+generation:
+  []
+dates:
+  created:
+  released:
+  publication:
+  notes: Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
+method:
+  family: reanalysis
+  description: Regional reanalysis that assimilates precipitation observations. Archive endpoints and available variables must be checked.
+  reference dataset: See selected product documentation.
+  training period: Not established for the selected product.
+coverage:
+  domain: North America
+  grid: Inspect the selected product or station/point coordinates.
+  timestep: 3-hourly
+  historical: From 1979; cited NCEI archive ends October 2014, not necessarily the whole product
+  future: Not applicable to this historical observation/analysis record.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid spacing:
+    value: 32
+    unit: km
+  scenarios:
+    - Not applicable: historical observations or analysis
+  variables:
+    -
+      name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving models: Not a GCM ensemble, or not yet identified.
+  model count:
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member counts:
+    []
+access:
+  landing page: https://www.ncei.noaa.gov/products/weather-climate-models/north-american-regional
+  data: https://www.ncei.noaa.gov/products/weather-climate-models/north-american-regional
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license url:
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references:
+  []
+metadata sources:
+  -
+    url: https://www.ncei.noaa.gov/products/weather-climate-models/north-american-regional
+    locator: Provider identity and core properties, including product/period distinctions. Data files were not inspected.
+relevant rows:
+  []
+existing uses:
+  []
+funding:
+  []
+associated resources:
+  -
+    label: Provider documentation
+    url: https://www.ncei.noaa.gov/products/weather-climate-models/north-american-regional
+    description: Select release, product stream and access method.
+expert guidance:
+  title: NARR guidance
+  summary: Draft guidance for the stated product family.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      - Initial AI-assisted draft
+  evidence:
+    []
+  text:
+    >
+    > ## What to check
+    >
+    > Regional reanalysis that assimilates precipitation observations. Archive endpoints and available variables must be checked.
+    >
+    > Choose a specific version and variable. Check precipitation accumulation intervals, geographic coverage and changes in the observing or modeling system. Add application findings with supporting links. This draft is not an expert endorsement.
+    >

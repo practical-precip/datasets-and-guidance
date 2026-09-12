@@ -1,6 +1,6 @@
 # Datasets and guidance
 
-A shared notebook for choosing and evaluating precipitation data. Each dataset and each guidance box is an ordinary Markdown page. You can edit it in GitHub without installing anything.
+A shared notebook for choosing and evaluating precipitation data. Datasets use standard NestedText files. Guidance boxes use Markdown. You can edit it in GitHub without installing anything.
 
 This repository is private. Invited contributors can read and propose edits. Accepted content may appear on the [public website](https://practical-precip.github.io/site/), so keep private notes and unpublished material elsewhere.
 
@@ -10,23 +10,22 @@ This repository is private. Invited contributors can read and propose edits. Acc
 - [Edit online, step by step](CONTRIBUTING.md#edit-online)
 - [Contribute with Git](CONTRIBUTING.md#use-git)
 - [Understand the fields](FIELDS.md)
-- [Match workshop dataset names](Workshop%20names.md)
 - [See the NCAR matrix coverage](notes/NCAR%20matrix%20coverage.md)
 - [Browse the academic references](references.bib)
 
 ## A small edit is welcome
 
-Open a page, click the pencil, and change the text. For guidance, scroll to __Guidance__ and write normal paragraphs. Add a source for factual claims, describe the dataset version and study region, and distinguish published findings from your own advice. Draft guidance is not an expert endorsement.
+Open a file, click the pencil, and change the text. Dataset guidance is Markdown inside a NestedText `text` block. Guidance boxes have a Markdown __Guidance__ section. Add a source for factual claims, describe the dataset version and study region, and distinguish published findings from your own advice. Draft guidance is not an expert endorsement.
 
-For a metadata correction, change the text after a label such as `- __Name:__`. Keep the field names and section headings so the site can recognize them. Use __Preview__ to check the formatting, then propose the change on a new branch and open a pull request. A maintainer reviews it before publication.
+For a dataset correction, edit the value after a NestedText key such as `provider:`. Keep indentation and field names. Change dataset names, IDs, familiar names, and display order in [INDEX.md](INDEX.md). Use __Preview__ to check the formatting, then propose the change on a new branch and open a pull request. A maintainer reviews it before publication.
 
 ## Where things live
 
-- __[datasets](datasets/):__ One page per dataset, with facts, sources, and expert guidance together
+- __[datasets](datasets/):__ One NestedText file per dataset, with facts, sources, and expert guidance together
 - __[guidance/cells](guidance/cells/):__ One page per guidance box, plus optional regional versions
 - __[guidance/applications](guidance/applications/):__ Application names, introductions, metrics, and box assignments
 - __[Guidance table](guidance/Table.md):__ Column definitions and application order
-- __[Dataset order](Dataset%20order.md):__ Dataset order on the site
+- __[INDEX.md](INDEX.md):__ Dataset names, IDs, aliases, and website order
 - __[Regions](Regions.md):__ Region names, state membership, and map label positions
 - __[references.bib](references.bib):__ Paper details and the claims they support
 - __[assets](assets/):__ Images and PDFs used in guidance

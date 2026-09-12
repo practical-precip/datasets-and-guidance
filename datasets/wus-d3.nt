@@ -1,0 +1,132 @@
+provider: UCLA Center for Climate Science and collaborators
+verified on: 2026-09-11
+version: Original ensemble described by Rahimi et al. (2024); separate from later bias-corrected forcing experiments.
+summary: WRF dynamical downscaling over the western US, with hourly output for selected variables.
+source scope: Provider documentation and selected papers checked. Unresolved fields are marked explicitly; data files and application performance were not tested.
+kind: downscaled-projection
+method:
+  family: Dynamical downscaling
+  description: WRF 4.1.3, with 45 km outer and 9 km inner domains.
+  reference dataset: GCM boundary forcing; separate ERA5-driven reference simulation. No statistical training target for the original GCM-driven runs.
+  training period: Not applicable to the dynamical model. Evaluation in the paper uses 1981-2010.
+coverage:
+  domain: Western United States, including the WECC US region; use the inner-domain mask.
+  grid: WRF regional model grid; use supplied coordinates and projection.
+  timestep: Hourly selected variables; other output frequencies depend on tier.
+  historical: 1980-2014
+  future: 2015-2100
+  calendar: Not verified from data files. Read the time coordinate, calendar, and accumulation interval before combining products.
+  grid spacing:
+    value: 9
+    unit: km (inner domain; 45 km outer domain)
+  scenarios:
+    - SSP3-7.0
+    - SSP2-4.5 (CESM2 only in the original paper)
+    - SSP5-8.5 (CESM2 only in the original paper)
+  variables:
+    -
+      name: precipitation (tier-dependent variable names)
+      unit: Inspect WRF accumulation conventions, resets, and time intervals.
+      description: Precipitation. Confirm whether the selected variable is a rate or accumulated amount.
+ensemble:
+  driving models: CMIP6
+  model count: 14
+  members: 16 simulations in the original paper: 14 SSP3-7.0 projections plus two additional CESM2 scenarios. These are not 16 different GCMs.
+  member counts:
+    []
+access:
+  landing page: https://registry.opendata.aws/wrf-cmip6/
+  data: https://registry.opendata.aws/wrf-cmip6/
+  format: WRF NetCDF output, organized into data tiers in AWS S3.
+  license: Creative Commons Attribution 4.0 International, per the AWS dataset registry.
+  license url: https://registry.opendata.aws/wrf-cmip6/
+  subsetting: Download access is documented; a server-side spatial/time subsetting service has not been verified.
+  cost: AWS registry provides public S3 access with no AWS account required. User processing and storage costs are not estimated.
+relevant rows:
+  - annual-precipitation
+  - annual-maximum
+  - intermittency
+  - spatial-coherence
+references:
+  - rahimi-wus-d3
+metadata sources:
+  -
+    url: https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
+    locator: Page 1, WUS-D3 row; scenarios expanded using the original paper.
+  -
+    url: https://gmd.copernicus.org/articles/17/2265/2024/
+    locator: Sections 2.1-2.2, 3, and data availability: models, scenarios, grid, evaluation, and tiers. Publication date, data-tier description, code/data availability, and Financial support.
+  -
+    url: https://registry.opendata.aws/wrf-cmip6/
+    locator: License, access, updates, and publications distinguishing bias-corrected experiments.
+generation:
+  - CMIP6
+dates:
+  created:
+  released:
+  publication: 2024-03-20
+  notes: Original WUS-D3 overview publication date. Later uploads and corrected forcing experiments have separate histories.
+existing uses:
+  -
+    description: Original ensemble evaluated for historical climate and future mean and extreme precipitation across western US states.
+    url: https://gmd.copernicus.org/articles/17/2265/2024/
+funding:
+  -
+    agency: US Department of Energy
+    award: DE-SC0016605
+    notes: HyperFACETS project support.
+    source url: https://gmd.copernicus.org/articles/17/2265/2024/
+  -
+    agency: Strategic Environmental Research and Development Program
+    award: RC19-1391
+    notes: Study support.
+    source url: https://gmd.copernicus.org/articles/17/2265/2024/
+  -
+    agency: California Energy Commission
+    award: EPC-20-006
+    notes: Study support.
+    source url: https://gmd.copernicus.org/articles/17/2265/2024/
+  -
+    agency: University of California
+    award: LRF-18-542511
+    notes: Climate Ecosystems Future project.
+    source url: https://gmd.copernicus.org/articles/17/2265/2024/
+associated resources:
+  -
+    label: Provider documentation
+    url: https://registry.opendata.aws/wrf-cmip6/
+    description: Product descriptions and links maintained by the provider.
+  -
+    label: Model code and analysis archive
+    url: https://doi.org/10.5281/zenodo.10635867
+    description: WRF versions, figure notebooks, and geography files for the original study.
+expert guidance:
+  title: WUS-D3 evaluation guidance
+  summary: Draft interpretation of documented product properties; expert review is pending.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      - Initial AI-assisted draft
+  evidence:
+    -
+      statement: The original study reports precipitation above PRISM in parts of the western US and discusses uncertainty in mountain reference precipitation.
+      paper: rahimi-wus-d3
+      locator: Section 3, Figures 3-5.
+      scope: Original ensemble and historical evaluation; do not generalize to later bias-corrected experiments.
+  regions:
+    northwest: datasets/regional/wus-d3.northwest.nt
+  text:
+    >
+    > ## Application guidance
+    >
+    > Consider hourly precipitation and spatial storm structure for western US applications. Evaluate accumulated precipitation, seasonal biases, and extremes against multiple suitable references.
+    >
+    > ## Limits and evaluation checks
+    >
+    > Record whether GCM forcing was bias corrected. Findings from the original ensemble cannot be assigned to later corrected experiments. Confirm WRF accumulation resets and time intervals before calculating hourly or daily extremes.
+    >
+    > ## Documentation and expert contributions
+    >
+    > The linked metadata sources describe this archive. Related publication: [@rahimi-wus-d3]. Recommendations above are AI-assisted interpretation, not an endorsement from the dataset authors. Add region-specific evaluations with the release, model/member, reference data, period, and diagnostic before marking this guidance reviewed.
+    >

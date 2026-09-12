@@ -1,0 +1,88 @@
+kind: unresolved
+provider: Archive not yet identified
+version: Workshop label awaiting identification.
+summary: BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one.
+source scope: User-supplied workshop label. Identity or release details remain unresolved.
+verified on: 2026-09-11
+generation:
+  []
+dates:
+  created:
+  released:
+  publication:
+  notes: Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
+method:
+  family: unresolved
+  description: BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one.
+  reference dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Archive dependent
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Archive dependent
+  historical: Archive dependent
+  future: Experiment or release dependent; see source documentation.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid spacing:
+    value:
+    unit: archive dependent
+  scenarios:
+    - Select experiment; not established for this family label
+  variables:
+    -
+      name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving models: Not a GCM ensemble, or not yet identified.
+  model count:
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member counts:
+    []
+access:
+  landing page: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+  data: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license url:
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references:
+  []
+metadata sources:
+  -
+    url: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+    locator: User-supplied identification lead; no complete release specification established.
+relevant rows:
+  []
+existing uses:
+  []
+funding:
+  []
+associated resources:
+  -
+    label: Provider or identification lead
+    url: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+    description: Resolve the release and availability before selecting data.
+expert guidance:
+  title: BCSD-CMIP5 (workshop label) guidance
+  summary: Draft guidance for the workshop dataset name.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      - Initial AI-assisted draft
+  evidence:
+    []
+  text:
+    >
+    > ## What to check
+    >
+    > Help identify this dataset by adding its provider page, paper, release and domain. Recommendations should wait until the record is identified.
+    >
+    > BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches; the workshop label alone does not establish one.
+    >
+    > ## Expert contributions
+    >
+    > Add application or regional findings with links to supporting studies. Include the release, evaluation period and reference observations. This draft is not a product endorsement.
+    >

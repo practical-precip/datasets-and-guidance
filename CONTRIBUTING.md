@@ -4,46 +4,57 @@ You need an invitation to this private repository and a GitHub account. Ask an o
 
 ## Edit online
 
-1. Open [the index](INDEX.md) and choose a dataset or guidance box.
+1. Open [the index](INDEX.md) and choose a dataset (`.nt`) or guidance box (`.md`).
 2. Click the pencil icon above the file. If necessary, open the file menu and choose __Edit file__.
-3. Change a labeled value, or scroll to __Guidance__ and edit the prose. Keep the existing metadata headings and field labels.
-4. Click __Preview__. Check labels, list indentation, links, images, and equations.
+3. For a dataset, change a NestedText value or its `expert guidance / text` block. For a guidance box, change a labeled value or the __Guidance__ prose. Keep the existing field names and indentation.
+4. Check field names and indentation. GitHub shows NestedText as source text; it does not render the Markdown inside it. For Markdown guidance boxes, use __Preview__ to check formatting. A maintainer can preview the rendered dataset guidance in the site.
 5. Click __Commit changes__. Write a short description, such as "Clarify LOCA2 precipitation release". Select __Create a new branch for this commit and start a pull request__.
 6. Open the pull request. Explain what changed, link the supporting source, and say whether the text is your expert advice or a published finding. Request a maintainer's review.
 
 A reviewer may suggest edits. You can make them using the same pencil button on your branch. The maintainer will check the content in the site before publishing it.
 
-## Edit metadata
+## Edit a dataset in NestedText
 
-Each field is a labeled bullet point. Use double underscores for the label, with the colon inside: `- __Name:__ LOCA2`. Keep the label and change the value. No columns need lining up.
+Dataset files use [NestedText](https://nestedtext.org/), a standard format for nested mappings, lists, and strings. Use spaces for indentation. Keys are plain text, and values do not need quotes. Do not add Markdown labels such as `__Provider:__` to a dataset file.
 
-```markdown
-- __Name:__ LOCA2
-- __Provider:__ Scripps Institution of Oceanography
-
-## Coverage
-
-- __Timestep:__ Daily
-- __Scenarios:__
-  - SSP2-4.5
-  - SSP5-8.5
-
-## Metadata Sources
-
-1. __Url:__ https://loca.ucsd.edu/
-   - __Locator:__ Provider release notice.
-
-2. __Url:__ https://example.org/replace-this
-   - __Locator:__ Describe where the paper supports the metadata.
+```text
+provider: Scripps Institution of Oceanography
+coverage:
+  timestep: Daily
+  scenarios:
+    - SSP2-4.5
+    - SSP5-8.5
+ensemble:
+  model count: 27
+funding:
+  []
+expert guidance:
+  text:
+    > ## Evaluation
+    >
+    > Write Markdown prose with [@pierce-loca2] citations here.
 ```
 
-This is a shortened formatting example. Keep the other fields in an existing page. Headings such as `### Scenarios` followed by a simple list also work. For several sources, variables, or other records, copy an existing numbered entry and edit its fields. Keep continuation fields indented beneath that entry. Use one list item per value instead of semicolon-separated values.
+This is a shortened example. Keep the other fields in an existing record. A bare key with no value, such as `created:`, means an unknown value only where the field permits one. For an empty list, put `[]` on its own indented line, as shown above. `funding: []` would be the literal string `[]`, not a list.
 
-Long values can wrap onto an indented continuation line. Keep paragraphs and images below `## Guidance`. See [the field guide](FIELDS.md) for unknown values, dates, and review status.
+Multi-line strings use `>` at the start of each indented line. A line containing only `>` is a blank line within the string. This works for paragraphs, image links, and equations. Quotation marks and backslashes are literal text in NestedText; do not escape them as if writing JSON or YAML.
+
+Keep dataset names, IDs, and aliases out of the `.nt` file. [INDEX.md](INDEX.md) is their only definition:
+
+```markdown
+- [LOCA2 North America](datasets/loca2.nt)
+  - LOCA2
+```
+
+The link label is the display name. The filename supplies the ID (`loca2`). Indented names are search aliases. Moving the link changes the dataset's position on the website. To rename a display name, edit only the link label. Changing an ID requires renaming the `.nt` file and updating references to that ID, so keep established IDs stable.
+
+## Edit guidance-box metadata
+
+Guidance boxes and table configuration still use Markdown labeled lists, such as `- __Title:__ Basin guidance`. Keep double underscores around labels and preserve list indentation. Their prose starts below `## Guidance`. The NestedText change applies to dataset records and their regional versions.
 
 ## Write guidance
 
-Everything below the `## Guidance` heading is ordinary Markdown. Use paragraphs, lists, links, images, and equations. For example:
+In a guidance box, everything below the `## Guidance` heading is ordinary Markdown. In a dataset, write the same Markdown in the `expert guidance / text` block, prefixing each line with the indented `>` marker. Use paragraphs, lists, links, images, and equations. For example:
 
 ```markdown
 Compare wet-day frequency over the same observation period.
@@ -61,7 +72,7 @@ Upload an image through __Add file > Upload files__ into `assets/datasets/` or `
 
 To cite a paper, add or update its entry in [references.bib](references.bib) and use `[@paper-id]`. You can also write a normal HTTPS link to a paper. Record what the paper supports and its scope; a link alone does not establish suitability for an application.
 
-Update __Review / Updated__ when you revise guidance. Add your name to __Contributors__. Keep __Status__ as `draft` until an expert has reviewed it. Record reviewers and a review date when using `expert-reviewed`.
+Update the review date and add your name to the contributor list when revising guidance. Keep status as `draft` until an expert has reviewed it. In a dataset these fields are under `expert guidance / review`. Record reviewers and a review date when using `expert-reviewed`.
 
 ## Edit the bibliography
 
@@ -86,15 +97,25 @@ The migrated references retain their existing abbreviated author labels as liter
 
 ## Add a dataset
 
-1. Copy a similar page from `datasets/` using GitHub's __Raw__ view, or start with [the dataset template](templates/dataset.md).
-2. Use __Add file > Create new file__ and name it `datasets/clear-product-name.md`. Use lowercase words separated by hyphens. The filename and __Id__ must match.
-3. Change the name, ID, facts, sources, and guidance. Use `(not recorded)` only for unknown numeric values, dates, or optional URLs. For other unknown facts, say what is unknown in plain language. Do not leave claims from the copied product.
-4. Add the ID to [Dataset order](Dataset%20order.md). Add the page to [the index](INDEX.md), and add any workshop names to [Workshop names](Workshop%20names.md).
-5. Propose the changes together in one pull request.
+1. Copy a similar `.nt` file, or start with [the dataset template](templates/dataset.nt).
+2. Use __Add file > Create new file__ and name it `datasets/clear-product-name.nt`. Use lowercase words separated by hyphens.
+3. Replace the facts, sources, guidance, and contributor name. Leave unknown optional dates and numbers blank, and describe other unknown facts in plain language. Do not leave claims from the copied product.
+4. Add one link to [INDEX.md](INDEX.md) under __Datasets__: `- [Display name](datasets/clear-product-name.nt)`. Add familiar names as indented bullets. Its position in the list sets its website order.
+5. Propose the new file and index edit in the same pull request. No separate name or order file is needed.
 
 ## Add regional guidance
 
-Copy an existing regional page, or use [the regional template](templates/regional-guidance.md). Put a dataset version in `datasets/regional/` or a box version beside the general file in `guidance/cells/`. In the general page, add a __Regions__ section (inside __Expert Guidance__ for a dataset) with a labeled bullet mapping the region ID to its internal file address, such as `- __Northwest:__ product-guidance/loca2.northwest.md`. See [this existing example](datasets/wus-d3.md). A region uses the general guidance unless an override is provided. Regional pages cannot contain further regional overrides.
+For a dataset, copy [the regional dataset template](templates/regional-dataset.nt) into `datasets/regional/`. Add your contributor name, evidence, and Markdown text. In the main `.nt` file, add the region under `expert guidance`:
+
+```text
+expert guidance:
+  regions:
+    northwest: datasets/regional/loca2.northwest.nt
+```
+
+Keep the other `expert guidance` fields. A regional record has its own review, evidence, and `text` field. It cannot contain further regional overrides. See [WUS-D3](datasets/wus-d3.nt) for an existing example.
+
+For a guidance box, use [the Markdown regional template](templates/regional-guidance.md) and put it beside the general box in `guidance/cells/`. Its general page links the variant in a __Regions__ section. A region uses the general guidance when no override is supplied.
 
 ## Change the guidance table
 
@@ -106,8 +127,8 @@ Copy an existing regional page, or use [the regional template](templates/regiona
 git clone git@github.com:practical-precip/datasets-and-guidance.git
 cd datasets-and-guidance
 git switch -c clarify-dataset-guidance
-# Edit Markdown files in your preferred editor.
-git add datasets/your-dataset.md
+# Edit NestedText, Markdown, or the shared BibTeX file.
+git add datasets/your-dataset.nt INDEX.md
 git commit -S -m "Clarify dataset guidance"
 git push -u origin clarify-dataset-guidance
 ```

@@ -1,0 +1,77 @@
+version: Release not yet identified
+summary: Not recorded. Add a source and its scope.
+provider: Not recorded. Add a source and its scope.
+verified on: 2026-09-11
+source scope: Not recorded. Add a source and its scope.
+kind: unresolved
+method:
+  family: Not recorded. Add a source and its scope.
+  description: Not recorded. Add a source and its scope.
+  reference dataset: Not recorded. Add a source and its scope.
+  training period: Not recorded. Add a source and its scope.
+coverage:
+  domain: Not recorded. Add a source and its scope.
+  grid: Not recorded. Add a source and its scope.
+  timestep: Not recorded. Add a source and its scope.
+  historical: Not recorded. Add a source and its scope.
+  future: Not recorded. Add a source and its scope.
+  calendar: Not recorded. Add a source and its scope.
+  grid spacing:
+    value:
+    unit: Not recorded. Add a source and its scope.
+  scenarios:
+    []
+  variables:
+    -
+      name: precipitation
+      unit: Not recorded.
+      description: Confirm the variable and accumulation period.
+ensemble:
+  driving models: Not recorded. Add a source and its scope.
+  model count:
+  members: Not recorded. Add a source and its scope.
+  member counts:
+    []
+access:
+  landing page: https://example.org/replace-this
+  data: https://example.org/replace-this
+  format: Not recorded. Add a source and its scope.
+  license: Not recorded. Add a source and its scope.
+  license url:
+  subsetting: Not recorded. Add a source and its scope.
+  cost: Not recorded. Add a source and its scope.
+references:
+  []
+metadata sources:
+  -
+    url: https://example.org/replace-this
+    locator: Replace with the provider or paper and the supporting section.
+relevant rows:
+  []
+generation:
+  []
+dates:
+  created:
+  released:
+  publication:
+  notes: Dates not yet established.
+existing uses:
+  []
+funding:
+  []
+associated resources:
+  []
+expert guidance:
+  title: New dataset guidance
+  summary: Draft guidance awaiting evidence and expert review.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      []
+  evidence:
+    []
+  text:
+    >
+    > Describe the applications evaluated, product release, region, reference observations, and limitations. Separate findings supported by papers from your expert advice. Replace all example links and placeholders before submitting.
+    >

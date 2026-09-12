@@ -1,0 +1,84 @@
+kind: collection
+provider: ClimateNA team
+version: Family record; select product stream and release.
+summary: Climate estimation software/data family using interpolation and elevation adjustment. Its output is not a daily precipitation event series.
+source scope: Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified on: 2026-09-11
+generation:
+  []
+dates:
+  created:
+  released:
+  publication:
+  notes: Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
+method:
+  family: Climate interpolation and elevation adjustment with historical/future change fields
+  description: Climate estimation software/data family using interpolation and elevation adjustment. Its output is not a daily precipitation event series.
+  reference dataset: PRISM 1971-2000 monthly normals with local elevation adjustment and historical/future changes.
+  training period: Not established for the selected product.
+coverage:
+  domain: North America
+  grid: Inspect the selected product or station/point coordinates.
+  timestep: Monthly, seasonal and annual
+  historical: Historical/future estimates across 1901-2100; select product and period
+  future: Future climate estimates through 2100; select GCM, scenario and period.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid spacing:
+    value:
+    unit: point or user-grid interpolation; not a fixed resolved model grid
+  scenarios:
+    - Historical or selected future scenario
+  variables:
+    -
+      name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving models: Not a GCM ensemble, or not yet identified.
+  model count:
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member counts:
+    []
+access:
+  landing page: https://climatena.ca/
+  data: https://climatena.ca/
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license url:
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references:
+  []
+metadata sources:
+  -
+    url: https://climatena.ca/
+    locator: Provider identity and core properties, including product/period distinctions. Data files were not inspected.
+relevant rows:
+  []
+existing uses:
+  []
+funding:
+  []
+associated resources:
+  -
+    label: Provider documentation
+    url: https://climatena.ca/
+    description: Select release, product stream and access method.
+expert guidance:
+  title: ClimateNA guidance
+  summary: Draft guidance for the stated product family.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      - Initial AI-assisted draft
+  evidence:
+    []
+  text:
+    >
+    > ## What to check
+    >
+    > Climate estimation software/data family using interpolation and elevation adjustment. Its output is not a daily precipitation event series.
+    >
+    > Choose a specific version and variable. Check precipitation accumulation intervals, geographic coverage and changes in the observing or modeling system. Add application findings with supporting links. This draft is not an expert endorsement.
+    >

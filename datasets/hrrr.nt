@@ -1,0 +1,84 @@
+kind: collection
+provider: NOAA
+version: Family record; select product stream and release.
+summary: Operational forecast and analysis system, not a homogeneous climate reanalysis. Select model version, initialization time and forecast lead.
+source scope: Identity and the stated core properties checked against linked provider or project documentation on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified on: 2026-09-11
+generation:
+  []
+dates:
+  created:
+  released:
+  publication:
+  notes: Creation, release and publication dates have not been established for a specific record. Coverage dates are not creation dates.
+method:
+  family: Operational numerical weather prediction
+  description: Operational forecast and analysis system, not a homogeneous climate reanalysis. Select model version, initialization time and forecast lead.
+  reference dataset: See selected product documentation.
+  training period: Not established for the selected product.
+coverage:
+  domain: CONUS and Alaska domains
+  grid: Inspect the selected product or station/point coordinates.
+  timestep: Hourly CONUS cycles; output and Alaska cycles differ
+  historical: Operational since September 30, 2014; archive/version dependent
+  future: Short-range forecasts indexed by initialization time and lead; not long-term climate projections.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid spacing:
+    value: 3
+    unit: km
+  scenarios:
+    - Operational analyses and forecasts, not emissions scenarios
+  variables:
+    -
+      name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving models: Not a GCM ensemble, or not yet identified.
+  model count:
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member counts:
+    []
+access:
+  landing page: https://rapidrefresh.noaa.gov/hrrr/
+  data: https://rapidrefresh.noaa.gov/hrrr/
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license url:
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references:
+  []
+metadata sources:
+  -
+    url: https://rapidrefresh.noaa.gov/hrrr/
+    locator: Provider identity and core properties, including product/period distinctions. Data files were not inspected.
+relevant rows:
+  []
+existing uses:
+  []
+funding:
+  []
+associated resources:
+  -
+    label: Provider documentation
+    url: https://rapidrefresh.noaa.gov/hrrr/
+    description: Select release, product stream and access method.
+expert guidance:
+  title: HRRR guidance
+  summary: Draft guidance for the stated product family.
+  review:
+    status: draft
+    updated: 2026-09-11
+    contributors:
+      - Initial AI-assisted draft
+  evidence:
+    []
+  text:
+    >
+    > ## What to check
+    >
+    > Operational forecast and analysis system, not a homogeneous climate reanalysis. Select model version, initialization time and forecast lead.
+    >
+    > Choose a specific version and variable. Check precipitation accumulation intervals, geographic coverage and changes in the observing or modeling system. Add application findings with supporting links. This draft is not an expert endorsement.
+    >

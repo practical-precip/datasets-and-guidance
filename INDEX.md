@@ -2,73 +2,111 @@
 
 ## Datasets
 
-- [Argonne Dynamically Downscaled Archive V2 (ADDA_V2)](datasets/adda-v2.md)
-- [21st Century Hydrologic Projections for Alaska and Hawaii](datasets/alaska-hawaii-bcsd.md)
-- [AORC](datasets/aorc.md)
-- [BCSD-CMIP5 (workshop label)](datasets/bcsd-cmip5.md)
-- [CanDCS-M6](datasets/candcs-m6.md)
-- [CanLEAD v1](datasets/canlead-v1.md)
-- [CanRCM4 Large Ensemble](datasets/canrcm4-le.md)
-- [CarbonPlan DeepSD](datasets/carbonplan-deepsd.md)
-- [CarbonPlan GARD-SV and GARD-MV](datasets/carbonplan-gard.md)
-- [CarbonPlan MACA](datasets/carbonplan-maca.md)
-- [CESM-LENS](datasets/cesm-lens.md)
-- [CFSR / CFSv2](datasets/cfsr-cfsv2.md)
-- [ClimateNA](datasets/climatena.md)
-- [CMIP6](datasets/cmip6.md)
-- [CONUS-I](datasets/conus1.md)
-- [CONUS-II](datasets/conus2.md)
-- [CONUS404-PGW](datasets/conus404-pgw.md)
-- [CONUS404](datasets/conus404.md)
-- [CORDEX](datasets/cordex.md)
-- [Daymet](datasets/daymet.md)
-- [EPA Dynamically Downscaled Ensemble (EDDE) v1](datasets/edde-v1.md)
-- [EDDE v2](datasets/edde-v2.md)
-- [En-GARD dataset in the NCAR matrix](datasets/en-gard.md)
-- [ERA5-Land](datasets/era5-land.md)
-- [ERA5](datasets/era5.md)
-- [GARD-LENS](datasets/gard-lens.md)
-- [GDPCIR](datasets/gdpcir.md)
-- [GHCN](datasets/ghcn.md)
-- [Global BCCAQ (Gebrechorkos et al.)](datasets/global-bccaq.md)
-- [GPCP](datasets/gpcp.md)
-- [gridMET](datasets/gridmet.md)
-- [HighResMIP](datasets/highresmip.md)
-- [HRRR](datasets/hrrr.md)
-- [ICAR dataset in the NCAR matrix](datasets/icar.md)
-- [JRA-3Q](datasets/jra3q.md)
-- [Livneh gridded meteorology](datasets/livneh.md)
-- [LOCA CMIP5](datasets/loca-cmip5.md)
-- [LOCA2-CA](datasets/loca2-ca.md)
-- [LOCA2 North America](datasets/loca2.md)
-- [MACAv2-LIVNEH](datasets/maca-livneh.md)
-- [MACAv2-METDATA](datasets/maca-metdata.md)
-- [MERRA-2](datasets/merra2.md)
-- [MESACLIP](datasets/mesaclip.md)
-- [MRMS](datasets/mrms.md)
-- [MSWEP](datasets/mswep.md)
-- [NA-CORDEX CMIP5](datasets/na-cordex.md)
-- [NARR](datasets/narr.md)
-- [nClimGrid](datasets/nclimgrid.md)
-- [NEX-DCP30](datasets/nex-dcp30.md)
-- [NEX-GDDP CMIP5](datasets/nex-gddp-cmip5.md)
-- [NEX-GDDP-CMIP6](datasets/nex-gddp-cmip6.md)
-- [NIU / WRF-BCC (candidate match)](datasets/niu.md)
-- [NLDAS](datasets/nldas.md)
-- [ORNL DBCCA](datasets/ornl-dbcca.md)
-- [ORNL RegCM](datasets/ornl-regcm.md)
-- [PRISM](datasets/prism.md)
-- [Reclamation BCCA climate and hydrology projections](datasets/reclamation-bcca.md)
-- [Reclamation BCSD climate and hydrology projections](datasets/reclamation-bcsd.md)
-- [SMILEs](datasets/smiles.md)
-- [SPEAR](datasets/spear.md)
-- [Stage IV](datasets/stage-iv.md)
-- [STAR-ESDM](datasets/star-esdm.md)
-- [IM3/HyperFACETS TGW](datasets/tgw.md)
-- [UW-Madison Probabilistic Downscaling (UW-PD)](datasets/uw-pd-cmip5.md)
-- [WRF-PNNL6](datasets/wrf-pnnl6.md)
-- [WRF-UW-Mass](datasets/wrf-uw-mass.md)
-- [WUS-D3](datasets/wus-d3.md)
+These links define dataset names, IDs (the filenames), and website order. Indented names are search aliases. Edit names here, and edit facts and guidance in the linked NestedText files.
+
+- [LOCA2 North America](datasets/loca2.nt)
+  - LOCA2
+- [NEX-GDDP-CMIP6](datasets/nex-gddp-cmip6.nt)
+  - NASA-NEX-GDDP
+- [MACAv2-METDATA](datasets/maca-metdata.nt)
+  - MACAv2
+  - MACA
+- [MACAv2-LIVNEH](datasets/maca-livneh.nt)
+  - MACAv2
+  - MACA
+- [LOCA CMIP5](datasets/loca-cmip5.nt)
+  - LOCA
+- [NEX-GDDP CMIP5](datasets/nex-gddp-cmip5.nt)
+  - NASA-NEX-GDDP
+- [NEX-DCP30](datasets/nex-dcp30.nt)
+  - NASA-NEX-DCP30
+- [GDPCIR](datasets/gdpcir.nt)
+- [GARD-LENS](datasets/gard-lens.nt)
+- [WUS-D3](datasets/wus-d3.nt)
+- [NA-CORDEX CMIP5](datasets/na-cordex.nt)
+- [IM3/HyperFACETS TGW](datasets/tgw.nt)
+  - IM3/HyperFACETS
+- [21st Century Hydrologic Projections for Alaska and Hawaii](datasets/alaska-hawaii-bcsd.nt)
+- [Reclamation BCSD climate and hydrology projections](datasets/reclamation-bcsd.nt)
+- [Reclamation BCCA climate and hydrology projections](datasets/reclamation-bcca.nt)
+- [ORNL DBCCA](datasets/ornl-dbcca.nt)
+  - SWA 9505v3 - DBBCA
+  - SWA 9505v3 DBBCA
+- [CarbonPlan MACA](datasets/carbonplan-maca.nt)
+- [CanDCS-M6](datasets/candcs-m6.nt)
+- [Global BCCAQ (Gebrechorkos et al.)](datasets/global-bccaq.nt)
+- [En-GARD dataset in the NCAR matrix](datasets/en-gard.nt)
+- [CarbonPlan GARD-SV and GARD-MV](datasets/carbonplan-gard.nt)
+- [STAR-ESDM](datasets/star-esdm.nt)
+- [CanLEAD v1](datasets/canlead-v1.nt)
+- [UW-Madison Probabilistic Downscaling (UW-PD)](datasets/uw-pd-cmip5.nt)
+  - UWPD
+- [ICAR dataset in the NCAR matrix](datasets/icar.nt)
+  - ICAR? (not publicly available yet)
+- [CanRCM4 Large Ensemble](datasets/canrcm4-le.nt)
+- [CONUS404](datasets/conus404.nt)
+  - CONUS 404
+- [Argonne Dynamically Downscaled Archive V2 (ADDA_V2)](datasets/adda-v2.nt)
+  - ADDA / ClimRR
+  - ADDA
+- [EPA Dynamically Downscaled Ensemble (EDDE) v1](datasets/edde-v1.nt)
+- [ORNL RegCM](datasets/ornl-regcm.nt)
+  - SWA 9505v3 - RegCM
+  - SWA 9505v3 RegCM
+- [CarbonPlan DeepSD](datasets/carbonplan-deepsd.nt)
+- [ERA5](datasets/era5.nt)
+- [ERA5-Land](datasets/era5-land.nt)
+- [MERRA-2](datasets/merra2.nt)
+  - MERRA2
+- [JRA-3Q](datasets/jra3q.nt)
+- [CMIP6](datasets/cmip6.nt)
+- [CONUS-I](datasets/conus1.nt)
+  - CONUS 1
+- [CONUS-II](datasets/conus2.nt)
+  - CONUS 2
+- [CONUS404-PGW](datasets/conus404-pgw.nt)
+  - CONUS 404-PGW
+- [LOCA2-CA](datasets/loca2-ca.nt)
+- [NIU / WRF-BCC (candidate match)](datasets/niu.nt)
+  - NIU
+- [EDDE v2](datasets/edde-v2.nt)
+  - EDDEv2
+- [SPEAR](datasets/spear.nt)
+- [CESM-LENS](datasets/cesm-lens.nt)
+- [SMILEs](datasets/smiles.nt)
+  - SMILES
+- [AORC](datasets/aorc.nt)
+- [PRISM](datasets/prism.nt)
+- [Livneh gridded meteorology](datasets/livneh.nt)
+  - Livneh
+- [Daymet](datasets/daymet.nt)
+- [nClimGrid](datasets/nclimgrid.nt)
+  - NClimGrid
+- [Stage IV](datasets/stage-iv.nt)
+  - Stage 4
+  - Stage4
+- [GPCP](datasets/gpcp.nt)
+- [GHCN](datasets/ghcn.nt)
+- [gridMET](datasets/gridmet.nt)
+  - METDATA
+  - Gridmet
+  - GridMet
+- [MRMS](datasets/mrms.nt)
+- [NLDAS](datasets/nldas.nt)
+- [MESACLIP](datasets/mesaclip.nt)
+- [BCSD-CMIP5 (workshop label)](datasets/bcsd-cmip5.nt)
+  - BCSD-CMIP5
+- [WRF-PNNL6](datasets/wrf-pnnl6.nt)
+- [WRF-UW-Mass](datasets/wrf-uw-mass.nt)
+  - Mass Downscaling
+- [HighResMIP](datasets/highresmip.nt)
+- [CORDEX](datasets/cordex.nt)
+- [NARR](datasets/narr.nt)
+- [HRRR](datasets/hrrr.nt)
+- [CFSR / CFSv2](datasets/cfsr-cfsv2.nt)
+  - CFSRv2
+- [MSWEP](datasets/mswep.nt)
+- [ClimateNA](datasets/climatena.nt)
 
 ## Guidance boxes
 

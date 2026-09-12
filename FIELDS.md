@@ -1,9 +1,9 @@
 # Field guide
 
-Metadata uses labeled Markdown lists. Keep the double-underscore labels, such as `- __Name:__`, and edit the text after them. Keep the section headings and list indentation. Guidance prose starts at `## Guidance` and can have any subheadings.
+Datasets use NestedText. Names, IDs, aliases, and display order are defined only in [INDEX.md](INDEX.md). All other dataset fields are in the linked `.nt` file. The site reads NestedText strings and converts numeric fields according to its schema.
 
-- __Id:__ Stable lowercase identifier; keep it consistent with the filename
-- __Name / Aliases:__ Full product name and familiar workshop names
+- __Id:__ Stable lowercase identifier; needs to match the filename
+- __Name / Aliases:__ Link label and indented familiar names in INDEX.md
 - __Kind:__ `downscaled-projection`, `historical-simulation`, `observation`, `reanalysis`, `model-ensemble`, `collection`, or `unresolved`
 - __Version:__ Specific release or family covered by the record
 - __Source Scope:__ What was checked, and what remains unverified
@@ -20,12 +20,10 @@ Metadata uses labeled Markdown lists. Keep the double-underscore labels, such as
 - __Expert Guidance:__ Review status, contributors, evidence, and optional regional overrides
 - __Relevant Rows:__ Application IDs from the guidance table
 
-Use `(not recorded)` for a missing number, date, or optional URL. Use a clear sentence for other unknown values. An empty collection is written `No entries.`; replace that line with list items when adding information. For a nested field, write `- __Funding:__ No entries.` until you have entries to add.
+For datasets, leave unknown optional dates, numbers, and URLs blank after the colon. These become unknown values in the site, not zero. Use a clear sentence for other unknown facts. Empty lists use an indented `[]` on its own line.
 
-Use one item per line for lists of scenarios, aliases, references, state codes, and other values. Do not join several items with semicolons. Within a single value, a semicolon or vertical bar is just punctuation and needs no escaping.
+Use one NestedText list item per scenario, variable, reference, or source. Strings are not quoted or escaped. Longer guidance uses a multi-line string under `expert guidance / text`; each line starts with an indented `>`. That string is rendered as Markdown, including citations, images, and equations.
 
-Collections of records, such as metadata sources or climate regions, use numbered entries. The first labeled field starts the entry; its other fields are indented bullet points. Copy an existing entry to add another. Keep its indentation, and place the entries in the order you want them to appear.
+For guidance boxes and table configuration, the existing Markdown labeled-list format still applies. Use `__Field:__` labels, `(not recorded)` for optional unknown values, and `No entries.` for empty collections. Guidance prose follows `## Guidance`.
 
-State membership uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
-
-You can wrap a long value onto the next line. Indent the continuation beneath its field; the site treats a soft wrap as a space. For paragraphs, images, and equations, use the __Guidance__ section.
+State membership in Regions.md uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
