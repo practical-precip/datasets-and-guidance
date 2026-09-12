@@ -45,7 +45,7 @@ The search also found [Hartke et al. (2025)](https://repository.library.noaa.gov
 
 The initial 12 entries covered nine matrix rows. The follow-up inventory added the
 19 missing families, bringing coverage to all 28 PDF rows through 31 catalog
-records. [The editable coverage crosswalk](ncar-matrix-coverage.yaml) maps each
+records. [The editable coverage crosswalk](NCAR%20matrix%20coverage.md) maps each
 PDF row to its records. The count includes historical comparators and method
 experiment families, not just operational future projection archives.
 

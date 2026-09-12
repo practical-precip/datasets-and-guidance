@@ -40,7 +40,7 @@ Update **Review / Updated** when you revise guidance. Add your name to **Contrib
 1. Copy a similar page from `datasets/` using GitHub's **Raw** view, or start with [the dataset template](templates/dataset.md).
 2. Use **Add file > Create new file** and name it `datasets/clear-product-name.md`. Use lowercase words separated by hyphens. The filename and **Id** must match.
 3. Change the name, ID, facts, sources, and guidance. Use `(not recorded)` only for unknown numeric values, dates, or optional URLs. For other unknown facts, say what is unknown in plain language. Do not leave claims from the copied product.
-4. Add the ID to [Dataset order](Dataset%20order.md). Add any workshop names to [Workshop names](Workshop%20names.md).
+4. Add the ID to [Dataset order](Dataset%20order.md). Add the page to [the index](INDEX.md), and add any workshop names to [Workshop names](Workshop%20names.md).
 5. Propose the changes together in one pull request.
 
 ## Add regional guidance

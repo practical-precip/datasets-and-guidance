@@ -2,8 +2,8 @@
 
 | Field | Value |
 | --- | --- |
-| Title | WUS-D3: Northwest evaluation guidance |
-| Summary | Check winter mountain precipitation and the forcing configuration. |
+| Title | Regional evaluation guidance |
+| Summary | Draft regional guidance awaiting evidence and expert review. |
 
 ## Review
 
@@ -14,14 +14,12 @@
 
 ### Contributors
 
-- Initial AI-assisted draft
+No entries.
 
 ## Evidence
 
-| Statement | Paper | Locator | Scope |
-| --- | --- | --- | --- |
-| The original WUS-D3 study found that downscaling amplified parent-model wet biases in Washington and Oregon, especially over mountains in winter. | rahimi-wus-d3 | Section 3, Figures 3-4 and supplementary Figure S3. | Historical evaluation of the original uncorrected-forcing ensemble; not a conclusion about later bias-corrected experiments or every Northwest basin. |
+No entries.
 
 ## Guidance
 
-Describe the region, supporting evaluation, and how this advice differs from the general guidance. Add citations and identify the product release.
+Describe the region, product release, supporting evaluation, and how this advice differs from the general guidance. Add citations and update the contributor name and date before submitting.
