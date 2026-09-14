@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: University of Wisconsin-Madison / NOAA distribution
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Distinguish a daily probability distribution from a sampled weather sequence. Stochastic realizations are not additional GCM initial-condition members. Check space-time dependence for basin applications.

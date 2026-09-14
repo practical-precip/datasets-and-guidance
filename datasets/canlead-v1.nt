@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: Environment and Climate Change Canada
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Distinguish the adjusted global and regional parent ensembles and the two reference datasets. They are not independent GCMs. Use member spread to examine internal variability.

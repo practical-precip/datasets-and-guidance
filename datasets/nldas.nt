@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: reanalysis
 provider: NASA / NOAA and partners
 version: Family record; select a specific release or experiment before using data.

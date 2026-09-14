@@ -112,50 +112,50 @@ These links define dataset names, IDs (the filenames), and website order. Indent
 
 ### Annual maximum
 
-- [Record length for extremes](guidance/cells/annual-maximum/coverage.md)
-- [Capture storm footprints](guidance/cells/annual-maximum/domain.md)
-- [Sample rare events](guidance/cells/annual-maximum/members.md)
-- [Compare tail changes](guidance/cells/annual-maximum/models.md)
-- [Resolve the event scale](guidance/cells/annual-maximum/spatial.md)
-- [Match the duration](guidance/cells/annual-maximum/temporal.md)
+- [Record length for extremes](guidance/important-for-user/annual-maximum/coverage.md)
+- [Capture storm footprints](guidance/important-for-user/annual-maximum/domain.md)
+- [Sample rare events](guidance/important-for-user/annual-maximum/members.md)
+- [Compare tail changes](guidance/important-for-user/annual-maximum/models.md)
+- [Resolve the event scale](guidance/important-for-user/annual-maximum/spatial.md)
+- [Match the duration](guidance/important-for-user/annual-maximum/temporal.md)
 
 ### Annual precipitation
 
-- [Baseline and future periods](guidance/cells/annual-precipitation/coverage.md)
-- [Include the full basin](guidance/cells/annual-precipitation/domain.md)
-- [Forced change and internal variability](guidance/cells/annual-precipitation/members.md)
-- [Climate model uncertainty](guidance/cells/annual-precipitation/models.md)
-- [Check basin and reference coverage](guidance/cells/annual-precipitation/spatial.alaska.md)
-- [Evaluate island and elevation coverage](guidance/cells/annual-precipitation/spatial.hawaii.md)
-- [Catchment spatial support](guidance/cells/annual-precipitation/spatial.md)
-- [Evaluate terrain and basin totals](guidance/cells/annual-precipitation/spatial.northwest.md)
-- [Evaluate seasonal and basin totals](guidance/cells/annual-precipitation/spatial.southwest.md)
-- [Annual aggregation](guidance/cells/annual-precipitation/temporal.md)
+- [Baseline and future periods](guidance/important-for-user/annual-precipitation/coverage.md)
+- [Include the full basin](guidance/important-for-user/annual-precipitation/domain.md)
+- [Forced change and internal variability](guidance/important-for-user/annual-precipitation/members.md)
+- [Climate model uncertainty](guidance/important-for-user/annual-precipitation/models.md)
+- [Check basin and reference coverage](guidance/important-for-user/annual-precipitation/spatial.alaska.md)
+- [Evaluate island and elevation coverage](guidance/important-for-user/annual-precipitation/spatial.hawaii.md)
+- [Catchment spatial support](guidance/important-for-user/annual-precipitation/spatial.md)
+- [Evaluate terrain and basin totals](guidance/important-for-user/annual-precipitation/spatial.northwest.md)
+- [Evaluate seasonal and basin totals](guidance/important-for-user/annual-precipitation/spatial.southwest.md)
+- [Annual aggregation](guidance/important-for-user/annual-precipitation/temporal.md)
 
 ### Intermittency
 
-- [Sequence completeness](guidance/cells/intermittency/coverage.md)
-- [Follow regional spells](guidance/cells/intermittency/domain.md)
-- [Sample long spells](guidance/cells/intermittency/members.md)
-- [Compare occurrence](guidance/cells/intermittency/models.md)
-- [Wet-interval definition](guidance/cells/intermittency/spatial.md)
-- [Preserve the sequence](guidance/cells/intermittency/temporal.md)
+- [Sequence completeness](guidance/important-for-user/intermittency/coverage.md)
+- [Follow regional spells](guidance/important-for-user/intermittency/domain.md)
+- [Sample long spells](guidance/important-for-user/intermittency/members.md)
+- [Compare occurrence](guidance/important-for-user/intermittency/models.md)
+- [Wet-interval definition](guidance/important-for-user/intermittency/spatial.md)
+- [Preserve the sequence](guidance/important-for-user/intermittency/temporal.md)
 
 ### Precipitation phase
 
-- [Seasonal phase changes](guidance/cells/precipitation-phase/coverage.md)
-- [Cover the snow zone](guidance/cells/precipitation-phase/domain.md)
-- [Sample snow seasons](guidance/cells/precipitation-phase/members.md)
-- [Compare phase response](guidance/cells/precipitation-phase/models.md)
-- [Represent elevation](guidance/cells/precipitation-phase/spatial.md)
-- [Pair weather variables](guidance/cells/precipitation-phase/temporal.md)
+- [Seasonal phase changes](guidance/important-for-user/precipitation-phase/coverage.md)
+- [Cover the snow zone](guidance/important-for-user/precipitation-phase/domain.md)
+- [Sample snow seasons](guidance/important-for-user/precipitation-phase/members.md)
+- [Compare phase response](guidance/important-for-user/precipitation-phase/models.md)
+- [Represent elevation](guidance/important-for-user/precipitation-phase/spatial.md)
+- [Pair weather variables](guidance/important-for-user/precipitation-phase/temporal.md)
 
 ### Spatial coherence
 
-- [Keep comparable events](guidance/cells/spatial-coherence/coverage.md)
-- [Use a continuous field](guidance/cells/spatial-coherence/domain.md)
-- [Sample joint extremes](guidance/cells/spatial-coherence/members.md)
-- [Test each method](guidance/cells/spatial-coherence/models.md)
-- [Spatial dependence](guidance/cells/spatial-coherence/spatial.md)
-- [Check synchronized storms](guidance/cells/spatial-coherence/temporal.md)
+- [Keep comparable events](guidance/important-for-user/spatial-coherence/coverage.md)
+- [Use a continuous field](guidance/important-for-user/spatial-coherence/domain.md)
+- [Sample joint extremes](guidance/important-for-user/spatial-coherence/members.md)
+- [Test each method](guidance/important-for-user/spatial-coherence/models.md)
+- [Spatial dependence](guidance/important-for-user/spatial-coherence/spatial.md)
+- [Check synchronized storms](guidance/important-for-user/spatial-coherence/temporal.md)
 

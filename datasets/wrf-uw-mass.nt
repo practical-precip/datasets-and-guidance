@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: downscaled-projection
 provider: University of Washington Climate Impacts Group / Cliff Mass and collaborators
 version: CMIP5 13-projection WRF ensemble in the UW/CIG catalog

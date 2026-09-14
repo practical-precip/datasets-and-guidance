@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: CarbonPlan
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: This ERA5-trained global implementation is distinct from MACAv2-METDATA and MACAv2-LIVNEH. Use the run catalog to align models and scenarios across methods.

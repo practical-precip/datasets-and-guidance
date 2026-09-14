@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: observation
 provider: NOAA NCEI
 version: Family record; select a specific release or experiment before using data.

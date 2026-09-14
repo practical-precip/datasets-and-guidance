@@ -18,12 +18,12 @@ Datasets use NestedText. Names, IDs, aliases, and display order are defined only
 - __Funding:__ Agency, award, scope, and supporting source
 - __Associated Resources:__ Related documentation, code, or publications
 - __Expert Guidance:__ Review status, contributors, evidence, and optional regional overrides
-- __Relevant Rows:__ Application IDs from the guidance table
+- __Relevant Rows:__ Guidance topic IDs from the table
 
 For datasets, leave unknown optional dates, numbers, and URLs blank after the colon. These become unknown values in the site, not zero. Use a clear sentence for other unknown facts. Empty lists use an indented `[]` on its own line.
 
 Use one NestedText list item per scenario, variable, reference, or source. Strings are not quoted or escaped. Longer guidance uses a multi-line string under `expert guidance / text`; each line starts with an indented `>`. That string is rendered as Markdown, including citations, images, and equations.
 
-For guidance boxes and application pages, the existing Markdown labeled-list format still applies. Use `__Field:__` labels, `(not recorded)` for optional unknown values, and `No entries.` for empty collections. Guidance prose follows `## Guidance`.
+For guidance boxes, the existing Markdown labeled-list format still applies. Use `__Field:__` labels, `(not recorded)` for optional unknown values, and `No entries.` for empty collections. Guidance prose follows `## Guidance`.
 
 State membership in Regions.nt uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.

@@ -50,7 +50,7 @@ The link label is the display name. The filename supplies the ID (`loca2`). Inde
 
 ## Edit guidance-box metadata
 
-Guidance boxes and application pages still use Markdown labeled lists, such as `- __Title:__ Basin guidance`. Keep double underscores around labels and preserve list indentation. Their prose starts below `## Guidance`. Datasets, region definitions, and the table layout use NestedText.
+Guidance boxes use Markdown labeled lists, such as `- __Title:__ Basin guidance`. Keep double underscores around labels and preserve list indentation. Their prose starts below `## Guidance`. Datasets, region definitions, and the table layout use NestedText.
 
 ## Write guidance
 
@@ -115,11 +115,11 @@ expert guidance:
 
 Keep the other `expert guidance` fields. A regional record has its own review, evidence, and `text` field. It cannot contain further regional overrides. See [WUS-D3](datasets/wus-d3.nt) for an existing example.
 
-For a guidance box, use [the Markdown regional template](templates/regional-guidance.md) and put it beside the general box in `guidance/cells/`. Its general page links the variant in a __Regions__ section. A region uses the general guidance when no override is supplied.
+For a guidance box, use [the Markdown regional template](templates/regional-guidance.md) and put it beside the general box in `guidance/important-for-user/`. Its general page links the variant in a __Regions__ section. A region uses the general guidance when no override is supplied.
 
 ## Change the guidance table
 
-[Table.nt](guidance/Table.nt) uses NestedText and controls column definitions and row order. Each application page in `guidance/applications/` defines its title and assigns a Markdown box to every column. For a new column, add its definition and a box assignment in every application. For a new row, copy an application page and its box pages, give them stable IDs, and add the ID to the table's row list. Maintainers validate these linked changes together.
+[Table.nt](guidance/Table.nt) uses NestedText and controls column definitions and guidance topic order. Each row ID has a matching directory in `guidance/important-for-user/`. That directory has one Markdown box for each column ID, named `<column-id>.md`. For a new column, add its definition and a box in every topic directory. For a new row, create a topic directory with a box for every column, add a heading and links in [INDEX.md](INDEX.md), and add the ID to the table's row list. Maintainers validate these linked changes together.
 
 ## Change climate regions
 

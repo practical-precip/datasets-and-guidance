@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: NCAR
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: The matrix identifies a dataset available on request. The linked code is not a download of that dataset. This record is separate from GARD-LENS and CarbonPlan GARD.

@@ -22,9 +22,8 @@ For a dataset correction, edit the value after a NestedText key such as `provide
 ## Where things live
 
 - __[datasets](datasets/):__ One NestedText file per dataset, with facts, sources, and expert guidance together
-- __[guidance/cells](guidance/cells/):__ One page per guidance box, plus optional regional versions
-- __[guidance/applications](guidance/applications/):__ Application names, introductions, metrics, and box assignments
-- __[Guidance table](guidance/Table.nt):__ Column definitions and application order
+- __[guidance/important-for-user](guidance/important-for-user/):__ One page per guidance topic and table column, plus optional regional versions
+- __[Guidance table](guidance/Table.nt):__ Column definitions and guidance topic order
 - __[INDEX.md](INDEX.md):__ Dataset names, IDs, aliases, and website order
 - __[Regions](Regions.nt):__ Region names, state membership, and map label positions
 - __[references.bib](references.bib):__ Paper details and the claims they support

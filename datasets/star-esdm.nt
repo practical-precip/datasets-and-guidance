@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: Texas Tech University / collaborators
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: The matrix describes an earlier configuration and labels it not yet public. Later STAR-ESDM1-0 files exist in DRCDP; their domain, reference data, and release scope must not be substituted silently.

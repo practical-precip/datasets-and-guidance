@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: NCAR / Reclamation
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Keep Alaska and Hawaii grids and reference data separate. This CMIP5 BCSD family is distinct from later CMIP6 Alaska/Hawaii datasets.

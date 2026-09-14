@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: NCAR / USGS
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Use as a historical hydroclimate comparator after evaluating regional biases. This record does not describe a future projection or the future warming experiment mentioned in the matrix.

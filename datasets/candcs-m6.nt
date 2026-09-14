@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: Pacific Climate Impacts Consortium / Environment and Climate Change Canada
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: CanDCS-M6 is the multivariate product. CanDCS-U6 uses BCCAQv2 and is a different selection. Check provider errata before downloading.

@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: Gebrechorkos and collaborators / CEDA
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Evaluate the reference precipitation product in your region. A global grid does not establish regional skill for extremes or mountain precipitation.

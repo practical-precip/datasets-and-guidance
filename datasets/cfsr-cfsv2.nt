@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: reanalysis
 provider: NOAA NCEP
 version: Family record; select product stream and release.

@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: collection
 provider: Multiple modeling centers
 version: Family record; select a specific release or experiment before using data.

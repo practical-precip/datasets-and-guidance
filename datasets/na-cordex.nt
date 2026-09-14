@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: Participating NA-CORDEX modeling groups; NCAR GDEX
 verified on: 2026-09-11
 version: North American CMIP5 archive; distinguish native, regridded, and bias-corrected outputs.

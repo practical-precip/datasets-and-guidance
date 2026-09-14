@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: Oak Ridge National Laboratory
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Distinguish raw regional output from Livneh- and Daymet-adjusted variants. The distributed fine grid is not evidence that the regional model resolved processes at that scale.

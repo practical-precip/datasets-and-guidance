@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: historical-simulation
 provider: Pacific Northwest National Laboratory
 version: Chen et al. (2018) simulation and later evaluation extension; no complete archive release identified.

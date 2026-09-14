@@ -19,10 +19,10 @@ No entries.
 
 ## Regions
 
-- __Northwest:__ cells/annual-precipitation/spatial.northwest.md
-- __Southwest:__ cells/annual-precipitation/spatial.southwest.md
-- __Alaska:__ cells/annual-precipitation/spatial.alaska.md
-- __Hawaii:__ cells/annual-precipitation/spatial.hawaii.md
+- __Northwest:__ important-for-user/annual-precipitation/spatial.northwest.md
+- __Southwest:__ important-for-user/annual-precipitation/spatial.southwest.md
+- __Alaska:__ important-for-user/annual-precipitation/spatial.alaska.md
+- __Hawaii:__ important-for-user/annual-precipitation/spatial.hawaii.md
 
 ## Guidance
 
@@ -44,4 +44,4 @@ Use consistent units and account for cells with missing values. This equation de
 
 ![Synthetic monthly totals illustrating why seasonal evaluation matters](/content-assets/guidance/figures/annual-precipitation.png)
 
-_Illustrative synthetic data, not observations or a product benchmark. See the application figure for provenance._
+_Illustrative synthetic data, not observations or a product benchmark. The figure uses constructed monthly totals to illustrate seasonal differences._

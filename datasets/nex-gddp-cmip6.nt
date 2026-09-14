@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 version: Original archive described in 2022; later v1 revisions and v2 exist and require separate review.
 summary: Global daily CMIP6 projections using bias correction and spatial disaggregation at 0.25 degrees.
 provider: NASA Earth Exchange / NASA Center for Climate Simulation

@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 version: Precipitation v20240915; original ensemble described by Pierce et al. (2023)
 summary: Daily CMIP6 projections using localized constructed analogs on a roughly 6 km North American grid.
 provider: Scripps Institution of Oceanography, UC San Diego

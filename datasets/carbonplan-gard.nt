@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: CarbonPlan
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: SV and MV are separate run collections. CarbonPlan omits En-GARD stochastic ensemble generation. Model and scenario overlap must be checked before comparing methods.

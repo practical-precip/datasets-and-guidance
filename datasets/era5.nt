@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 kind: reanalysis
 provider: ECMWF
 version: Family record; select a specific release or experiment before using data.

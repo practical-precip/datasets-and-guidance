@@ -1,3 +1,5 @@
+# NestedText format: https://nestedtext.org/
+
 provider: US Environmental Protection Agency
 version: Family/configuration described in the pinned NCAR matrix; see source scope and field-specific qualifications.
 summary: Historical and future time windows differ by model and scenario. A 36 km regional model does not directly resolve local convective rainfall. Check each run before calculating paired changes.
