@@ -2,7 +2,7 @@
 
 A shared notebook for choosing and evaluating precipitation data. Datasets, climate regions, and table definitions use standard NestedText files. Guidance boxes use Markdown. You can edit it in GitHub without installing anything.
 
-This repository is private. Invited contributors can read and propose edits. Accepted content may appear on the [public website](https://practical-precip.github.io/site/), so keep private notes and unpublished material elsewhere.
+This repository is public. Anyone can read the source and propose edits. A maintainer reviews changes before they appear on the [public website](https://practical-precip.github.io/site/). Keep private notes and unpublished material elsewhere.
 
 ## Start here
 

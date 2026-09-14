@@ -4,4 +4,4 @@ The combined repository continues the history of `practical-precip/datasets`. Gu
 
 The Markdown migration preserved 133 source records exactly, including 67 datasets, 34 general and regional guidance boxes, two separate regional dataset pages, five applications, 20 references, and the table, region, catalog, and coverage indexes. Illustration generation code moved to the public site repository. Source documents and the original typed workshop list are retained in this folder.
 
-The site records the selected content commit in its submodule and public snapshot. Repository privacy restricts editing and source access; reviewed content is deliberately rendered on the public website.
+The site records the selected content commit in its submodule and public snapshot. Source files are public, while publication on the website still requires a maintainer to select and validate a content revision.

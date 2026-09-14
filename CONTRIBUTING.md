@@ -1,6 +1,6 @@
 # Contributing
 
-You need an invitation to this private repository and a GitHub account. Ask an organization maintainer for access if a link shows 404. You do not need to know Git to propose a change.
+Anyone can read this repository. Sign in to GitHub to propose a change. You do not need to know Git to use the online editor.
 
 ## Edit online
 
