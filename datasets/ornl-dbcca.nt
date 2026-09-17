@@ -50,8 +50,8 @@ ensemble:
   member counts:
     []
 access:
-  landing page: https://hydrosource.ornl.gov/dataset/9505V3
-  data: https://hydrosource.ornl.gov/dataset/9505V3
+  landing page: https://hydrosource.ornl.gov/data/datasets/9505v3_1/
+  data: https://hydrosource.ornl.gov/data/datasets/9505v3_1/
   format: Not established from the sources checked.
   license: Not established. Public access does not itself specify reuse terms.
   license url:
@@ -60,6 +60,9 @@ access:
 references:
   []
 metadata sources:
+  -
+    url: https://hydrosource.ornl.gov/data/datasets/9505v3_1/
+    locator: Checked: provider dataset page documents the DBCCA and RegCM approaches, Daymet and Livneh references, CMIP6 models and scenarios, periods, variables, spatial and temporal resolution, formats, access options, publication date and DOI for version 1.1.
   -
     url: https://raw.githubusercontent.com/NCAR/hydro-climate-evaluation/28f529dc6a265dbf669e6fd38ec20e7ee11c1998/docs/downscalingMethodsMatrixPublic.36x24.pdf
     locator: Page 1, dataset row 7: ORNL DBCCA. Transcribed method, grid, domain, period, scenarios and reference information. Public/in-progress labels describe this snapshot, not verified current availability.
@@ -79,8 +82,8 @@ funding:
 associated resources:
   -
     label: Provider or method documentation
-    url: https://hydrosource.ornl.gov/dataset/9505V3
-    description: Follow-up resource; availability of data must be confirmed.
+    url: https://hydrosource.ornl.gov/data/datasets/9505v3_1/
+    description: Provider dataset page with coverage, format, access and citation details for version 1.1.
   -
     label: Related publication or technical report
     url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022EF002734
