@@ -10,10 +10,10 @@ private notes and unpublished material elsewhere.
 ## Start here
 
 - [Find dataset guidance and metadata](INDEX.md)
-- [Edit online or contribute with Git](CONTRIBUTING.md)
-- [Understand the fields](FIELDS.md)
+- [Add a dataset, contribute guidance, or edit metadata online or with Git](CONTRIBUTING.md)
+- [Understand the dataset metadata fields](FIELDS.md)
 - [Read the change history](CHANGELOG.md)
-- [See the NCAR matrix coverage](notes/NCAR%20matrix%20coverage.md)
+- [See the NCAR's dataset matrix](notes/NCAR%20matrix%20coverage.md)
 - [Browse the academic references](references.bib)
 
 ## A small edit is welcome
