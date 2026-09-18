@@ -1,0 +1,67 @@
+kind: model-ensemble
+provider: NCAR / Texas A&M University
+version: Family record; select a specific release or experiment before using data.
+summary: >-
+  High-resolution CESM project with ten-member historical/future ensembles and a distinct
+  preindustrial control. It is not regional downscaling.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project documentation
+  on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: model ensemble
+  description: >-
+    High-resolution CESM project with ten-member historical/future ensembles and a distinct
+    preindustrial control. It is not regional downscaling.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Global
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Collection dependent
+  historical: Historical/future experiments plus a separate 500-year control
+  future: Experiment or release dependent; see source documentation.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: 0.25
+    unit: degree atmosphere/land; 0.1 degree ocean/ice
+  scenarios:
+    - Select experiment; not established for this family label
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Model or experiment dependent.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://project.cgd.ucar.edu/projects/MESACLIP/
+  data: https://project.cgd.ucar.edu/projects/MESACLIP/
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://project.cgd.ucar.edu/projects/MESACLIP/
+    locator: >-
+      Provider/project description: identity and core properties summarized above. Unstated fields
+      remain unknown.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://project.cgd.ucar.edu/projects/MESACLIP/
+    description: Resolve the release and availability before selecting data.

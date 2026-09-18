@@ -1,0 +1,67 @@
+kind: downscaled-projection
+provider: University of Washington Climate Impacts Group / Cliff Mass and collaborators
+version: CMIP5 13-projection WRF ensemble in the UW/CIG catalog
+summary: >-
+  Pacific Northwest hourly WRF projections at 12 km. The documented CMIP5 ensemble contains 13
+  projections from 12 distinct GCMs.
+source_scope: >-
+  User workshop name matched to the UW/CIG provider catalog. Scope is its CMIP5 13-projection
+  ensemble, not every WRF project on the page.
+verified_on: '2026-09-11'
+generation:
+  - CMIP5
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: Dynamical downscaling
+  description: WRF regional climate projections.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Pacific Northwest
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Hourly
+  historical: 1970-2099 combined simulation range; inspect historical/future experiment boundaries.
+  future: Through 2099 in documented ensemble
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: 12
+    unit: km
+  scenarios:
+    - RCP8.5
+    - RCP4.5 (ACCESS1.0 only)
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: 12 CMIP5 GCMs in the provider table
+  model_count: 12
+  members: 13 projections; ACCESS1.0 appears under two scenarios. This is not 13 distinct GCMs.
+  member_counts: []
+access:
+  landing_page: https://cig.uw.edu/datasets/dynamically-downscaled-hydroclimate-projections-wrf-model/
+  data: https://cig.uw.edu/datasets/dynamically-downscaled-hydroclimate-projections-wrf-model/
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://cig.uw.edu/datasets/dynamically-downscaled-hydroclimate-projections-wrf-model/
+    locator: >-
+      CMIP5 ensemble table: leadership, 13 projections, 12 unique models, 12 km, hourly, 1970-2099
+      and scenarios.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+    description: Resolve the release and availability before selecting data.

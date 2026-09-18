@@ -1,0 +1,63 @@
+kind: unresolved
+provider: Archive not yet identified
+version: Workshop label awaiting identification.
+summary: >-
+  BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible matches;
+  the workshop label alone does not establish one.
+source_scope: User-supplied workshop label. Identity or release details remain unresolved.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: unresolved
+  description: >-
+    BCSD is used by multiple CMIP5 archives. Reclamation BCSD and NASA products are possible
+    matches; the workshop label alone does not establish one.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Archive dependent
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Archive dependent
+  historical: Archive dependent
+  future: Experiment or release dependent; see source documentation.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: null
+    unit: archive dependent
+  scenarios:
+    - Select experiment; not established for this family label
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+  data: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+    locator: User-supplied identification lead; no complete release specification established.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://github.com/practical-precip/datasets/blob/main/notes/datasets.jpg
+    description: Resolve the release and availability before selecting data.
