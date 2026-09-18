@@ -1,0 +1,63 @@
+kind: observation
+provider: PRISM Climate Group
+version: Family record; select a specific release or experiment before using data.
+summary: Observation-derived climate grids. Cadence, grid and period vary by PRISM product.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project documentation
+  on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: observation
+  description: Observation-derived climate grids. Cadence, grid and period vary by PRISM product.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Product-specific US domain
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Daily, monthly and annual products
+  historical: Daily from 1981; monthly/annual from 1895
+  future: Not applicable to this historical observation/analysis record.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: null
+    unit: 800 m and 4 km distributions; choose product
+  scenarios:
+    - 'Not applicable: historical observations or analysis'
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://prism.oregonstate.edu/data/
+  data: https://prism.oregonstate.edu/data/
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://prism.oregonstate.edu/data/
+    locator: >-
+      Provider/project description: identity and core properties summarized above. Unstated fields
+      remain unknown.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://prism.oregonstate.edu/data/
+    description: Resolve the release and availability before selecting data.

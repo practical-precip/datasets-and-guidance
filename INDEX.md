@@ -2,112 +2,111 @@
 
 ## Datasets
 
-These links define dataset names, IDs (the filenames), and website order. Indented names are search aliases. Edit names here, and edit facts and guidance in the linked NestedText files.
+Dataset names, aliases, IDs, and display order are defined here. Facts and guidance are separate so each can be edited and reviewed independently.
 
-- [LOCA2 North America](datasets/loca2.nt)
-  - LOCA2
-- [NEX-GDDP-CMIP6](datasets/nex-gddp-cmip6.nt)
-  - NASA-NEX-GDDP
-- [MACAv2-METDATA](datasets/maca-metdata.nt)
-  - MACAv2
-  - MACA
-- [MACAv2-LIVNEH](datasets/maca-livneh.nt)
-  - MACAv2
-  - MACA
-- [LOCA CMIP5](datasets/loca-cmip5.nt)
-  - LOCA
-- [NEX-GDDP CMIP5](datasets/nex-gddp-cmip5.nt)
-  - NASA-NEX-GDDP
-- [NEX-DCP30](datasets/nex-dcp30.nt)
-  - NASA-NEX-DCP30
-- [GDPCIR](datasets/gdpcir.nt)
-- [GARD-LENS](datasets/gard-lens.nt)
-- [WUS-D3](datasets/wus-d3.nt)
-- [NA-CORDEX CMIP5](datasets/na-cordex.nt)
-- [IM3/HyperFACETS TGW](datasets/tgw.nt)
-  - IM3/HyperFACETS
-- [21st Century Hydrologic Projections for Alaska and Hawaii](datasets/alaska-hawaii-bcsd.nt)
-- [Reclamation BCSD climate and hydrology projections](datasets/reclamation-bcsd.nt)
-- [Reclamation BCCA climate and hydrology projections](datasets/reclamation-bcca.nt)
-- [ORNL DBCCA](datasets/ornl-dbcca.nt)
-  - SWA 9505v3 - DBBCA
-  - SWA 9505v3 DBBCA
-- [CarbonPlan MACA](datasets/carbonplan-maca.nt)
-- [CanDCS-M6](datasets/candcs-m6.nt)
-- [Global BCCAQ (Gebrechorkos et al.)](datasets/global-bccaq.nt)
-- [En-GARD dataset in the NCAR matrix](datasets/en-gard.nt)
-- [CarbonPlan GARD-SV and GARD-MV](datasets/carbonplan-gard.nt)
-- [STAR-ESDM](datasets/star-esdm.nt)
-- [CanLEAD v1](datasets/canlead-v1.nt)
-- [UW-Madison Probabilistic Downscaling (UW-PD)](datasets/uw-pd-cmip5.nt)
-  - UWPD
-- [ICAR dataset in the NCAR matrix](datasets/icar.nt)
-  - ICAR? (not publicly available yet)
-- [CanRCM4 Large Ensemble](datasets/canrcm4-le.nt)
-- [CONUS404](datasets/conus404.nt)
-  - CONUS 404
-- [Argonne Dynamically Downscaled Archive V2 (ADDA_V2)](datasets/adda-v2.nt)
-  - ADDA / ClimRR
-  - ADDA
-- [EPA Dynamically Downscaled Ensemble (EDDE) v1](datasets/edde-v1.nt)
-- [ORNL RegCM](datasets/ornl-regcm.nt)
-  - SWA 9505v3 - RegCM
-  - SWA 9505v3 RegCM
-- [CarbonPlan DeepSD](datasets/carbonplan-deepsd.nt)
-- [ERA5](datasets/era5.nt)
-- [ERA5-Land](datasets/era5-land.nt)
-- [MERRA-2](datasets/merra2.nt)
-  - MERRA2
-- [JRA-3Q](datasets/jra3q.nt)
-- [CMIP6](datasets/cmip6.nt)
-- [CONUS-I](datasets/conus1.nt)
-  - CONUS 1
-- [CONUS-II](datasets/conus2.nt)
-  - CONUS 2
-- [CONUS404-PGW](datasets/conus404-pgw.nt)
-  - CONUS 404-PGW
-- [LOCA2-CA](datasets/loca2-ca.nt)
-- [NIU / WRF-BCC (candidate match)](datasets/niu.nt)
-  - NIU
-- [EDDE v2](datasets/edde-v2.nt)
-  - EDDEv2
-- [SPEAR](datasets/spear.nt)
-- [CESM-LENS](datasets/cesm-lens.nt)
-- [SMILEs](datasets/smiles.nt)
-  - SMILES
-- [AORC](datasets/aorc.nt)
-- [PRISM](datasets/prism.nt)
-- [Livneh gridded meteorology](datasets/livneh.nt)
-  - Livneh
-- [Daymet](datasets/daymet.nt)
-- [nClimGrid](datasets/nclimgrid.nt)
-  - NClimGrid
-- [Stage IV](datasets/stage-iv.nt)
-  - Stage 4
-  - Stage4
-- [GPCP](datasets/gpcp.nt)
-- [GHCN](datasets/ghcn.nt)
-- [gridMET](datasets/gridmet.nt)
-  - METDATA
-  - Gridmet
-  - GridMet
-- [MRMS](datasets/mrms.nt)
-- [NLDAS](datasets/nldas.nt)
-- [MESACLIP](datasets/mesaclip.nt)
-- [BCSD-CMIP5 (workshop label)](datasets/bcsd-cmip5.nt)
-  - BCSD-CMIP5
-- [WRF-PNNL6](datasets/wrf-pnnl6.nt)
-- [WRF-UW-Mass](datasets/wrf-uw-mass.nt)
-  - Mass Downscaling
-- [HighResMIP](datasets/highresmip.nt)
-- [CORDEX](datasets/cordex.nt)
-- [NARR](datasets/narr.nt)
-- [HRRR](datasets/hrrr.nt)
-- [CFSR / CFSv2](datasets/cfsr-cfsv2.nt)
-  - CFSRv2
-- [MSWEP](datasets/mswep.nt)
-- [ClimateNA](datasets/climatena.nt)
-
+- __LOCA2 North America__ ([Guidance](guidance/datasets/loca2.md), [Metadata](datasets/loca2.yaml))
+  - Alias: LOCA2
+- __NEX-GDDP-CMIP6__ ([Guidance](guidance/datasets/nex-gddp-cmip6.md), [Metadata](datasets/nex-gddp-cmip6.yaml))
+  - Alias: NASA-NEX-GDDP
+- __MACAv2-METDATA__ ([Guidance](guidance/datasets/maca-metdata.md), [Metadata](datasets/maca-metdata.yaml))
+  - Alias: MACAv2
+  - Alias: MACA
+- __MACAv2-LIVNEH__ ([Guidance](guidance/datasets/maca-livneh.md), [Metadata](datasets/maca-livneh.yaml))
+  - Alias: MACAv2
+  - Alias: MACA
+- __LOCA CMIP5__ ([Guidance](guidance/datasets/loca-cmip5.md), [Metadata](datasets/loca-cmip5.yaml))
+  - Alias: LOCA
+- __NEX-GDDP CMIP5__ ([Guidance](guidance/datasets/nex-gddp-cmip5.md), [Metadata](datasets/nex-gddp-cmip5.yaml))
+  - Alias: NASA-NEX-GDDP
+- __NEX-DCP30__ ([Guidance](guidance/datasets/nex-dcp30.md), [Metadata](datasets/nex-dcp30.yaml))
+  - Alias: NASA-NEX-DCP30
+- __GDPCIR__ ([Guidance](guidance/datasets/gdpcir.md), [Metadata](datasets/gdpcir.yaml))
+- __GARD-LENS__ ([Guidance](guidance/datasets/gard-lens.md), [Metadata](datasets/gard-lens.yaml))
+- __WUS-D3__ ([Guidance](guidance/datasets/wus-d3.md), [Metadata](datasets/wus-d3.yaml))
+- __NA-CORDEX CMIP5__ ([Guidance](guidance/datasets/na-cordex.md), [Metadata](datasets/na-cordex.yaml))
+- __IM3/HyperFACETS TGW__ ([Guidance](guidance/datasets/tgw.md), [Metadata](datasets/tgw.yaml))
+  - Alias: IM3/HyperFACETS
+- __21st Century Hydrologic Projections for Alaska and Hawaii__ ([Guidance](guidance/datasets/alaska-hawaii-bcsd.md), [Metadata](datasets/alaska-hawaii-bcsd.yaml))
+- __Reclamation BCSD climate and hydrology projections__ ([Guidance](guidance/datasets/reclamation-bcsd.md), [Metadata](datasets/reclamation-bcsd.yaml))
+- __Reclamation BCCA climate and hydrology projections__ ([Guidance](guidance/datasets/reclamation-bcca.md), [Metadata](datasets/reclamation-bcca.yaml))
+- __ORNL DBCCA__ ([Guidance](guidance/datasets/ornl-dbcca.md), [Metadata](datasets/ornl-dbcca.yaml))
+  - Alias: SWA 9505v3 - DBBCA
+  - Alias: SWA 9505v3 DBBCA
+- __CarbonPlan MACA__ ([Guidance](guidance/datasets/carbonplan-maca.md), [Metadata](datasets/carbonplan-maca.yaml))
+- __CanDCS-M6__ ([Guidance](guidance/datasets/candcs-m6.md), [Metadata](datasets/candcs-m6.yaml))
+- __Global BCCAQ (Gebrechorkos et al.)__ ([Guidance](guidance/datasets/global-bccaq.md), [Metadata](datasets/global-bccaq.yaml))
+- __En-GARD dataset in the NCAR matrix__ ([Guidance](guidance/datasets/en-gard.md), [Metadata](datasets/en-gard.yaml))
+- __CarbonPlan GARD-SV and GARD-MV__ ([Guidance](guidance/datasets/carbonplan-gard.md), [Metadata](datasets/carbonplan-gard.yaml))
+- __STAR-ESDM__ ([Guidance](guidance/datasets/star-esdm.md), [Metadata](datasets/star-esdm.yaml))
+- __CanLEAD v1__ ([Guidance](guidance/datasets/canlead-v1.md), [Metadata](datasets/canlead-v1.yaml))
+- __UW-Madison Probabilistic Downscaling (UW-PD)__ ([Guidance](guidance/datasets/uw-pd-cmip5.md), [Metadata](datasets/uw-pd-cmip5.yaml))
+  - Alias: UWPD
+- __ICAR dataset in the NCAR matrix__ ([Guidance](guidance/datasets/icar.md), [Metadata](datasets/icar.yaml))
+  - Alias: ICAR? (not publicly available yet)
+- __CanRCM4 Large Ensemble__ ([Guidance](guidance/datasets/canrcm4-le.md), [Metadata](datasets/canrcm4-le.yaml))
+- __CONUS404__ ([Guidance](guidance/datasets/conus404.md), [Metadata](datasets/conus404.yaml))
+  - Alias: CONUS 404
+- __Argonne Dynamically Downscaled Archive V2 (ADDA_V2)__ ([Guidance](guidance/datasets/adda-v2.md), [Metadata](datasets/adda-v2.yaml))
+  - Alias: ADDA / ClimRR
+  - Alias: ADDA
+- __EPA Dynamically Downscaled Ensemble (EDDE) v1__ ([Guidance](guidance/datasets/edde-v1.md), [Metadata](datasets/edde-v1.yaml))
+- __ORNL RegCM__ ([Guidance](guidance/datasets/ornl-regcm.md), [Metadata](datasets/ornl-regcm.yaml))
+  - Alias: SWA 9505v3 - RegCM
+  - Alias: SWA 9505v3 RegCM
+- __CarbonPlan DeepSD__ ([Guidance](guidance/datasets/carbonplan-deepsd.md), [Metadata](datasets/carbonplan-deepsd.yaml))
+- __ERA5__ ([Guidance](guidance/datasets/era5.md), [Metadata](datasets/era5.yaml))
+- __ERA5-Land__ ([Guidance](guidance/datasets/era5-land.md), [Metadata](datasets/era5-land.yaml))
+- __MERRA-2__ ([Guidance](guidance/datasets/merra2.md), [Metadata](datasets/merra2.yaml))
+  - Alias: MERRA2
+- __JRA-3Q__ ([Guidance](guidance/datasets/jra3q.md), [Metadata](datasets/jra3q.yaml))
+- __CMIP6__ ([Guidance](guidance/datasets/cmip6.md), [Metadata](datasets/cmip6.yaml))
+- __CONUS-I__ ([Guidance](guidance/datasets/conus1.md), [Metadata](datasets/conus1.yaml))
+  - Alias: CONUS 1
+- __CONUS-II__ ([Guidance](guidance/datasets/conus2.md), [Metadata](datasets/conus2.yaml))
+  - Alias: CONUS 2
+- __CONUS404-PGW__ ([Guidance](guidance/datasets/conus404-pgw.md), [Metadata](datasets/conus404-pgw.yaml))
+  - Alias: CONUS 404-PGW
+- __LOCA2-CA__ ([Guidance](guidance/datasets/loca2-ca.md), [Metadata](datasets/loca2-ca.yaml))
+- __NIU / WRF-BCC (candidate match)__ ([Guidance](guidance/datasets/niu.md), [Metadata](datasets/niu.yaml))
+  - Alias: NIU
+- __EDDE v2__ ([Guidance](guidance/datasets/edde-v2.md), [Metadata](datasets/edde-v2.yaml))
+  - Alias: EDDEv2
+- __SPEAR__ ([Guidance](guidance/datasets/spear.md), [Metadata](datasets/spear.yaml))
+- __CESM-LENS__ ([Guidance](guidance/datasets/cesm-lens.md), [Metadata](datasets/cesm-lens.yaml))
+- __SMILEs__ ([Guidance](guidance/datasets/smiles.md), [Metadata](datasets/smiles.yaml))
+  - Alias: SMILES
+- __AORC__ ([Guidance](guidance/datasets/aorc.md), [Metadata](datasets/aorc.yaml))
+- __PRISM__ ([Guidance](guidance/datasets/prism.md), [Metadata](datasets/prism.yaml))
+- __Livneh gridded meteorology__ ([Guidance](guidance/datasets/livneh.md), [Metadata](datasets/livneh.yaml))
+  - Alias: Livneh
+- __Daymet__ ([Guidance](guidance/datasets/daymet.md), [Metadata](datasets/daymet.yaml))
+- __nClimGrid__ ([Guidance](guidance/datasets/nclimgrid.md), [Metadata](datasets/nclimgrid.yaml))
+  - Alias: NClimGrid
+- __Stage IV__ ([Guidance](guidance/datasets/stage-iv.md), [Metadata](datasets/stage-iv.yaml))
+  - Alias: Stage 4
+  - Alias: Stage4
+- __GPCP__ ([Guidance](guidance/datasets/gpcp.md), [Metadata](datasets/gpcp.yaml))
+- __GHCN__ ([Guidance](guidance/datasets/ghcn.md), [Metadata](datasets/ghcn.yaml))
+- __gridMET__ ([Guidance](guidance/datasets/gridmet.md), [Metadata](datasets/gridmet.yaml))
+  - Alias: METDATA
+  - Alias: Gridmet
+  - Alias: GridMet
+- __MRMS__ ([Guidance](guidance/datasets/mrms.md), [Metadata](datasets/mrms.yaml))
+- __NLDAS__ ([Guidance](guidance/datasets/nldas.md), [Metadata](datasets/nldas.yaml))
+- __MESACLIP__ ([Guidance](guidance/datasets/mesaclip.md), [Metadata](datasets/mesaclip.yaml))
+- __BCSD-CMIP5 (workshop label)__ ([Guidance](guidance/datasets/bcsd-cmip5.md), [Metadata](datasets/bcsd-cmip5.yaml))
+  - Alias: BCSD-CMIP5
+- __WRF-PNNL6__ ([Guidance](guidance/datasets/wrf-pnnl6.md), [Metadata](datasets/wrf-pnnl6.yaml))
+- __WRF-UW-Mass__ ([Guidance](guidance/datasets/wrf-uw-mass.md), [Metadata](datasets/wrf-uw-mass.yaml))
+  - Alias: Mass Downscaling
+- __HighResMIP__ ([Guidance](guidance/datasets/highresmip.md), [Metadata](datasets/highresmip.yaml))
+- __CORDEX__ ([Guidance](guidance/datasets/cordex.md), [Metadata](datasets/cordex.yaml))
+- __NARR__ ([Guidance](guidance/datasets/narr.md), [Metadata](datasets/narr.yaml))
+- __HRRR__ ([Guidance](guidance/datasets/hrrr.md), [Metadata](datasets/hrrr.yaml))
+- __CFSR / CFSv2__ ([Guidance](guidance/datasets/cfsr-cfsv2.md), [Metadata](datasets/cfsr-cfsv2.yaml))
+  - Alias: CFSRv2
+- __MSWEP__ ([Guidance](guidance/datasets/mswep.md), [Metadata](datasets/mswep.yaml))
+- __ClimateNA__ ([Guidance](guidance/datasets/climatena.md), [Metadata](datasets/climatena.yaml))
 ## Guidance boxes
 
 ### Annual maximum
