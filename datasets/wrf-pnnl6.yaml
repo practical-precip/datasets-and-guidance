@@ -1,0 +1,72 @@
+kind: historical-simulation
+provider: Pacific Northwest National Laboratory
+version: >-
+  Chen et al. (2018) simulation and later evaluation extension; no complete archive release
+  identified.
+summary: >-
+  Western US WRF simulation at 6 km. The original paper covers 1981-2015; later evaluation materials
+  describe 1981-2020.
+source_scope: >-
+  Identified from the user-supplied DOI and primary paper. Later period corroborated by an author
+  poster. Raw archive availability and a complete run inventory were not established.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: Dynamical downscaling
+  description: WRF version 3.8 regional simulation.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Western United States
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Hourly precipitation, aggregated to daily HUC8 watersheds in the 2018 analysis.
+  historical: 1981-2015 in Chen et al. (2018); 1981-2020 in later author evaluation poster.
+  future: Not established for this historical simulation record.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: 6
+    unit: km
+  scenarios:
+    - Historical simulation
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://doi.org/10.1029/2018GL079831
+  data: https://doi.org/10.1029/2018GL079831
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://doi.org/10.1029/2018GL079831
+    locator: >-
+      Chen et al. (2018), section 2.2: WRF 3.8, 6 km western US, 1981-2015 and precipitation
+      aggregation.
+  - url: https://eesm.science.energy.gov/sites/default/files/XChen-Metrics.pdf
+    locator: 'Author evaluation poster: PNNL6 western-US 6 km simulations, 1981-2020.'
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://doi.org/10.1029/2018GL079831
+    description: Resolve the release and availability before selecting data.
+  - label: Later evaluation requested by contributor
+    url: https://journals.ametsoc.org/view/journals/bams/107/3/BAMS-D-24-0325.1.xml
+    description: BAMS evaluation. Full publisher table was not retrieved in this review.

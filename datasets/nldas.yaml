@@ -1,0 +1,67 @@
+kind: reanalysis
+provider: NASA / NOAA and partners
+version: Family record; select a specific release or experiment before using data.
+summary: >-
+  Land data assimilation family. Distinguish NLDAS phase, meteorological forcing and individual
+  land-model outputs.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project documentation
+  on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: reanalysis
+  description: >-
+    Land data assimilation family. Distinguish NLDAS phase, meteorological forcing and individual
+    land-model outputs.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: North American domain; select collection
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Hourly for NLDAS-2 forcing
+  historical: NLDAS-2 from 1979
+  future: Not applicable to this historical observation/analysis record.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: 0.125
+    unit: degree for NLDAS-2
+  scenarios:
+    - 'Not applicable: historical observations or analysis'
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://ldas.gsfc.nasa.gov/ldas/data
+  data: https://ldas.gsfc.nasa.gov/ldas/data
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://ldas.gsfc.nasa.gov/ldas/data
+    locator: >-
+      Provider/project description: identity and core properties summarized above. Unstated fields
+      remain unknown.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://ldas.gsfc.nasa.gov/ldas/data
+    description: Resolve the release and availability before selecting data.

@@ -1,29 +1,34 @@
 # Field guide
 
-Datasets use NestedText. Names, IDs, aliases, and display order are defined only in [INDEX.md](INDEX.md). All other dataset fields are in the linked `.nt` file. The site reads NestedText strings and converts numeric fields according to its schema.
+Dataset facts use YAML. Dataset names, IDs, aliases, display order, and links are defined in
+[INDEX.md](INDEX.md). The ID is the shared filename stem, such as `loca2` in `datasets/loca2.yaml`
+and `guidance/datasets/loca2.md`.
 
-- __Id:__ Stable lowercase identifier; needs to match the filename
-- __Name / Aliases:__ Link label and indented familiar names in INDEX.md
-- __Kind:__ `downscaled-projection`, `historical-simulation`, `observation`, `reanalysis`, `model-ensemble`, `collection`, or `unresolved`
+- __Kind:__ `downscaled-projection`, `historical-simulation`, `observation`, `reanalysis`,
+  `model-ensemble`, `collection`, or `unresolved`
 - __Version:__ Specific release or family covered by the record
-- __Source Scope:__ What was checked, and what remains unverified
-- __Dates:__ Creation, public release, and publication dates are different; use YYYY-MM-DD
+- __Source scope:__ What was checked and what remains unverified
+- __Dates:__ Creation, public release, and publication dates are distinct; use `YYYY-MM-DD`
 - __Method:__ Downscaling method, reference dataset, and training period
-- __Coverage:__ Domain, spacing, timestep, time periods, scenarios, variables, and calendar
-- __Ensemble:__ Driving models, model count, and initial-condition members
+- __Coverage:__ Domain, spacing, timestep, periods, scenarios, variables, and calendar
+- __Ensemble:__ Driving models, model count, and initial condition members
 - __Access:__ Landing page, data link, file format, license, subsetting, and costs
-- __Metadata Sources:__ The source URL and where to find support for the recorded facts
-- __References:__ Citation keys in references.bib
-- __Existing Uses:__ Documented applications, with a source
+- __Metadata sources:__ Source URL and the section supporting the recorded facts
+- __References:__ Citation keys from `references.bib`
+- __Existing uses:__ Documented applications with a source
 - __Funding:__ Agency, award, scope, and supporting source
-- __Associated Resources:__ Related documentation, code, or publications
-- __Expert Guidance:__ Review status, contributors, evidence, and optional regional overrides
-- __Relevant Rows:__ Guidance topic IDs from the table
+- __Associated resources:__ Related documentation, code, or publications
+- __Relevant rows:__ Application IDs used by the guidance table
 
-For datasets, leave unknown optional dates, numbers, and URLs blank after the colon. These become unknown values in the site, not zero. Use a clear sentence for other unknown facts. Empty lists use an indented `[]` on its own line.
+Use `null` for unknown optional dates, numbers, and URLs. Use a clear sentence for other unknown
+facts. Use `[]` for an empty list. Quote date strings and two digit codes when YAML could interpret
+them as another type.
 
-Use one NestedText list item per scenario, variable, reference, or source. Strings are not quoted or escaped. Longer guidance uses a multi-line string under `expert guidance / text`; each line starts with an indented `>`. That string is rendered as Markdown, including citations, images, and equations.
+Dataset guidance uses YAML front matter for its title, summary, review record, evidence, and optional
+regional files. Everything after the closing `---` is ordinary Markdown. Cite papers with
+`[@citation-key]`. Evidence entries require `statement` and `paper`; `locator` and `scope` are
+optional when the statement or cited source already supplies that context.
 
-For guidance boxes, the existing Markdown labeled-list format still applies. Use `__Field:__` labels, `(not recorded)` for optional unknown values, and `No entries.` for empty collections. Guidance prose follows `## Guidance`.
-
-State membership in Regions.nt uses two-digit US FIPS codes, including leading zeros. Map coordinates are label positions, not geographic bounds.
+Application and matrix cell pages retain their existing labeled Markdown format. Use `__Field:__`
+labels, `(not recorded)` for an optional unknown value, and `No entries.` for an empty collection.
+Guidance prose follows `## Guidance`.

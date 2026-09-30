@@ -1,0 +1,67 @@
+kind: reanalysis
+provider: NOAA NCEP
+version: Family record; select product stream and release.
+summary: >-
+  The workshop shorthand CFSRv2 is interpreted as this family. A transition separates retrospective
+  reanalysis from operational analyses and forecasts.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project documentation
+  on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: reanalysis
+  description: >-
+    The workshop shorthand CFSRv2 is interpreted as this family. A transition separates
+    retrospective reanalysis from operational analyses and forecasts.
+  reference_dataset: See selected product documentation.
+  training_period: Not established for the selected product.
+coverage:
+  domain: Global
+  grid: Inspect the selected product or station/point coordinates.
+  timestep: Collection and forecast lead dependent
+  historical: CFSR January 1979-March 2011; operational CFSv2 April 2011 onward
+  future: Not applicable to this historical observation/analysis record.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: null
+    unit: stream dependent
+  scenarios:
+    - 'Not applicable: historical observations or analysis'
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Not a GCM ensemble, or not yet identified.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+  data: https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+    locator: >-
+      Provider identity and core properties, including product/period distinctions. Data files were
+      not inspected.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider documentation
+    url: https://www.ncei.noaa.gov/products/weather-climate-models/climate-forecast-system
+    description: Select release, product stream and access method.

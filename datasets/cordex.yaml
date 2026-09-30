@@ -1,0 +1,67 @@
+kind: collection
+provider: WCRP / regional modeling centers
+version: Family record; select a specific release or experiment before using data.
+summary: >-
+  Regional climate downscaling coordination across domains and generations. The existing NA-CORDEX
+  record is one regional collection, not the whole program.
+source_scope: >-
+  Identity and the stated core properties checked against linked provider or project documentation
+  on 2026-09-11. Other fields remain unknown; data files were not inspected.
+verified_on: '2026-09-11'
+generation: []
+dates:
+  created: null
+  released: null
+  publication: null
+  notes: >-
+    Creation, release and publication dates have not been established for a specific record.
+    Coverage dates are not creation dates.
+method:
+  family: collection
+  description: >-
+    Regional climate downscaling coordination across domains and generations. The existing NA-CORDEX
+    record is one regional collection, not the whole program.
+  reference_dataset: Not established for the selected release. Contributions with provider documentation are welcome.
+  training_period: Not established for the selected release. Contributions with provider documentation are welcome.
+coverage:
+  domain: Multiple regional domains worldwide
+  grid: Inspect the selected distribution; the nominal resolution does not specify coordinates.
+  timestep: Variable and experiment dependent
+  historical: Domain and generation dependent
+  future: Experiment or release dependent; see source documentation.
+  calendar: Not established for the selected release. Contributions with provider documentation are welcome.
+  grid_spacing:
+    value: null
+    unit: domain and experiment dependent
+  scenarios:
+    - Select experiment; not established for this family label
+  variables:
+    - name: precipitation
+      unit: Inspect the selected variable, accumulation interval and units.
+      description: Catalog focus; this is not a complete inventory of variables or files.
+ensemble:
+  driving_models: Model or experiment dependent.
+  model_count: null
+  members: Not established for the selected release. Contributions with provider documentation are welcome.
+  member_counts: []
+access:
+  landing_page: https://cordex.org/
+  data: https://cordex.org/
+  format: Not established for the selected release. Contributions with provider documentation are welcome.
+  license: Not established for the selected distribution. Public access is not a license.
+  license_url: null
+  subsetting: Not established for the selected release. Contributions with provider documentation are welcome.
+  cost: Not established for the selected release. Contributions with provider documentation are welcome.
+references: []
+metadata_sources:
+  - url: https://cordex.org/
+    locator: >-
+      Provider/project description: identity and core properties summarized above. Unstated fields
+      remain unknown.
+relevant_rows: []
+existing_uses: []
+funding: []
+associated_resources:
+  - label: Provider or identification lead
+    url: https://cordex.org/
+    description: Resolve the release and availability before selecting data.
